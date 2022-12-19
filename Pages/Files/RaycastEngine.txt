@@ -1,0 +1,164 @@
+var Player = function(x,y,xd,yd,xp,yp){
+  this.x = x;
+  this.y = y;
+  this.xDir = xd;
+  this.yDir = yd;
+  this.xPlane = xp;
+  this.yPlane = yp;
+  this.world = [
+    [1,1,1,1,1,1,1,1,1,1,1,1],
+    [1,0,1,0,1,1,0,0,0,0,0,1],
+    [1,0,1,0,1,0,0,1,1,0,0,1],
+    [1,0,0,0,1,0,1,1,1,1,0,1],
+    [1,1,0,0,1,0,0,1,0,0,0,1],
+    [1,0,0,1,1,1,0,1,1,1,1,1],
+    [1,1,0,0,0,0,0,0,0,0,0,1],
+    [1,1,1,1,1,0,0,1,1,1,1,1],
+    [1,0,0,0,1,0,0,1,0,1,0,1],
+    [1,0,1,0,0,0,0,0,0,1,0,1],
+    [1,0,1,0,1,0,0,1,0,0,0,1],
+    [1,1,1,1,1,1,1,1,1,1,1,1]
+    ];
+};
+
+var pastTime = millis();
+
+//graphics: 1 = High, 2 = medium, 3 = low, 4 = very low
+
+Player.prototype.move = function(){
+    var moveSpeed = 0.05;
+    var turnSpeed = 2.7;
+    var left,right,forward,back;
+    if(keyIsPressed && keyCode === UP){
+        forward = true;
+    }else{forward = false;}
+    if(keyIsPressed && keyCode === DOWN){
+        back = true;
+    }else{back = false;}
+    if(keyIsPressed && keyCode === RIGHT){
+        right = true;
+    }else{right = false;}
+    if(keyIsPressed && keyCode === LEFT){
+        left = true;
+    }else{left = false;}
+    if(forward){
+        if (this.world[floor(this.x + this.xDir * moveSpeed)][floor(this.y)] === 0) {
+				this.x += this.xDir * moveSpeed;
+		}
+		if (this.world[floor(this.x)][floor(this.y + this.yDir * moveSpeed)] === 0){
+				this.y += this.yDir * moveSpeed;
+		}
+
+    }
+    if(back){
+         if (this.world[floor(this.x - this.xDir * moveSpeed)][floor(this.y)] === 0) {
+				this.x -= this.xDir * moveSpeed;
+		}
+		if (this.world[floor(this.x)][floor(this.y - this.yDir * moveSpeed)] === 0){
+				this.y -= this.yDir * moveSpeed;
+		}
+    }
+    if(right){
+        var oldxDir = this.xDir;
+        this.xDir = this.xDir * cos(-turnSpeed) -this.yDir * sin(-turnSpeed);
+        this.yDir = oldxDir * sin(-turnSpeed) + this.yDir * cos(-turnSpeed);
+        var oldxPlane = this.xPlane;
+        this.xPlane = this.xPlane * cos(-turnSpeed) - this.yPlane * sin(-turnSpeed);
+		this.yPlane = oldxPlane * sin(-turnSpeed) + this.yPlane * cos(-turnSpeed);
+    }
+    if(left){
+        var oldxDir = this.xDir;
+        this.xDir = this.xDir * cos(turnSpeed) -this.yDir * sin(turnSpeed);
+        this.yDir = oldxDir * sin(turnSpeed) + this.yDir * cos(turnSpeed);
+        var oldxPlane = this.xPlane;
+        this.xPlane = this.xPlane * cos(turnSpeed) - this.yPlane * sin(turnSpeed);
+		this.yPlane = oldxPlane * sin(turnSpeed) + this.yPlane * cos(turnSpeed);
+    }
+};
+Player.prototype.render = function(graphics){
+    for(var x = 0; x < width; x += graphics){
+     var cameraX = 2 * x / width - 1;
+     var rayDirX = this.xDir + this.xPlane * cameraX;
+     var rayDirY = this.yDir + this.yPlane * cameraX;
+     var sideDistX;
+     var sideDistY;
+     var deltaDistX = sqrt(1 + (rayDirY * rayDirY) / (rayDirX * rayDirX));
+     var deltaDistY = sqrt(1 + (rayDirX * rayDirX) / (rayDirY * rayDirY));
+     var mapX = floor(this.x);
+     var mapY = floor(this.y);
+     var stepX;
+     var stepY;
+     var hit = false;
+     var side = 0;
+     var perpWallDist;
+     if(rayDirX < 0){
+        stepX = -1;
+        sideDistX = (this.x - mapX) * deltaDistX;
+     }else{
+        stepX = 1;
+        sideDistX = (mapX + 1 - this.x) * deltaDistX;
+     }
+     if(rayDirY < 0){
+        stepY = -1;
+        sideDistY = (this.y - mapY) * deltaDistY;
+     }else{
+        stepY = 1;
+        sideDistY = (mapY + 1 - this.y) * deltaDistY;
+     }
+     while(!hit){
+         
+        if (sideDistX < sideDistY) {
+			//increase x distance
+			sideDistX += deltaDistX;
+			//move to next x block
+			mapX = mapX + stepX;
+			side = 0;
+		} else {
+			//increase y distance
+			sideDistY += deltaDistY;
+			//move to next y block
+			mapY = mapY + stepY;
+			side = 1;
+		}
+        if(this.world[mapX][mapY] !== 0){
+            hit = true;  
+        }
+        
+     }
+     if(side === 0){
+        perpWallDist = abs((mapX - this.x + (1 - stepX)/2)/rayDirX);
+     }else{
+        perpWallDist = abs((mapY - this.y + (1 - stepY)/2)/rayDirY);
+     }
+     var lineHeight;
+     if(perpWallDist > 0){
+         lineHeight = abs(height / perpWallDist);
+     }else{
+         lineHeight = height;
+     }
+     var drawStart = -lineHeight / 3 + height / 2;
+     if(drawStart < 0){
+         drawStart = 0;
+     }
+     var drawEnd = lineHeight / 2.3 + height / 2;
+     if(drawEnd >= height){
+        drawEnd = height - 1; 
+     }
+     strokeWeight(graphics);
+     if(side === 0){
+        stroke(90, 90, 90);
+     }else{
+        stroke(110, 110, 110);
+     }
+     line(x,drawStart,x,drawEnd);
+     strokeWeight(1);
+    }
+};
+var player = new Player(1.5,1.5,1,0,0,-0.66);
+var draw = function() {
+    background(150, 150, 150);
+    fill(171, 171, 171);
+    rect(-1,200,401,200);
+    player.render(1);
+    player.move();
+};
