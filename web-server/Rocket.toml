@@ -1,7 +1,8 @@
 [debug]
-address = "127.0.0.1"
+address = "192.168.1.57"
 port = 8000
 limits = { forms = 32768 }
+
 
 [release]
 address = "0.0.0.0"
