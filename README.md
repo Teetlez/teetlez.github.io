@@ -2,12 +2,9 @@
 small project for a personal website showcasing my work &amp; skills
 
 ## TODO:
-- Good looking theme/color
-    - use better background images
-- Albacore VR page
+- Albacore VR page (almost)
 - Code showcase
     - languages
 - Contact info
-- About?
 - Setting up Rust
-    - learning it?
+    - adding tls
