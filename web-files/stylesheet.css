@@ -43,6 +43,33 @@ h6 {
     font-family: "Roboto", sans-serif
 }
 
+body,
+html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #dcdedf #A3A9AC;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #dcdedf;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #A3A9AC;
+    border-radius: 20px;
+    border: 3px solid #dcdedf;
+}
+
 p {
     text-align: justify;
     text-justify: auto;
@@ -62,4 +89,76 @@ p {
 .w3-border-dark-blue,
 .w3-hover-border-dark-blue:hover {
     border-color: #003591 !important
+}
+
+.projectBody h1 {
+    text-align: center;
+}
+
+iframe {
+    /* taken from www.freepik.com */
+    background-image: url(Images/Backgrounds/shattered-island.gif);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #292929;
+}
+
+iframe,
+.projectBody i {
+    padding: 8px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projectBody i {
+    position: relative;
+    right: 120px;
+    bottom: 15px;
+}
+
+.projectBody a {
+    color: #5050ff;
+    text-decoration-line: none;
+    font-family: "Ludicia console", "Monaco", monospace;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.projectBody a:hover {
+    color: #66aaff;
+}
+
+
+.projectDisplay {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 220px);
+}
+
+.imageLink {
+    text-align: center;
+    text-shadow: 1px 1px 1px #cccccc;
+    transition: 0.2s;
+}
+
+.imageLink a {
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.imageLink a img {
+    background-image: url("Images/Icons/EmptyImage.png");
+    box-shadow: 2px 2px 3px #777777;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+
+.imageLink a img:hover {
+    box-shadow: 5px 5px 3px #777777;
+}
+
+.description {
+    box-shadow: 2px 2px 4px #292929;
+    border-radius: 8px;
 }
