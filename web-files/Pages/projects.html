@@ -6,49 +6,55 @@
     <meta charset="utf-8" />
     <!-- icon taken from flaticon.com -->
     <link rel="icon" type="image/png" href="../Images/Icons/embed.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../stylesheet.css" />
-
 </head>
 
 <body>
     <nav>
         <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./albacore.html">Albacore VR</a>
         <a href="./files.html">Files</a>
-        <a href="contact.html">Contact</a>
     </nav>
-    <main>
+    <main class="w3-center">
         <h1>Projects</h1>
-        <img id="projectIcon" src="../Images/Icons/embed.png" alt="embed Icon" />
-        <h2>Processing.js Projects</h2>
-        <img id="jsIcon" src="../Images/Icons/processing.js.png" alt="js Icon" />
-        <p>The projects below are written in the modified processing.js
-            enviorment. Since the coding language is fairly simple and easy
-            to learn, please focus more on the algorithims and techniques
-            implemented within the enviorment.</p>
-        <p>Other Projects: <a href="https://www.khanacademy.org/profile/TheRealTeetles/projects">
-                https://www.khanacademy.org</a></p>
-        <div class=projectDisplay>
-            <div class=imageLink>
+        <div class="w3-margin w3-container w3-row-padding w3-card-4">
+            <h2>College Projects</h2>
+            <p style="text-align: center;"><em>Projects done during my time at UNH.</em></p>
+            <div class="imageLink w3-col s3">
+                <a href="JSProjects/raytracer.html">
+                    <img src="../Images/Raytracing.png" alt="Raytracer" width=200 />
+                    <h3>Raytracing</h3>
+                </a>
+            </div>
+        </div>
+        <div class="w3-margin w3-container w3-row-padding w3-card-4">
+            <h2>Early Projects</h2>
+            <p style="text-align: center;"><em>Some of my early programming projects done on <a
+                       href="https://www.khanacademy.org/profile/TheRealTeetles/projects" target="_blank" rel="noopener noreferrer">Khan
+                        Academy</a>.</em></p>
+            <div class="imageLink w3-col s3">
                 <a href="JSProjects/raycast.html">
                     <img src="../Images/Raycasting.png" alt="raycast picture" width=200 />
                     <h3>Raycasting</h3>
                 </a>
             </div>
-            <div class=imageLink>
+            <div class="imageLink w3-col s3">
                 <a href="JSProjects/3dsurface.html">
                     <img src="../Images/3DWireframe.png" alt="3D wireframe" width=200 />
                     <h3>3D Wireframe</h3>
                 </a>
             </div>
-            <div class=imageLink>
+            <div class="imageLink w3-col s3">
                 <a href="JSProjects/perlinterrain.html">
                     <img src="../Images/ProceduralTerrain.png" alt="random terrain" width=200 />
                     <h3>Procedural Terrain</h3>
                 </a>
             </div>
-            <div class=imageLink>
+            <div class="imageLink w3-col s3">
                 <a href="JSProjects/asteroidescape.html">
                     <img src="../Images/AsteroidEscape.png" alt="spaceship" width=200 />
                     <h3>Asteroid Escape</h3>
