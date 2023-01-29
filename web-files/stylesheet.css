@@ -99,7 +99,7 @@ iframe {
     /* taken from www.freepik.com */
     background-image: url(Images/Backgrounds/shattered-island.gif);
     border-radius: 8px;
-    box-shadow: 2px 2px 4px #292929;
+    box-shadow: 3px 3px 8px #292929;
 }
 
 iframe,
@@ -159,6 +159,6 @@ iframe,
 }
 
 .description {
-    box-shadow: 2px 2px 4px #292929;
+    box-shadow: 3px 3px 8px #292929;
     border-radius: 8px;
 }

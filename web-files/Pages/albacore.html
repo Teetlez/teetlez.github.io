@@ -23,19 +23,19 @@
 
         /* First image (Logo. Full height) */
         .bgimg-1 {
-            background-image: url('../Images/Albacore/Exterior.jpg');
+            background-image: url('../Images/Albacore/Exterior(Blurred).jpg');
             min-height: 90%;
         }
 
         /* Second image (Portfolio) */
         .bgimg-2 {
-            background-image: url("../Images/Albacore/Kitchen2.jpg");
+            background-image: url("../Images/Albacore/Kitchen2(Blurred).jpg");
             min-height: 300px;
         }
 
         /* Third image (Contact) */
         .bgimg-3 {
-            background-image: url("../Images/Albacore/Map.jpg");
+            background-image: url("../Images/Albacore/Map(Blurred).jpg");
             min-height: 300px;
         }
 
@@ -80,17 +80,17 @@
     <!-- Container (About Section) -->
     <div class="w3-content w3-container w3-padding-64" id="about">
         <h1 class="w3-center w3-wide"><b>Overview</b></h1>
-        <p>The albacore submarine is a decommissioned military submarine that was in service from 1953 to 1972 and has since been converted into a
-            museum exhibit. The goal of this project was to create a virtual reality tour of a submarine using an Oculus Quest 2 VR headset. The
-            project was targeted to users who would not be able to tour the submarine, due to restrictions such as disabilities. This will eventually
-            become an attraction at the museum with specific stations for using the VR equipment. The virtual reality experience is built in unity, an
-            engine designed for creating video game experiences with the scripting done in C#. This allows for the creation of a 3D environment that
-            can simulate the look of a submarine while also simulating the functionality of the submarine in a virtual space. There are motion control
-            capabilities and interactable objects in the environment so that users can interact with objects in a room such as a switch. Creating a
-            virtual experience also requires creating assets. In the submarine, there are lots of details that would be accounted for such as
-            machinery, instruments on the submarine, and the layout of the submarine itself. Assets for the submarine can be created in a 3D modeling
-            software called Blender, which allows for designing models that can be imported into the project. Examples of these models might be a
-            gauge, a buoy, or a replica of the submarine exterior.</p>
+        <p>The Albacore Submarine is a decommissioned military vessel that served from 1953 to 1972, and has since been converted into a museum
+            exhibit. The goal for this project was to create a virtual reality tour of the submarine using an Oculus Quest 2 VR headset, with the
+            intention of providing an accessible experience for those who may not be able to physically tour the submarine due to disabilities or
+            other restrictions. The final product will be integrated as an attraction at the museum, with designated stations for using the VR
+            equipment. To create this virtual reality experience, We used Unity, a game engine that allows for the creation of 3D environments and
+            scripting in C#. This enables the simulation of the submarine's appearance and functionality in a virtual space. Additionally, the VR
+            experience includes motion control capabilities and interactive objects within the environment, allowing users to interact with features
+            such as switches and controls. Creating the virtual experience also required the creation of various assets, such as machinery,
+            instruments, and the layout of the submarine itself. These assets were designed using Blender, a 3D modeling software, and include items
+            such as gauges, buoys, and a replica of the submarine's exterior. Overall, the project aims to provide an immersive and interactive
+            experience that brings the Albacore Submarine to life for users who may not have the opportunity to see it in person.</p>
     </div>
     <!-- Second Parallax Image with Portfolio Text -->
     <div class="bgimg-2 w3-display-container w3-opacity-min">
@@ -146,7 +146,7 @@
         <span class="w3-button w3-xxlarge w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
         <div class="w3-modal-content w3-animate-zoom w3-center
                             w3-transparent w3-padding-64">
-            <img id="img01" class="w3-image">
+            <img id="img01" class="w3-image" style="width: 100%;">
             <p id="caption" class="w3-opacity w3-large"></p>
         </div>
     </div>
@@ -166,27 +166,6 @@
             document.getElementById("modal01").style.display = "block";
             var captionText = document.getElementById("caption");
             captionText.innerHTML = element.alt;
-        }
-
-        // Change style of navbar on scroll
-        window.onscroll = function () { myFunction() };
-        function myFunction() {
-            var navbar = document.getElementById("myNavbar");
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-            } else {
-                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-            }
-        }
-
-        // Used to toggle the menu on small screens when clicking on the menu button
-        function toggleFunction() {
-            var x = document.getElementById("navDemo");
-            if (x.className.indexOf("w3-show") == -1) {
-                x.className += " w3-show";
-            } else {
-                x.className = x.className.replace(" w3-show", "");
-            }
         }
     </script>
     <!-- Footer -->
