@@ -146,7 +146,7 @@ iframe,
 }
 
 .imageLink a img {
-    background-image: url("Images/Icons/EmptyImage.png");
+    background-image: url("Images/EmptyImage.png");
     box-shadow: 2px 2px 3px #777777;
     transition: 0.2s;
     border-radius: 8px;
