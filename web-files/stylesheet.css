@@ -44,6 +44,7 @@ h6 {
 body,
 html {
     height: 100%;
+    color: rgb(70, 70, 70);
     line-height: 1.8;
 }
 
@@ -91,6 +92,8 @@ p {
 
 .projectBody h1 {
     text-align: center;
+    letter-spacing: 4px;
+    font-weight: bolder;
 }
 
 iframe {
@@ -142,7 +145,7 @@ iframe,
 
 .imageLink a {
     text-decoration-line: none;
-    color: #000000;
+    color: rgb(70, 70, 70);
 }
 
 .imageLink a img {
