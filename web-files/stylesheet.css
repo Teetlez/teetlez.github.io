@@ -150,13 +150,13 @@ iframe,
 
 .imageLink a img {
     background-image: url("Images/EmptyImage.png");
-    box-shadow: 2px 2px 3px #777777;
-    transition: 0.2s;
+    box-shadow: 2px 2px 4px #777777;
+    transition: 0.1s;
     border-radius: 8px;
 }
 
 .imageLink a img:hover {
-    box-shadow: 5px 5px 3px #777777;
+    box-shadow: 6px 6px 8px #777777;
 }
 
 .description {
