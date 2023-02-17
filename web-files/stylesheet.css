@@ -117,6 +117,20 @@ iframe,
     bottom: 15px;
 }
 
+.projectBody img {
+    background-image: url(Images/Backgrounds/shattered-island.gif);
+    padding: 8px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+    box-shadow: 2px 2px 4px #777777;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 250px"
+
+}
+
 .projectBody a {
     color: #5050ff;
     text-decoration-line: none;
@@ -153,10 +167,12 @@ iframe,
     box-shadow: 2px 2px 4px #777777;
     transition: 0.1s;
     border-radius: 8px;
+    opacity: 85%;
 }
 
 .imageLink a img:hover {
     box-shadow: 6px 6px 8px #777777;
+    opacity: 100%;
 }
 
 .description {
