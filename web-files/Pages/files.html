@@ -3,7 +3,7 @@
 
 <head>
     <title>Files</title>
-    <meta http-equiv='refresh' content='0; URL=./underConstruction.html'>
+    <!-- <meta http-equiv='refresh' content='0; URL=./underConstruction.html'> -->
     <meta name="author" content="Timothy Clocksin">
     <meta name="keywords" content="Files, Download, Resume, Sorce Code">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -27,24 +27,34 @@
         <a href="./files.html">Files</a>
     </nav>
     <main>
-        <h2>Files</h2>
-        <table class="files">
-            <caption>Files</caption>
+        <h2 class="w3-center">Files</h2>
+        <table class="files w3-modal-content w3-table-all">
             <thead>
                 <tr>
                     <th scope="col">Name</th>
-                    <th scope="col">Download</th>
                     <th scope="col">Description</th>
                     <th scope="col">File Type</th>
+                    <th scope="col"></th>
                 </tr>
             <tbody>
                 <tr>
+                    </td>
                     <td>Resume</td>
-                    <td><a href="Files/Clocksin_Resume.pdf" download>Resume.pdf</a></td>
                     <td>
                         <p>A traditional resume to quickly find needed information</p>
                     </td>
-                    <td>.PDF</td>
+                    <td>PDF</td>
+                    <td><a href="Files/Clocksin_Resume.pdf" download><button
+                                    class="w3-button w3-black w3-text-white w3-hover-green w3-round-large">Download</button></a></td>
+                </tr>
+                <tr>
+                    <td>Rust path-tracer</td>
+                    <td>
+                        <p>Compiled on windows 11. Source code is located <a href="https://github.com/Teetlez/Rust-Raytracer">here</a>.</p>
+                    </td>
+                    <td>EXE</td>
+                    <td><a href="Files/rust_raytracer.exe" download><button
+                                    class="w3-button w3-black w3-text-white w3-hover-green w3-round-large">Download</button></a></td>
                 </tr>
             </tbody>
         </table>

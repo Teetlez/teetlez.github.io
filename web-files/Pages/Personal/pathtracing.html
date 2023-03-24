@@ -28,9 +28,10 @@
             <h1>Path-tracing</h1>
             <div class="projectCanvas">
                 <div class="w3-center w3-content w3-image">
-                    <img src="./OneWeekend.png">
+                    <img src="./OneWeekend4.png">
+                    <img src="./Teaset.png">
+                    <img src="./Cornell.png">
                     <img src="./OneWeekend2.png">
-                    <img src="./Studio.jpg"><img src="./NightLight.png">
                 </div>
                 <br />
                 <i>by Timothy Clocksin</i>
@@ -38,8 +39,32 @@
             <div class="w3-content w3-container description">
                 <h2>Discription</h2>
                 <p>A monte carlo path-tracer written in Rust following the "Raytracing in One Weekend" book. I used this project both as a way to
-                    build my skills with rendering and to better learn Rust. at the moment it is not usable inside the website. It is still a work in
-                    progress and I want to finish a few features before releasing it.</p>
+                    build my skills with rendering and to better learn Rust.</p>
+                <a href="../Files/rust_raytracer.exe" download><button
+                            class="w3-button w3-black w3-text-white w3-hover-green w3-round-large">Download</button></a>
+                <h2>Usage</h2>
+                <pre>
+                    <code>
+rust_raytracer.exe [OPTIONS] [SCENE]
+
+Arguments:
+[SCENE]  Scene file to use
+
+Options:
+-s, --samples [SAMPLES]          Number of samples per pixel [default: 128]
+-p, --passes [PASSES]            Number of frames to cumulate [default: 64]
+-b, --bounces [BOUNCES]          Max number of times a ray can bounce [default: 8]
+    --width [WIDTH]              Pixel width of frame [default: 640]
+    --height [HEIGHT]            Pixel hight of frame [default: 480]
+-g, --gamma [GAMMA]              Gamma level [default: 2.2]
+-l, --light-clamp [LIGHT_CLAMP]  Max light brightness [default: inf]
+-f, --filter                     apply bilateral filter after render to reduce noise
+-h, --help                       Print help
+-V, --version                    Print version
+                    </code>
+                </pre>
+                <h3>Source Code</h3>
+                <a href="https://github.com/Teetlez/Rust-Raytracer" target="_blank">Github repository</a>
             </div>
         </div>
     </main>
