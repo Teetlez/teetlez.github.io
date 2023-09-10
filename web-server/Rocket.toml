@@ -1,14 +1,13 @@
 [default.tls]
-key = "/home/pi/key.pem"     # Path or bytes to DER-encoded ASN.1 PKCS#1/#8 key.
-certs = "/home/pi/certs.pem" # Path or bytes to DER-encoded X.509 TLS cert chain.
+key = "/root/pikey_dec.rsa"     # Path or bytes to DER-encoded ASN.1 PKCS#1/#8 key.
+certs = "/root/www_timothyclocksin_info.crt" # Path or bytes to DER-encoded X.509 TLS cert chain.
 
 [debug]
 address = "192.168.1.57"
 port = 8443
 limits = { forms = 32768 }
 
-
 [release]
-address = "73.186.188.68"
-port = 443
+address = "192.168.1.57"
+port = 8443
 limits = { forms = 32768 }
