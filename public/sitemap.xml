@@ -4,10 +4,29 @@
         <loc>https://timothyclocksin.info/</loc>
     </url>
     <url>
+        <loc>https://timothyclocksin.info/about/</loc>
+    </url>
+    <url>
         <loc>https://timothyclocksin.info/blog/</loc>
     </url>
     <url>
+        <loc>https://timothyclocksin.info/blog/stuff/</loc>
+        <lastmod>2024-12-01</lastmod>
+    </url>
+    <url>
         <loc>https://timothyclocksin.info/projects/</loc>
+    </url>
+    <url>
+        <loc>https://timothyclocksin.info/projects/albacore-vr/</loc>
+        <lastmod>2024-06-07</lastmod>
+    </url>
+    <url>
+        <loc>https://timothyclocksin.info/projects/rust-pathtracer/</loc>
+        <lastmod>2024-06-08</lastmod>
+    </url>
+    <url>
+        <loc>https://timothyclocksin.info/projects/terrain-generator/</loc>
+        <lastmod>2024-06-05</lastmod>
     </url>
     <url>
         <loc>https://timothyclocksin.info/tags/</loc>

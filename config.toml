@@ -6,11 +6,14 @@ base_url = "https://timothyclocksin.info"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+# When set to "true", the generated HTML files are minified.
+minify_html = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
 theme = "duckquill"
+
 
 default_language = "en"
 taxonomies = [{ name = "tags", feed = true }]
@@ -33,6 +36,7 @@ primary_color = "#00ffa2"
 primary_color_alpha = "#00ffa288"
 
 stylesheets = ["custom.css"]
+styles = ["mods.css"]
 
 [extra.nav]
 # Whether to show Atom/RSS feed button in the nav
