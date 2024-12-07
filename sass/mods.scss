@@ -3,3 +3,22 @@
 @use "../themes/duckquill/sass/mods/modern-hr";
 
 @use "../themes/duckquill/sass/mods/no-edge-highlight";
+
+
+body {
+    background-image: var(--bg-overlay), url("images/backgrounds/shattered-island.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+// @import "../themes/duckquill/sass/_variables.scss";
+// @include theme-variables using ($theme) {
+//     @if $theme =="dark" {
+//         --bg-overlay: linear-gradient(rgb(0 0 0 / 0.9), rgb(0 0 0 / 0.9));
+//     }
+
+//     @else {
+//         --bg-overlay: linear-gradient(rgb(255 255 255 / 0.8), rgb(255 255 255 / 0.8));
+//     }
+// }

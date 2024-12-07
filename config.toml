@@ -29,14 +29,17 @@ highlight_themes_css = [
 ]
 smart_punctuation = true
 
-
 [extra]
 # Put all your custom variables here
-primary_color = "#00ffa2"
-primary_color_alpha = "#00ffa288"
+
+author = "timothy clocksin"
 
 stylesheets = ["custom.css"]
 styles = ["mods.css"]
+accent_color = "#00ffa2"
+
+apple_touch_icon = "apple-touch-icon.png"
+favicon = "favicon.ico"
 
 [extra.nav]
 # Whether to show Atom/RSS feed button in the nav
@@ -48,7 +51,7 @@ show_feed = true
 links = [
     { url = "@/blog/_index.md", name = "blog" },
     { url = "@/projects/_index.md", name = "projects" },
-    # { url = "@/blog/_index.md", name = "Blog" },
+    { url = "@/about/_index.md", name = "about" },
     # { url = "@/demo/index.md", name = "Demo" },
     # { url = "https://codeberg.org/daudix/duckquill", name = "Repo" },
 ]
@@ -75,5 +78,3 @@ show_copyright = true
 show_powered_by = true
 # Whether to show link to website source
 show_source = false
-# Custom copyright text
-copyright = "© timothy clocksin, 2024"
