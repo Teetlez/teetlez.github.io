@@ -5,7 +5,7 @@ template = "page.html"
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
-tags = ["Path-Tracing", "Rust", "Rendering", "Monte Carlo", "Graphics"]
+tags = ["Light Transport", "Rust", "3D Rendering", "Monte Carlo", "Ray-casting", "Graphics"]
 +++
 
 This project is a **Monte Carlo path-tracer** implemented in **Rust**, inspired by the book _Raytracing in One Weekend_. The primary goal was to enhance my understanding of both **rendering techniques** and **Rust programming**.
@@ -28,11 +28,17 @@ This project is a **Monte Carlo path-tracer** implemented in **Rust**, inspired 
 
 Click an image to view it in full size.
 
-{{ gallery(items=[
-    {image="Images/PathTracing/OneWeekend4.png", caption="Scene 1"},
-    {image="Images/PathTracing/Teaset3.png", caption="Teaset"},
-    {image="Images/PathTracing/Cornell.png", caption="Cornell Box"},
-    {image="Images/PathTracing/OneWeekend2.png", caption="Scene 2"}
+{{ gallery(urls=[
+    "/images/pathtracing/1678228930342.png",
+    "/images/pathtracing/1678232201587.png",
+    "/images/pathtracing/Cornell.png",
+    "/images/pathtracing/NightLight.png",
+    "/images/pathtracing/OneWeekend.png",
+    "/images/pathtracing/OneWeekend2.png",
+    "/images/pathtracing/OneWeekend3.png",
+    "/images/pathtracing/OneWeekend4.png",
+    "/images/pathtracing/Studio.jpg",
+    "/images/pathtracing/Teaset3.png"
 ]) }}
 
 ---

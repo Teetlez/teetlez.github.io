@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: var(--bg-overlay), url("images/backgrounds/shattered-island.gif");
+    background-image: linear-gradient(rgb(0 0 0 / 0.7), rgb(0 0 0 / 0.85)), url("/images/backgrounds/shattered-island.gif");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;

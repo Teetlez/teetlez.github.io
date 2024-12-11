@@ -5,12 +5,12 @@ template = "page.html"
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
-tags = ["Procedural Generation", "Perlin Noise", "Isometric View", "Terrain Generator", "3D Visualization"]
+tags = ["Procedural Generation",  "2.5D Visualization"]
 +++
 
 This project showcases a **non-interactive terrain generator** capable of creating natural-looking environments, including **trees**, **grass**, **mountains**, **snow**, **beaches**, **lakes/ponds**, **clouds**, and **hills**. The generator leverages **Perlin noise** for smooth, realistic transitions and an **isometric viewpoint** for a stylized aesthetic.
 
----
+{{ js_canvas(script="/scripts/ProceduralTerrain(scr).js", author="Timothy Clocksin", class="projectCanvas") }}
 
 ## Overview
 
@@ -22,32 +22,6 @@ This project showcases a **non-interactive terrain generator** capable of creati
 
 For more information about the mathematics behind Perlin Noise, see the article:
 [en.wikipedia.org/wiki/Perlin_noise](https://en.wikipedia.org/wiki/Perlin_noise)
-
----
-
-## Demo
-
-### Terrain Generator Demo
-
-A script embedded into this project creates the terrain:
-
-<script async src="../Files/Scripts/ProceduralTerain(scr).js"></script>
-
----
-
-## Gallery
-
-### Sample Outputs
-
-Click an image to view it in full size.
-
-{{ gallery(items=[
-    {image="Images/ProceduralTerrain/Sample1.jpg", caption="Mountain Landscape"},
-    {image="Images/ProceduralTerrain/Sample2.jpg", caption="Snowy Peaks"},
-    {image="Images/ProceduralTerrain/Sample3.jpg", caption="Lush Forest"},
-    {image="Images/ProceduralTerrain/Sample4.jpg", caption="Coastal View"},
-    {image="Images/ProceduralTerrain/Sample5.jpg", caption="Cloudy Skies"}
-]) }}
 
 ---
 

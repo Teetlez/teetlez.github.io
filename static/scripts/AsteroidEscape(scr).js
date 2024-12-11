@@ -1,6 +1,6 @@
 /* embed code used from khanacademy*/
-(function() {
-    var Embed = window.ScratchpadEmbed = function(props) {
+(function () {
+    var Embed = window.ScratchpadEmbed = function (props) {
         this.props = {};
 
         for (var prop in baseProps) {
@@ -20,7 +20,7 @@
 
         var self = this;
 
-        this.onrun(function(data) {
+        this.onrun(function (data) {
             if (data.embedReady) {
                 self.onready();
             }
@@ -34,7 +34,7 @@
     Embed.prototype = {
         url: "https://www.khanacademy.org/computer-programming/asteroid-belt-escape/6368843746902016/embedded?editor=no&buttons=no&author=no&embed=yes",
 
-        setOptions: function(options) {
+        setOptions: function (options) {
             for (var prop in options) {
                 this.props[prop] = options[prop];
             }
@@ -42,16 +42,16 @@
             this.postFrame(this.props);
         },
 
-        clear: function() {
+        clear: function () {
             this.setOptions({ code: "" });
         },
 
-        onrun: function(callback) {
+        onrun: function (callback) {
             this.bindListener();
             this.callbacks.push(callback);
         },
 
-        onready: function() {
+        onready: function () {
             var props = this.props;
 
             if (props.code !== undefined) {
@@ -73,18 +73,18 @@
             }
         },
 
-        restart: function(code) {
+        restart: function (code) {
             this.postFrame({ restart: true });
         },
 
-        bindListener: function() {
+        bindListener: function () {
             if (this.bound) {
                 return;
             }
 
             var self = this;
 
-            window.addEventListener("message", function(e) {
+            window.addEventListener("message", function (e) {
                 var data;
 
                 try {
@@ -112,7 +112,7 @@
             this.bound = true;
         },
 
-        getIframe: function() {
+        getIframe: function () {
             if (this.iframe) {
                 return this.iframe;
             }
@@ -196,7 +196,7 @@
             return iframe;
         },
 
-        param: function(props) {
+        param: function (props) {
             var results = [];
             for (var prop in props) {
                 results.push(encodeURIComponent(prop) + "=" +
@@ -205,7 +205,7 @@
             return results.join("&").replace(/%20/g, "+");
         },
 
-        postFrame: function(data) {
+        postFrame: function (data) {
             // Send the data to the frame using postMessage
             if (this.frameSource) {
                 this.frameSource.postMessage(
@@ -214,7 +214,7 @@
         }
     };
 
-    var baseProps = {"buttons":"no","embed":"yes","editor":"no","author":"no"},
+    var baseProps = { "buttons": "no", "embed": "yes", "editor": "no", "author": "no" },
         propMap = { "no": false, "yes": true },
         rpropMap = { "false": "no", "true": "yes" };
 
@@ -226,7 +226,7 @@
     }
 
     if (baseProps.embed === true) {
-        var scripts = document.getElementsByTagName("script"),
+        var scripts = document.getElementsByClassName("embed_js_script"),
             lastScript = scripts[scripts.length - 1];
 
         lastScript.parentNode.insertBefore(

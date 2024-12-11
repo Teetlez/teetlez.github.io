@@ -1,0 +1,25 @@
+<div class="photo-gallery"> {% for url in urls %} <div class="photo-item">
+        <a href="{{ url }}">
+            <img src="{{ url }}" alt="Gallery Image {{ loop.index }}" loading="lazy" class="full" />
+        </a>
+    </div> {% endfor %} </div>
+<style>
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .photo-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .photo-item img:hover {
+        transform: scale(1.05);
+    }
+</style>
