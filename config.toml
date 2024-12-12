@@ -28,6 +28,8 @@ highlight_themes_css = [
     { theme = "solarized-light", filename = "syntax-theme-light.css" },
 ]
 smart_punctuation = true
+lazy_async_image = true
+
 
 [extra]
 # Put all your custom variables here
@@ -43,7 +45,7 @@ favicon = "favicon.ico"
 
 [extra.nav]
 # Whether to show Atom/RSS feed button in the nav
-show_feed = true
+show_feed = false
 # Links used in the nav.
 # For local files use same link format as in Markdown,
 # i.e "@/blog/_index.md".

@@ -38,14 +38,14 @@ This VR tour will be available at designated stations at the museum, making the 
 
 {{ gallery(
     urls=[
-        "/images/albacore/Control.jpg",
-        "/images/albacore/Map.jpg",
-        "/images/albacore/Exterior.jpg",
-        "/images/albacore/Bunks.jpg",
-        "/images/albacore/Kitchen1.jpg",
-        "/images/albacore/Kitchen2.jpg",
-        "/images/albacore/Kitchen3.jpg",
-        "/images/albacore/Credits.jpg"
+        "images/albacore/Control.jpg",
+        "images/albacore/Map.jpg",
+        "images/albacore/Exterior.jpg",
+        "images/albacore/Bunks.jpg",
+        "images/albacore/Kitchen1.jpg",
+        "images/albacore/Kitchen2.jpg",
+        "images/albacore/Kitchen3.jpg",
+        "images/albacore/Credits.jpg"
     ])
 }}
 

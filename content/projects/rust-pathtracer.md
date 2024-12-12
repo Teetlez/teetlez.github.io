@@ -29,16 +29,16 @@ This project is a **Monte Carlo path-tracer** implemented in **Rust**, inspired 
 Click an image to view it in full size.
 
 {{ gallery(urls=[
-    "/images/pathtracing/1678228930342.png",
-    "/images/pathtracing/1678232201587.png",
-    "/images/pathtracing/Cornell.png",
-    "/images/pathtracing/NightLight.png",
-    "/images/pathtracing/OneWeekend.png",
-    "/images/pathtracing/OneWeekend2.png",
-    "/images/pathtracing/OneWeekend3.png",
-    "/images/pathtracing/OneWeekend4.png",
-    "/images/pathtracing/Studio.jpg",
-    "/images/pathtracing/Teaset3.png"
+    "images/pathtracing/1678228930342.png",
+    "images/pathtracing/1678232201587.png",
+    "images/pathtracing/Cornell.png",
+    "images/pathtracing/NightLight.png",
+    "images/pathtracing/OneWeekend.png",
+    "images/pathtracing/OneWeekend2.png",
+    "images/pathtracing/OneWeekend3.png",
+    "images/pathtracing/OneWeekend4.png",
+    "images/pathtracing/Studio.jpg",
+    "images/pathtracing/Teaset3.png"
 ]) }}
 
 ---
