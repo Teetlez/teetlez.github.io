@@ -4,21 +4,41 @@
 
 @use "../themes/duckquill/sass/mods/no-edge-highlight";
 
+@mixin theme-variables {
+    :root {
+        @content ("light");
+    }
+
+    [data-theme="dark"] {
+        @content ("dark");
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+            @content ("dark");
+        }
+    }
+}
+
+@include theme-variables using ($theme) {
+    @if $theme =="dark" {
+        --bg-overlay: linear-gradient(rgb(0 26 16 / 0.7), rgb(0 13 8 / 0.95));
+    }
+
+    @else {
+        --bg-overlay: linear-gradient(rgb(153 255 214 / 0.8), rgb(204 255 235 / 0.95));
+    }
+}
 
 body {
-    background-image: linear-gradient(rgb(0 26 16 / 0.7), rgb(0 13 8 / 0.95)), url("/images/backgrounds/shattered-island.gif");
+
+
+    --container-width: 760px;
+
+    background-image: var(--bg-overlay),
+        url("/images/backgrounds/shattered-island.gif");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+
 }
-
-// @import "../themes/duckquill/sass/_variables.scss";
-// @include theme-variables using ($theme) {
-//     @if $theme =="dark" {
-//         --bg-overlay: linear-gradient(rgb(0 0 0 / 0.9), rgb(0 0 0 / 0.9));
-//     }
-
-//     @else {
-//         --bg-overlay: linear-gradient(rgb(255 255 255 / 0.8), rgb(255 255 255 / 0.8));
-//     }
-// }
