@@ -22,11 +22,11 @@
 
 @include theme-variables using ($theme) {
     @if $theme =="dark" {
-        --bg-overlay: linear-gradient(rgb(0 26 16 / 0.7), rgb(0 13 8 / 0.95));
+        --bg-overlay: linear-gradient(rgb(0 26 16 / 0.3), rgb(0 13 8 / 0.85));
     }
 
     @else {
-        --bg-overlay: linear-gradient(rgb(153 255 214 / 0.8), rgb(204 255 235 / 0.95));
+        --bg-overlay: linear-gradient(rgb(204 255 235 / 0.75), rgb(153 255 214 / 0.2));
     }
 }
 
@@ -35,8 +35,8 @@ body {
 
     --container-width: 760px;
 
-    background-image: var(--bg-overlay),
-        url("/images/backgrounds/shattered-island.gif");
+    // background-image: var(--bg-overlay),
+    //     url("/images/backgrounds/shattered-island.gif");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
