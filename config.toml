@@ -56,7 +56,7 @@ show_theme_switcher = true
 # i.e "@/blog/_index.md".
 # See https://www.getzola.org/documentation/content/linking/#internal-links
 links = [
-    { url = "@/blog/_index.md", name = "Blog" },
+    { url = "@/writings/_index.md", name = "Writings" },
     { url = "@/projects/_index.md", name = "Projects" },
     { url = "@/about/_index.md", name = "About" },
 ]
