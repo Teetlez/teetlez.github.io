@@ -5,7 +5,7 @@ template = "page.html"
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
-tags = ["Ray-casting", "3D Rendering"]
+tags = ["Ray-casting", "3D Rendering", "Old Projects"]
 +++
 
 This project recreates the **ray-casting method** used in classic 3D video games such as *DOOM* and *Wolfenstein 3D*. The method involves shooting rays through a 2D array for every vertical row of pixels, where the height of the darkened "wall" is determined by the length of each ray.

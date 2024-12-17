@@ -51,4 +51,4 @@ If you’re interested in collaborating, discussing ideas, or just want to conne
 Thank you for taking the time to visit my site. I hope you find something that sparks your curiosity, and I’d love to hear from you soon!
 
 Cheers,
-**Timothy C**
+**Timothy**

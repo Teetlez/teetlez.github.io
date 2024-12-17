@@ -5,7 +5,7 @@ template = "page.html"
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
-tags = ["Rendering", "3D Graphics"]
+tags = ["Rendering", "3D Graphics", "Old Projects"]
 +++
 
 This project showcases a **3D wireframe rendering system** built without the use of any external 3D libraries or functions. The purpose was to demonstrate an understanding of the fundamental processes behind rendering wireframes in 3D.

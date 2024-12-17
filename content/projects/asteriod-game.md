@@ -5,7 +5,7 @@ template = "page.html"
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
-tags = ["Game Development"]
+tags = ["Game Development", "Old Projects"]
 +++
 
 Asteroid Escape is a straightforward game that demonstrates the use of **mouse interaction** and **collision detection** mechanics. The goal is to avoid asteroids while collecting medpacks to maintain your health.

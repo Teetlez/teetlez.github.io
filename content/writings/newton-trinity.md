@@ -4,7 +4,6 @@ description = "This is an analysis of Issac Newtons's comments on his views on t
 date = 2023-12-03
 [taxonomies]
 tags = ["apologetics", "trinity"]
-
 +++
 
 ## Purpose
