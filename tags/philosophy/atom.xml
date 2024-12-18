@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Timothy Clocksin - philosophy</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/philosophy/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-12-16T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/philosophy/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Kalam Cosmological Argument</title>
+        <published>2024-12-16T00:00:00+00:00</published>
+        <updated>2024-12-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/writings/kalam-argument/"/>
+        <id>https://timothyclocksin.info/writings/kalam-argument/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/writings/kalam-argument/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;definitions&quot;&gt;Definitions&lt;&#x2F;h3&gt;
+&lt;p&gt;$ B(x) = x$ began to exist&lt;&#x2F;p&gt;
+&lt;p&gt;$ C(x) = x$ had a cause&lt;&#x2F;p&gt;
+&lt;p&gt;$ 𝕌 = $ the Universe (All space, matter, time, and energy)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;p1-enspace-b-x-implies-c-x&quot;&gt;$ P1.\enspace B(x) \implies C(x) $&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anything that begins to exist has a cause.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;note&quot;&gt;
+	&lt;p class=&quot;alert-title&quot;&gt;
+		&lt;i class=&quot;icon&quot;&gt;&lt;&#x2F;i&gt;Note&lt;&#x2F;p&gt;
+	&lt;p&gt;This isn’t claiming that &lt;em&gt;everything&lt;&#x2F;em&gt; has a cause, just all things that begin to exist (i.e. have a beginning).&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;objections-to-p1&quot;&gt;Objections to P1&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantum Mechanics&lt;&#x2F;li&gt;
+&lt;li&gt;Applies to God&lt;&#x2F;li&gt;
+&lt;li&gt;Neccesity of a material cause&lt;&#x2F;li&gt;
+&lt;li&gt;Anything eternal doesn’t require causal explaination&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;p2-enspace-b-u&quot;&gt;$ P2.\enspace B(𝕌) $&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Universe began to exist.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;objections-to-p2&quot;&gt;Objections to P2&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternate cosmological models&lt;&#x2F;li&gt;
+&lt;li&gt;The universe is past eternal&lt;&#x2F;li&gt;
+&lt;li&gt;Time is cyclic&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;therefore-enspace-c-u&quot;&gt;$ \therefore \enspace C(𝕌) $&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Therefore, the Universe had a cause.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;objections&quot;&gt;Objections?&lt;&#x2F;h4&gt;
+&lt;p&gt;If both P1 and P2 are valid and the logic connecting them are sound, then the conclusion must be accepted. One cannot object to the conclusion by itself. So in order to object to the conclusion, one must first disprove P1 or P2 or show that the logic connecting them does not follow.&lt;&#x2F;p&gt;
+&lt;p&gt;Because the logic conneciting is just a clear rule of modus ponens (P implies Q, P, Therfore Q), one needs to disprove either P1 or P2 in order to deny the conclusion.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;application&quot;&gt;Application&lt;&#x2F;h2&gt;
+</content>
+        
+    </entry>
+</feed>
