@@ -5,18 +5,20 @@ insert_anchor_links = "right"
 {% crt() %}
 <div class="container" style="text-align: center">
 <pre class="asciiart" style="display: inline-block; text-align: left">
-  _______ _                 _   _              _____
- |__   __(_)               | | | |            / ____|
-    | |   _ _ __ ___   ___ | |_| |__  _   _  | |
-    | |  | | '_ ` _ \ / _ \| __| '_ \| | | | | |
-    | |  | | | | | | | (_) | |_| | | | |_| | | |____
-    |_|  |_|_| |_| |_|\___/ \__|_| |_|\__, |  \_____|
-                                       __/ |
-                                      |___/
-
+ ________ __                         __     __                    ______
+|        \  \                       |  \   |  \                  /      \
+ \▓▓▓▓▓▓▓▓\▓▓______ ____   ______  _| ▓▓_  | ▓▓____  __    __   |  ▓▓▓▓▓▓\
+   | ▓▓  |  \      \    \ /      \|   ▓▓ \ | ▓▓    \|  \  |  \  | ▓▓   \▓▓
+   | ▓▓  | ▓▓ ▓▓▓▓▓▓\▓▓▓▓\  ▓▓▓▓▓▓\\▓▓▓▓▓▓ | ▓▓▓▓▓▓▓\ ▓▓  | ▓▓  | ▓▓
+   | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓ ▓▓  | ▓▓ | ▓▓ __| ▓▓  | ▓▓ ▓▓  | ▓▓  | ▓▓   __
+   | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓ ▓▓__/ ▓▓ | ▓▓|  \ ▓▓  | ▓▓ ▓▓__/ ▓▓  | ▓▓__/  \
+   | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓\▓▓    ▓▓  \▓▓  ▓▓ ▓▓  | ▓▓\▓▓    ▓▓   \▓▓    ▓▓
+    \▓▓   \▓▓\▓▓  \▓▓  \▓▓ \▓▓▓▓▓▓    \▓▓▓▓ \▓▓   \▓▓_\▓▓▓▓▓▓▓    \▓▓▓▓▓▓
+                                                    |  \__| ▓▓
+                                                     \▓▓    ▓▓
+                                                      \▓▓▓▓▓▓
 </pre>
 </div>
-
 <pre>
 > <span class="cursor">_</span>
 </pre>
@@ -34,15 +36,13 @@ I created this site to connect with others, to offer a space where my work and i
 
 ## A Little More About Me
 
-When I’m not working on technology, you can find me indulging in a few hobbies that keep my life balanced:
+I am a Computer Science graduate from the University of New Hampshire, awarded **1st place** at the 2022 UNH Undergraduate Research Conference in Computer Science Applications. With a strong passion for computer graphics and software engineering, I specialize in designing scalable, efficient, and innovative solutions.
 
-- **Snowboarding** – I love the rush of the slopes and the peacefulness of being in nature.
-- **Philosophy** – I enjoy thinking deeply about the world around me and the big questions in life.
-- **3D-printing** – There’s something incredibly satisfying about turning digital designs into physical objects.
-- **Video games** – I’ve always been fascinated by the immersive worlds they create.
-- **Airsoft** – It's all about strategy, teamwork, and a little bit of adrenaline.
-- **Chess** – A game that teaches patience, strategy, and the beauty of logic.
-- **Piano** – Playing music helps me unwind and think creatively.
+In my free time, I enjoy:
+
+🎿 Snowboarding | 🎮 Video Games | ♟️ Chess | 💡 Philosophy | 🎹 Piano | 🛠️ 3D Printing
+
+---
 
 ## Let's Connect
 
