@@ -14,7 +14,6 @@ description = "Software Engineer with expertise in IT solutions, computer graphi
 
 - **Location:** NH, USA
 - **Email:** [timothy.clocksin248@gmail.com](mailto:timothy.clocksin248@gmail.com)
-- **Phone:** +1 (603) 800-1151
 
 ## Work Experience
 

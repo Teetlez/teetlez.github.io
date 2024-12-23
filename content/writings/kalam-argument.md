@@ -3,7 +3,7 @@ title = "The Kalam Cosmological Argument"
 description = "A surprisingly simple, yet effective argument."
 date = 2024-12-16
 [taxonomies]
-tags = ["apologetics", "philosophy"]
+tags = ["apologetics", "philosophy", "in progress"]
 [extra]
 katex = true
 +++
