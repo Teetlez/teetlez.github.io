@@ -1,9 +1,9 @@
 +++
 title = "The Kalam Cosmological Argument"
 description = "A surprisingly simple, yet effective argument."
-date = 2024-12-16
+date = 2025-03-04
 [taxonomies]
-tags = ["apologetics", "philosophy", "in progress"]
+tags = ["apologetics", "philosophy"]
 [extra]
 katex = true
 +++
@@ -146,10 +146,32 @@ So we have a cause that is:
 - Spaceless
 - Immensely Powerful
 
-Great, so then we have our universe right? 
+Great, so then we have our universe-causer, right? Not quite.
+
+We have all the properties of something that is _capable_ of causing the universe, but that doesn't necessarily mean that those properties can cause the universe themselves. We know that whatever is the first cause must be necessary, but there is nothing inherent about the nature of being immaterial that leads to creation of the material. In other words, being immaterial is a requirement of something that causes the existence of all material, but that isn't the explanation of why material begins to exist in the first place. The same fact applies to the other three; We are missing an important property. So then we must ask: what property has the capability of bringing causes into existence by it's own nature? We know that everything that begins to exist has a cause, but what things have the ability to begin causes?
+
+Near the house I grew up in, there is a path that leads to a trail in the woods. It's a very beautiful walk in the spring and the fall, and it leads to a glassy pond surrounded by the forests scenic tranquility. Say one day, I decided to go to that pond only to be cut off by a coarse stretch of asphalt tearing across the forest. I ask myself, "Why is this here?"
+
+Two possible answers will come to mind (excluding the non-answer that "it just popped into existence out of nothing for no reason at all, don't question it") are: This was caused either by nature, or by a will against nature. I quickly and obviously reject the idea that this was caused by nature, simply because it doesn't at all fit the causal scope of nature. Yes, it's there because heated tar was combined with some other substances to create asphalt, and the pigment of the paint reflects the specific spectrum to then appear yellow to my eyes. However, none of these explain _why_ the road is there, only _how_. The remaining option is that there must be some active will that began a causal chain separate from the consistent causal chain of nature. This is the unique property of wills.
+
+Now even if you try to argue that the road was still caused by nature in the firing of neurons of some meat puppet, I can simply reject your assertion on the basis that I do not accept arguments coming from the firing neurons of a meat puppet. Because we humans in fact have a very odd shape within our universe, in a reality where everything around us seems to be governed and determined by simple and elegant laws, our minds actively fight against being put into the same mold. We bite and claw and scratch against the very idea that we are (as [Dostoyevsky](https://en.wikipedia.org/wiki/Notes_from_Underground#Part_1:_"Underground") puts it) "merely keys on a piano". It is beneath us, and every fiber in our being fights against the thought of bowing to it.
+
+So if from our natural experience we know that minds or wills have the property of being causal agents able to bring cause into existence, we can at least say that a personal mind and will would be the final property we would need in order to complete our picture of the cause of the Universe. Given that there doesn't seem to be any equal or alternative proposition of something that can "cause causes", we can say that the most likely cause of our universe is:
+
+- Immaterial
+- Timeless
+- Spaceless
+- Immensely Powerful
+- **Personal**
+
 
 ### Conclusion
 
-The Kalam Cosmological Argument remains _one of_ the most effective arguments for the existence of a cause behind the universe. Its simplicity and logical rigor make it a valuable tool in both philosophical and apologetic discussions. Whether one is inclined toward theism or not, the argument forces us to consider the origins of the universe and the nature of its cause in ways that challenge simple materialistic explanations.
+There are so many paths to continue from this, but I think this rambling has gone on for long enough. It is best, for the sake and sanity of the unfortunate sole that got this far, that I wrap up my thoughts.
 
-Ultimately, the Kalam Cosmological Argument offers a compelling case that the universe has a cause, and that cause is best understood as transcendent, timeless, and powerful—a conclusion that many religious philosophers have long affirmed as indicative of a personal Creator.
+The Kalam Cosmological Argument remains _one of_ the most effective arguments for the existence of a cause behind the universe. Its simplicity and logical rigor make it a valuable tool in both philosophical and apologetic discussions. Hopefully if I have the time (and motivation), I can delve into the other effective arguments for God (and specifically the Christian God).
+
+While it doesn't explicitly prove God, I believe it acts as a near impenetrable wall against doubts. Even at my lowest, when I feel like there just isn't a point to anything, I run up against the Kalam. I know that if I want to give into my doubts, I need to first disprove the Kalam. I know that I've tried many times, but it is solid. Hopefully you too are blessed by it, or at the very least, it leaves a pebble in your shoe, so that you can't help but wonder:
+
+
+_What caused all of this?_ 
