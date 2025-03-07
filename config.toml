@@ -58,6 +58,7 @@ show_theme_switcher = true
 links = [
     { url = "@/writings/_index.md", name = "Writings" },
     { url = "@/projects/_index.md", name = "Projects" },
+    { url = "@/tools/_index.md", name = "Tools" },
     { url = "@/about/_index.md", name = "About" },
 ]
 

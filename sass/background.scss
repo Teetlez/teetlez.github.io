@@ -1,3 +1,10 @@
+
+@keyframes flicker {
+    to {
+        mask-position: 50% 50%, 0% 50%;
+    }
+}
+
 body {
     --size: 20px;
     background: var(--bg-overlay);
@@ -33,7 +40,7 @@ body {
         -webkit-mask-composite: destination-in;
         opacity: 0.5;
         /* Fallback for Webkit browsers */
-        animation: flicker 60s infinite linear;
+        animation: flicker 60s infinite alternate linear;
         pointer-events: none;
         /* Prevent interaction interference */
     }
@@ -56,11 +63,5 @@ body {
     >* {
         position: relative;
         z-index: 3;
-    }
-}
-
-@keyframes flicker {
-    to {
-        mask-position: 50% 50%, 0 50%;
     }
 }
