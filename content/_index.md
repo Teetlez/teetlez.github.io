@@ -3,30 +3,33 @@ insert_anchor_links = "right"
 +++
 
 {% crt() %}
+
 <div class="container" style="text-align: center">
 <pre class="asciiart" style="display: inline-block; text-align: left">
- ________ __                         __     __                    ______
-|        \  \                       |  \   |  \                  /      \
- \▓▓▓▓▓▓▓▓\▓▓______ ____   ______  _| ▓▓_  | ▓▓____  __    __   |  ▓▓▓▓▓▓\
-   | ▓▓  |  \      \    \ /      \|   ▓▓ \ | ▓▓    \|  \  |  \  | ▓▓   \▓▓
-   | ▓▓  | ▓▓ ▓▓▓▓▓▓\▓▓▓▓\  ▓▓▓▓▓▓\\▓▓▓▓▓▓ | ▓▓▓▓▓▓▓\ ▓▓  | ▓▓  | ▓▓
-   | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓ ▓▓  | ▓▓ | ▓▓ __| ▓▓  | ▓▓ ▓▓  | ▓▓  | ▓▓   __
-   | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓ ▓▓__/ ▓▓ | ▓▓|  \ ▓▓  | ▓▓ ▓▓__/ ▓▓  | ▓▓__/  \
-   | ▓▓  | ▓▓ ▓▓ | ▓▓ | ▓▓\▓▓    ▓▓  \▓▓  ▓▓ ▓▓  | ▓▓\▓▓    ▓▓   \▓▓    ▓▓
-    \▓▓   \▓▓\▓▓  \▓▓  \▓▓ \▓▓▓▓▓▓    \▓▓▓▓ \▓▓   \▓▓_\▓▓▓▓▓▓▓    \▓▓▓▓▓▓
-                                                    |  \__| ▓▓
-                                                     \▓▓    ▓▓
-                                                      \▓▓▓▓▓▓
+/* ###################################################################### */
+/*                                                                        */
+/*  ██╗    ██╗ ███████╗ ██╗       ██████╗  ██████╗  ███╗   ███╗ ███████╗  */
+/*  ██║    ██║ ██╔════╝ ██║      ██╔════╝ ██╔═══██╗ ████╗ ████║ ██╔════╝  */
+/*  ██║ █╗ ██║ █████╗   ██║      ██║      ██║   ██║ ██╔████╔██║ █████╗    */
+/*  ██║███╗██║ ██╔══╝   ██║      ██║      ██║   ██║ ██║╚██╔╝██║ ██╔══╝    */
+/*  ╚███╔███╔╝ ███████╗ ███████╗ ╚██████╗ ╚██████╔╝ ██║ ╚═╝ ██║ ███████╗  */
+/*   ╚══╝╚══╝  ╚══════╝ ╚══════╝  ╚═════╝  ╚═════╝  ╚═╝     ╚═╝ ╚══════╝  */
+/*                                                                        */
+/* ###################################################################### */
+
+Hi, I’m **Timothy**. I’m a **Computer Science graduate** with a deep passion
+for technology and its ability to solve complex problems. What I enjoy most
+is the creation of beauty through rules and logic similar to how nature gives
+such intracate, complex, and elegant wonders from the rules given to her.
+This love eventually led me to the field of computer graphics, where I am
+able to solve logical problems and get an artistic outcome.
+
 </pre>
 </div>
 <pre>
 > <span class="cursor">_</span>
 </pre>
 {% end %}
-
-# Welcome
-
-Hi, I’m **Timothy**. I’m a **Computer Science graduate** with a deep passion for technology and its ability to solve complex problems. What I enjoy most is the creation of beauty through rules and logic similar to how nature gives such intracate, complex, and elegant wonders from the rules given to her. This love eventually led me to the field of computer graphics, where I am able to solve logical problems and get an artistic outcome.
 
 ## A space for logical art
 
@@ -50,5 +53,4 @@ If you’re interested in collaborating, discussing ideas, or just want to conne
 
 Thank you for taking the time to visit my site. I hope you find something that sparks your curiosity, and I’d love to hear from you soon!
 
-Cheers,
-**Timothy**
+Cheers
