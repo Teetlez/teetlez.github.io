@@ -1,0 +1,21 @@
+<h1>Content Simplifier</h1>
+<textarea id="input-text" rows="5" cols="50" placeholder="Enter complex text here..."></textarea>
+<br />
+<button id="simplify-btn">Simplify Text</button>
+<br /><br />
+<textarea id="output-text" rows="5" cols="50" placeholder="Simplified text will appear here..."></textarea>
+
+<div {% if class %}class="{{ class }}" {% endif %}>
+    <script type="module">
+
+        import init, { simplify_text  } from "{{ mod_path | safe }}";
+
+        async function run() {
+            await init(); // Initialize WASM module
+            {{ script | safe }}
+        }
+
+        run();
+
+    </script>
+</div>
