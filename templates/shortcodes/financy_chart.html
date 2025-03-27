@@ -1,0 +1,24 @@
+<canvas id="{{ id }}" width="{{ width | default(value=" 400") }}" height="{{ height | default(value=" 200") }}"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Sample static data; you can update this with live data via AJAX or WebSocket.
+    const ctx = document.getElementById("{{ id }}").getContext("2d");
+    const chart = new Chart(ctx, {
+        type: "{{ type | default(value="line") }}",
+        data: {
+            labels: {{ labels | safe }},
+    datasets: [{
+        label: "{{ dataset_label | default(value="Data") }}",
+        data: {{ data | safe }},
+        backgroundColor: "{{ bg_color | default(value="rgba(75, 192, 192, 0.2)") }}",
+        borderColor: "{{ border_color | default(value="rgba(75, 192, 192, 1)") }}",
+        borderWidth: 1
+      }]
+    },
+    options: {
+        scales: {
+            y: { beginAtZero: true }
+        }
+    }
+  });
+</script>

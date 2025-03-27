@@ -1,0 +1,19 @@
+<div class="faq-accordion">
+    {% for faq in faqs %}
+    <div class="faq-item">
+        <button class="faq-question">{{ faq.question }}</button>
+        <div class="faq-answer" style="display:none;">
+            {{ faq.answer | markdown | safe }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    document.querySelectorAll(".faq-question").forEach(button => {
+        button.addEventListener("click", () => {
+            const answer = button.nextElementSibling;
+            const isVisible = answer.style.display === "block";
+            answer.style.display = isVisible ? "none" : "block";
+        });
+    });
+</script>

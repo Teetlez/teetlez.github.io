@@ -1,0 +1,16 @@
+<div id="{{ id }}" class="color-picker">
+    <input type="color" id="{{ id }}-input" value="{{ default_color | default(value=" #000000") }}">
+    <p>Selected Color: <span id="{{ id }}-value">{{ default_color | default(value="#000000") }}</span></p>
+    <div id="{{ id }}-preview" style="width:100px;height:100px;background-color:{{ default_color | default(value="#000000") }}"></div>
+</div>
+<script>
+    const pickerInput = document.getElementById("{{ id }}-input");
+    const pickerValue = document.getElementById("{{ id }}-value");
+    const pickerPreview = document.getElementById("{{ id }}-preview");
+
+    pickerInput.addEventListener("input", (e) => {
+        const color = e.target.value;
+        pickerValue.textContent = color;
+        pickerPreview.style.backgroundColor = color;
+    });
+</script>

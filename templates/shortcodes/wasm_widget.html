@@ -1,0 +1,17 @@
+<div id="{{ id }}" class="wasm-widget">
+    {{ body | safe }}
+</div>
+<script>
+    fetch("{{ wasm_path }}")
+        .then(response => response.arrayBuffer())
+        .then(bytes => WebAssembly.instantiate(bytes, {}))
+        .then(results => {
+            const instance = results.instance;
+            {% if init_function %}
+            if (instance.exports.{{ init_function }}) {
+        instance.exports.{{ init_function }} ();
+    }
+    {% endif %}
+    })
+    .catch (err => console.error("WASM widget load error:", err));
+</script>

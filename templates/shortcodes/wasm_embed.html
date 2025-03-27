@@ -1,0 +1,15 @@
+<div id="{{ id }}"></div>
+<script>
+    fetch("{{ wasm_path }}")
+        .then(response => response.arrayBuffer())
+        .then(bytes => WebAssembly.instantiate(bytes, {}))
+        .then(results => {
+            const instance = results.instance;
+            // Optionally call an exported function if provided
+            {% if call %}
+            if (instance.exports.{{ call }}) {
+                instance.exports.{{ call }} ();
+            }
+            {% endif %}
+    }).catch(err => console.error("WASM load error:", err));
+</script>

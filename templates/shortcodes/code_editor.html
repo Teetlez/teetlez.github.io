@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css">
+<div id="{{ editor_id }}" class="code-editor">{{ code | safe }}</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/{{ mode }}/{{ mode }}.min.js"></script>
+<script>
+    CodeMirror(document.getElementById("{{ editor_id }}"), {
+        value: `{{ code | safe }}`,
+        mode: "{{ mode }}",
+        lineNumbers: true,
+        readOnly: true
+    });
+</script>

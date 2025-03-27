@@ -1,21 +1,24 @@
-<h1>Content Simplifier</h1>
 <textarea id="input-text" rows="5" cols="50" placeholder="Enter complex text here..."></textarea>
 <br />
 <button id="simplify-btn">Simplify Text</button>
 <br /><br />
 <textarea id="output-text" rows="5" cols="50" placeholder="Simplified text will appear here..."></textarea>
 
-<div {% if class %}class="{{ class }}" {% endif %}>
+<div {% if class %}class="{{ class }}" {% endif %} id="{{ container_id | default(value='wasm-container') }}">
     <script type="module">
-
-        import init, { simplify_text  } from "{{ mod_path | safe }}";
-
-        async function run() {
-            await init(); // Initialize WASM module
-            {{ script | safe }}
+        import init from "{{ mod_path | safe }}";
+        async function loadWasm() {
+            try {
+                const { {{ functions | safe }} } = await import("{{ mod_path | safe }}");
+                await init();
+                {% if callback %}
+                {{ callback | safe }} ({{ functions | safe }});
+                {% endif %}
+                {{ script | safe }}
+            } catch (error) {
+                console.error("Error loading WebAssembly module:", error);
+            }
         }
-
-        run();
-
+        document.addEventListener("DOMContentLoaded", loadWasm);
     </script>
 </div>

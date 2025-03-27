@@ -1,0 +1,32 @@
+<div id="{{ id }}" class="finance-calculator">
+    <input type="number" id="{{ id }}-principal" placeholder="Principal Amount">
+    <input type="number" id="{{ id }}-rate" placeholder="Interest Rate (%)">
+    <input type="number" id="{{ id }}-years" placeholder="Years">
+    <button id="{{ id }}-calculate">Calculate</button>
+    <p>Result: <span id="{{ id }}-result"></span></p>
+</div>
+<script>
+    const calcContainer = document.getElementById("{{ id }}");
+    const principalInput = document.getElementById("{{ id }}-principal");
+    const rateInput = document.getElementById("{{ id }}-rate");
+    const yearsInput = document.getElementById("{{ id }}-years");
+    const resultSpan = document.getElementById("{{ id }}-result");
+    const calcBtn = document.getElementById("{{ id }}-calculate");
+
+    let financeWasm;
+    fetch("{{ wasm_path }}")
+        .then(response => response.arrayBuffer())
+        .then(bytes => WebAssembly.instantiate(bytes, {}))
+        .then(results => { financeWasm = results.instance; })
+        .catch(err => console.error("WASM load error:", err));
+
+    calcBtn.addEventListener("click", () => {
+        if (!financeWasm) return console.error("WASM not loaded yet.");
+        const principal = parseFloat(principalInput.value);
+        const rate = parseFloat(rateInput.value) / 100;
+        const years = parseFloat(yearsInput.value);
+        // Assume the WASM module exports a function `compound_interest` that returns the future value.
+        const futureValue = financeWasm.exports.compound_interest(principal, rate, years);
+        resultSpan.textContent = futureValue.toFixed(2);
+    });
+</script>

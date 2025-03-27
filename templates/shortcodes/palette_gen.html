@@ -1,0 +1,33 @@
+<div id="{{ id }}" class="palette-generator">
+    <input type="color" id="{{ id }}-seed" value="#ff0000">
+    <button id="{{ id }}-generate">Generate Palette</button>
+    <div id="{{ id }}-swatches" class="swatches"></div>
+</div>
+<script>
+    const container = document.getElementById("{{ id }}");
+    const seedInput = document.getElementById("{{ id }}-seed");
+    const generateBtn = document.getElementById("{{ id }}-generate");
+    const swatchesDiv = document.getElementById("{{ id }}-swatches");
+
+    let wasmInstance;
+    fetch("{{ wasm_path }}")
+        .then(response => response.arrayBuffer())
+        .then(bytes => WebAssembly.instantiate(bytes, {}))
+        .then(results => { wasmInstance = results.instance; })
+        .catch(err => console.error("WASM load error:", err));
+
+    generateBtn.addEventListener("click", () => {
+        if (!wasmInstance) return console.error("WASM not loaded yet.");
+        // Assume the WASM module exports a function `generate_palette` that takes a hex string and returns a comma-separated list of colors.
+        const seedColor = seedInput.value.slice(1); // remove '#'
+        const paletteStr = wasmInstance.exports.generate_palette(seedColor);
+        const palette = paletteStr.split(",");
+        swatchesDiv.innerHTML = "";
+        palette.forEach(color => {
+            const swatch = document.createElement("div");
+            swatch.style.backgroundColor = "#" + color;
+            swatch.className = "swatch";
+            swatchesDiv.appendChild(swatch);
+        });
+    });
+</script>
