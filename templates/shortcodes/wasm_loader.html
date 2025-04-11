@@ -1,0 +1,10 @@
+<script type="module">
+    import init, { {{ functions | safe }} } from "{{ mod_path | safe }}";
+
+    async function run() {
+        await init();
+        { { script | safe } }
+    }
+
+    document.addEventListener("DOMContentLoaded", run);
+</script>

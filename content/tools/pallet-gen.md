@@ -5,4 +5,10 @@ template = "page.html"
 date = 2025-03-26
 +++
 
-{{ palette_gen(id="myPalette", wasm_path="/static/palette_generator.wasm") }}
+{{ palette_gen(
+    mod_path="/core-bindings/core_rs.js",
+    start_color="#00b4d8",
+    end_color="#03045e",
+    steps=6,
+    container_id="customPalette"
+) }}

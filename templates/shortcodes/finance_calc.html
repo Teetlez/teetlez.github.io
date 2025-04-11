@@ -1,32 +1,41 @@
-<div id="{{ id }}" class="finance-calculator">
-    <input type="number" id="{{ id }}-principal" placeholder="Principal Amount">
-    <input type="number" id="{{ id }}-rate" placeholder="Interest Rate (%)">
-    <input type="number" id="{{ id }}-years" placeholder="Years">
-    <button id="{{ id }}-calculate">Calculate</button>
-    <p>Result: <span id="{{ id }}-result"></span></p>
+<div id="{{ container_id | default(value='finance-widget') }}">
+    <div id ="break_even">
+        <label for="fixed">Fixed costs: <input type="number" id="fixed" value="{{ principal | default(value='1000') }}"></label>
+        <label for="variable">Variable costs: <input type="number" id="variable" value="{{ variable | default(value='5') }}"></label>
+        <label for="unit_price">Price per unit: <input type="number" id="unit_price" value="{{ unit_price | default(value='10') }}"></label>
+        <button id="break_even_btn">Calculate</button>
+        <p>Units sales needed to break even: <span id="result">-</span></p>
+    </div>
+    <div id="optimal_profit">
+        <label for="item_list">Item List (e.g. cost,price,amount): 
+            <textarea id="item_list" cols="20" rows="15"></textarea>
+        </label>
+        </br>
+        <label for="fixed_cost">Fixed cost: <input type="number" id="fixed_cost"></label>
+        <button id="optimal_profit_btn">Calculate</button>
+        <p>Optimal profit: <span id="optimal_profit_result">-</span></p>
+    </div>
 </div>
-<script>
-    const calcContainer = document.getElementById("{{ id }}");
-    const principalInput = document.getElementById("{{ id }}-principal");
-    const rateInput = document.getElementById("{{ id }}-rate");
-    const yearsInput = document.getElementById("{{ id }}-years");
-    const resultSpan = document.getElementById("{{ id }}-result");
-    const calcBtn = document.getElementById("{{ id }}-calculate");
 
-    let financeWasm;
-    fetch("{{ wasm_path }}")
-        .then(response => response.arrayBuffer())
-        .then(bytes => WebAssembly.instantiate(bytes, {}))
-        .then(results => { financeWasm = results.instance; })
-        .catch(err => console.error("WASM load error:", err));
+<script type="module">
+    import init, { break_even, optimal_item_profit } from "{{ mod_path | safe }}";
 
-    calcBtn.addEventListener("click", () => {
-        if (!financeWasm) return console.error("WASM not loaded yet.");
-        const principal = parseFloat(principalInput.value);
-        const rate = parseFloat(rateInput.value) / 100;
-        const years = parseFloat(yearsInput.value);
-        // Assume the WASM module exports a function `compound_interest` that returns the future value.
-        const futureValue = financeWasm.exports.compound_interest(principal, rate, years);
-        resultSpan.textContent = futureValue.toFixed(2);
-    });
+    async function run() {
+        await init();
+        document.getElementById("break_even_btn").addEventListener("click", () => {
+            const fixed = parseFloat(document.getElementById("fixed").value);
+            const variable = parseFloat(document.getElementById("variable").value);
+            const unit_price = parseInt(document.getElementById("unit_price").value);
+
+            const result = break_even(fixed, variable, unit_price);
+            document.getElementById("result").textContent = result;
+        });
+        document.getElementById("optimal_profit_btn").addEventListener("click", () => {
+            const fixed = parseInt(document.getElementById("fixed_cost").value);
+            const result = optimal_item_profit(document.getElementById("item_list").value, fixed);
+            document.getElementById("optimal_profit_result").textContent = result;
+        })
+    }
+
+    document.addEventListener("DOMContentLoaded", run);
 </script>

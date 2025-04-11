@@ -5,9 +5,11 @@ template = "page.html"
 date = 2025-03-26
 +++
 
-{{ finance_calc(id="myFinanceCalc", wasm_path="/static/finance_calculator.wasm") }}
+{{ finance_calc(
+    mod_path="/core-bindings/core_rs.js"
+) }}
 
-{{ live_chart(
+<!-- {{ live_chart(
   id="financeChart",
   type="line",
   labels='["Jan", "Feb", "Mar", "Apr", "May"]',
@@ -15,4 +17,4 @@ date = 2025-03-26
   dataset_label="Revenue",
   bg_color="rgba(153, 102, 255, 0.2)",
   border_color="rgba(153, 102, 255, 1)"
-) }}
+) }} -->
