@@ -103,7 +103,7 @@ fn _parse_widget_list(list: &str) -> Vec<Widget> {
 }
 
 fn _parse_list(list: &str) -> Vec<f32> {
-    list.split([' ', '\n'])
+    list.split([' ', '\n', ','])
         .filter_map(|num| num.trim().parse::<f32>().ok())
         .collect::<Vec<f32>>()
 }

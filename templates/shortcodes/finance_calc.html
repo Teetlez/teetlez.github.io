@@ -10,7 +10,7 @@
         <label for="unit_price">Price per Unit: <input type="number" id="unit_price"
                 value="{{ unit_price | default(value='10') }}" style="width: 100%;"></label>
         <button id="break_even_btn">Calculate Break Even</button>
-        <p>Units Sales Needed to Break Even: <span id="result">-</span></p>
+        <p>Unit Sales Needed to Break Even: <span id="result">-</span></p>
     </div>
 
     <div id="optimal_profit" style="margin-bottom: 20px;">
@@ -25,7 +25,7 @@
 
     <div id="income_expenses" style="margin-bottom: 20px;">
         <h3>Income and Expenses</h3>
-        <p>Note: Separate values with spaces, don't use '.' or ','</p>
+        <p>Example: 10, 15.50, 5.25 100</p>
         <div>
             <label for="income">Income:
                 <textarea id="income" cols="20" rows="5" style="width: 100%;"></textarea>
@@ -75,12 +75,12 @@
             document.getElementById("gross_result").textContent = profit.toFixed(2);
 
             const tax_rate = parseFloat(document.getElementById("tax_rate").value) / 100;
-            const taxed_profit = taxed_gross(profit, tax_rate);
-            document.getElementById("taxed_gross_result").textContent = (profit - taxed_profit).toFixed(2);
+            const taxed_profit = profit - taxed_gross(profit, tax_rate);
+            document.getElementById("taxed_gross_result").textContent = (taxed_profit).toFixed(2);
 
             const needs = (taxed_profit * 0.5).toFixed(2);
-            const wants = (taxed_profit * 0.3).toFixed(2);;
-            const savings = (taxed_profit * 0.2).toFixed(2);;
+            const wants = (taxed_profit * 0.3).toFixed(2);
+            const savings = (taxed_profit * 0.2).toFixed(2);
             document.getElementById("needs_result").textContent = needs;
             document.getElementById("wants_result").textContent = wants;
             document.getElementById("savings_result").textContent = savings;
