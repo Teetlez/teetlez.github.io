@@ -1,40 +1,90 @@
-<div id="{{ container_id | default(value='finance-widget') }}">
-    <div id ="break_even">
-        <label for="fixed">Fixed costs: <input type="number" id="fixed" value="{{ principal | default(value='1000') }}"></label>
-        <label for="variable">Variable costs: <input type="number" id="variable" value="{{ variable | default(value='5') }}"></label>
-        <label for="unit_price">Price per unit: <input type="number" id="unit_price" value="{{ unit_price | default(value='10') }}"></label>
-        <button id="break_even_btn">Calculate</button>
-        <p>Units sales needed to break even: <span id="result">-</span></p>
+<div id="{{ container_id | default(value='finance-widget') }}"
+    style="padding: 20px; border: 1px solid #ccc; border-radius: 8px; max-width: 600px; margin: auto;">
+
+    <div id="break_even" style="margin-bottom: 20px;">
+        <h3>Break Even Analysis</h3>
+        <label for="fixed">Fixed Costs: <input type="number" id="fixed" value="{{ principal | default(value='1000') }}"
+                style="width: 100%;"></label>
+        <label for="variable">Variable Costs: <input type="number" id="variable"
+                value="{{ variable | default(value='5') }}" style="width: 100%;"></label>
+        <label for="unit_price">Price per Unit: <input type="number" id="unit_price"
+                value="{{ unit_price | default(value='10') }}" style="width: 100%;"></label>
+        <button id="break_even_btn">Calculate Break Even</button>
+        <p>Units Sales Needed to Break Even: <span id="result">-</span></p>
     </div>
-    <div id="optimal_profit">
-        <label for="item_list">Item List (e.g. cost,price,amount): 
-            <textarea id="item_list" cols="20" rows="15"></textarea>
+
+    <div id="optimal_profit" style="margin-bottom: 20px;">
+        <h3>Optimal Profit Calculation</h3>
+        <label for="item_list">Item List (e.g. cost,price,amount):
+            <textarea id="item_list" cols="20" rows="5" style="width: 100%;"></textarea>
         </label>
-        </br>
-        <label for="fixed_cost">Fixed cost: <input type="number" id="fixed_cost"></label>
-        <button id="optimal_profit_btn">Calculate</button>
-        <p>Optimal profit: <span id="optimal_profit_result">-</span></p>
+        <label for="fixed_cost">Fixed Cost: <input type="number" id="fixed_cost" style="width: 100%;"></label>
+        <button id="optimal_profit_btn">Calculate Optimal Profit</button>
+        <p>Optimal Profit: <span id="optimal_profit_result">-</span></p>
+    </div>
+
+    <div id="income_expenses" style="margin-bottom: 20px;">
+        <h3>Income and Expenses</h3>
+        <p>Note: Separate values with spaces, don't use '.' or ','</p>
+        <div>
+            <label for="income">Income:
+                <textarea id="income" cols="20" rows="5" style="width: 100%;"></textarea>
+            </label>
+            <label for="expenses">Expenses:
+                <textarea id="expenses" cols="20" rows="5" style="width: 100%;"></textarea>
+            </label>
+        </div>
+        <label for="tax_rate">Tax Rate (%): <input type="number" id="tax_rate" value="20" style="width: 100%;"></label>
+        <button id="gross_btn">Calculate Gross</button>
+        <p>Gross Profit: <span id="gross_result">-</span></p>
+        <p>Taxed Gross Profit: <span id="taxed_gross_result">-</span></p>
+    </div>
+
+    <div id="breakdown" style="margin-bottom: 20px;">
+        <h3>50/30/20 Rule Breakdown</h3>
+        <p>Needs (50%): <span id="needs_result">-</span></p>
+        <p>Wants (30%): <span id="wants_result">-</span></p>
+        <p>Savings (20%): <span id="savings_result">-</span></p>
     </div>
 </div>
 
 <script type="module">
-    import init, { break_even, optimal_item_profit } from "{{ mod_path | safe }}";
+    import init, { break_even, optimal_item_profit, gross, taxed_gross } from "{{ mod_path | safe }}";
 
     async function run() {
         await init();
+
         document.getElementById("break_even_btn").addEventListener("click", () => {
             const fixed = parseFloat(document.getElementById("fixed").value);
             const variable = parseFloat(document.getElementById("variable").value);
             const unit_price = parseInt(document.getElementById("unit_price").value);
-
             const result = break_even(fixed, variable, unit_price);
             document.getElementById("result").textContent = result;
         });
+
         document.getElementById("optimal_profit_btn").addEventListener("click", () => {
             const fixed = parseInt(document.getElementById("fixed_cost").value);
             const result = optimal_item_profit(document.getElementById("item_list").value, fixed);
-            document.getElementById("optimal_profit_result").textContent = result;
-        })
+            document.getElementById("optimal_profit_result").textContent = result.toFixed(2);
+        });
+
+        document.getElementById("gross_btn").addEventListener("click", () => {
+            const income = document.getElementById("income").value;
+            const expenses = document.getElementById("expenses").value;
+            const profit = gross(income, expenses);
+            document.getElementById("gross_result").textContent = profit.toFixed(2);
+
+            const tax_rate = parseFloat(document.getElementById("tax_rate").value) / 100;
+            const taxed_profit = taxed_gross(profit, tax_rate);
+            document.getElementById("taxed_gross_result").textContent = (profit - taxed_profit).toFixed(2);
+
+            const needs = (taxed_profit * 0.5).toFixed(2);
+            const wants = (taxed_profit * 0.3).toFixed(2);;
+            const savings = (taxed_profit * 0.2).toFixed(2);;
+            document.getElementById("needs_result").textContent = needs;
+            document.getElementById("wants_result").textContent = wants;
+            document.getElementById("savings_result").textContent = savings;
+        });
     }
 
     document.addEventListener("DOMContentLoaded", run);
