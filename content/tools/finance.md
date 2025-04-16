@@ -1,13 +1,11 @@
 +++
-title = "finance tool"
-description = "testing"
-template = "page.html"
-date = 2025-03-26
+title = "Finance Tool"
+description = "A small finance too to do some very basic financial calculations"
+template = "finance.html"
+date = 2025-04-15
 +++
 
-{{ finance_calc(
-    mod_path="/core-bindings/core_rs.js"
-) }}
+# Finance Caclulator
 
 <!-- {{ live_chart(
   id="financeChart",

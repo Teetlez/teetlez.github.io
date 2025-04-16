@@ -1,4 +1,12 @@
-<div id="{{ container_id | default(value='palette-output') }}"></div>
+<div>
+    <input type="color" name="starting_color" value="#00b4d8">
+</div>
+<hr>
+<div id="{{ container_id | default(value='palette-output') }}">
+
+</div>
+
+
 
 <script type="module">
     import init, { generate_palette } from "{{ mod_path | safe }}";
