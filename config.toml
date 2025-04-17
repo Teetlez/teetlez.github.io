@@ -38,9 +38,9 @@ lazy_async_image = true
 author = "timothy clocksin"
 
 stylesheets = ["custom.css"]
-styles = ["mods.css", "background.css"]
-accent_color = "#00b36b"
-accent_color_dark = "#00ffa2"
+styles = ["mods.css", "background.css", "custom.css"]
+accent_color = "#10b479"
+accent_color_dark = "#10ffae"
 fix_contrast = true
 fix_contrast_dark = true
 
