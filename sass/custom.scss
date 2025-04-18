@@ -1,4 +1,8 @@
 @use 'inputs';
+// @use 'variables';
+@use 'drop-shadow';
+@use 'container';
+@use 'animations';
 @use '../themes/duckquill/sass/_variables.scss';
 
 @mixin theme-variables {
@@ -22,8 +26,8 @@
     box-shadow: var(--edge-highlight);
     border-radius: var(--rounded-corner);
     padding: 1rem;
-    --bg-overlay: var(--accent-color-alpha);
-    background-color: var(--bg-overlay);
+    background-color: var(--fg-muted-1);
+    backdrop-filter: saturate(2.8) blur(0.28rem);
     padding: 1rem;
     overflow: hidden;
     padding: 20px;
@@ -57,4 +61,8 @@
     // TRANSITIONS
     --transition-bezier: 0.35s cubic-bezier(0.17, 0.89, 0.32, 1.28);
     --transition-bezier-longer: 0.525s cubic-bezier(0.17, 0.89, 0.32, 1.28);
+
+    --neomorphism-shading:
+            0.1rem 0.1rem 0.2875rem rgb(0 0 0 / 0.6),
+            -0.05rem -0.05rem 0.2875rem rgb(255 255 255 / 0.1);
 }

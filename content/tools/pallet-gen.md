@@ -1,7 +1,7 @@
 +++
 title = "Palette generator tool"
 description = "testing"
-template = "page.html"
+template = "tool.html"
 date = 2025-03-26
 +++
 
