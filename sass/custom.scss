@@ -1,9 +1,11 @@
 @use 'inputs';
 // @use 'variables';
+@use '../themes/duckquill/sass/_variables.scss';
 @use 'drop-shadow';
 @use 'container';
 @use 'animations';
-@use '../themes/duckquill/sass/_variables.scss';
+@use 'fancy-list';
+@use 'overshoot';
 
 @mixin theme-variables {
     :root {
@@ -23,11 +25,11 @@
 
 .card {
     margin: 1rem 0;
-    box-shadow: var(--edge-highlight);
+    box-shadow: var(--edge-highlight), var(--shadow-glass);
     border-radius: var(--rounded-corner);
     padding: 1rem;
     background-color: var(--fg-muted-1);
-    backdrop-filter: saturate(2.8) blur(0.28rem);
+    backdrop-filter: saturate(2.8) blur(0.23rem);
     padding: 1rem;
     overflow: hidden;
     padding: 20px;

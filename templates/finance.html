@@ -1,126 +1,216 @@
-{% extends "page.html" %} 
-
-
-{% block content %}
+{% extends "page.html" %} {% block content %}
 
 <div class="card" id="{{ container_id | default(value='finance-widget') }}">
-    
-    <div id="heading" class="title" style="text-align: center;">
-        <h1>
-            {{ page.title }}
-        </h1>
+  <div id="heading" class="title" style="text-align: center">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <br />
+  <div id="break_even" style="margin-bottom: 20px">
+    <h2>Break Even Analysis</h2>
+    <table>
+      <tr>
+        <th>
+          <label for="fixed">Fixed Costs</label>
+        </th>
+        <th>
+          <label for="variable">Variable Costs</label>
+        </th>
+        <th>
+          <label for="unit_price">Price per Unit</label>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <input
+            style="width: 100%"
+            type="number"
+            id="fixed"
+            value="1000"
+            placeholder="1000"
+          />
+        </td>
+        <td>
+          <input
+            style="width: 100%"
+            type="number"
+            id="variable"
+            value="5"
+            placeholder="5"
+          />
+        </td>
+        <td>
+          <input
+            style="width: 100%"
+            type="number"
+            id="unit_price"
+            value="10"
+            placeholder="10"
+          />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <div class="fancy-list">
+      <ul>
+        <li>
+          Profit Margin: <mark id="margin" style="float: right">200</mark>
+        </li>
+        <li>
+          Break Even Sales: <mark id="result" style="float: right">200</mark>
+        </li>
+      </ul>
     </div>
-    <hr>
-    <div id="break_even" style="margin-bottom: 20px;">
-        <h2>Break Even Analysis</h2>
-        <label for="fixed">Fixed Costs: 
-            <input type="number" id="fixed" value="{{ principal | default(value='1000') }}" style="width: 100%;">
-        </label>
-        <label for="variable">Variable Costs: 
-            <input type="number" id="variable" value="{{ variable | default(value='5') }}" style="width: 100%;">
-        </label>
-        <label for="unit_price">Price per Unit: 
-            <input type="number" id="unit_price" value="{{ unit_price | default(value='10') }}" style="width: 100%;">
-        </label>
-        <p>Unit Sales Needed to Break Even: <mark id="result">200</mark></p>
+  </div>
+  <div class="visually-hidden" id="optimal_profit" style="margin-bottom: 20px">
+    <hr />
+    <h2>Optimal Profit Calculation</h2>
+    <label for="item_list"><h4>Item List (e.g. cost,price,amount)</h4> </label>
+    <textarea id="item_list" cols="20" rows="5">20, 30, 80</textarea>
+    <label for="fixed_cost"><h4>Fixed Cost</h4></label>
+    <input type="number" id="fixed_cost" value="100" />
+    <p>Optimal Profit: <mark id="optimal_profit_result">0</mark></p>
+    <div class="buttons centered">
+      <button class="big" id="optimal_profit_btn">
+        Calculate Optimal Profit
+      </button>
     </div>
-    <hr>
-    <div id="optimal_profit" style="margin-bottom: 20px;">
-        <h2>Optimal Profit Calculation</h2>
-        <label for="item_list">Item List (e.g. cost,price,amount):
-            <textarea id="item_list" cols="20" rows="5" style="width: 100%;">20, 30, 80</textarea>
-        </label>
-        <label for="fixed_cost">Fixed Cost: <input type="number" id="fixed_cost" value="100" style="width: 100%;"></label>
-        <p>Optimal Profit: <mark id="optimal_profit_result">0</mark></p>
-        <div class="buttons centered">
-            <button class="big" id="optimal_profit_btn">Calculate Optimal Profit</button>
-        </div>
+  </div>
+  <hr />
+  <div id="income_expenses" style="margin-bottom: 20px">
+    <h2>Income and Expenses</h2>
+    <small>Example: 10, 15.50, 5.25, 100</small>
+    <table>
+      <th>
+        <label for="income">Income</label>
+      </th>
+      <th>
+        <label for="expenses">Expenses</label>
+      </th>
+      <tr>
+        <td>
+          <textarea
+            id="income"
+            rows="3"
+            style="width: 100%"
+            placeholder="10 15.50 5.25 100"
+          ></textarea>
+        </td>
+        <td>
+          <textarea
+            id="expenses"
+            rows="3"
+            style="width: 100%"
+            placeholder="5 10 5 10"
+          ></textarea>
+        </td>
+      </tr>
+    </table>
+    <table style="margin-top: 0.5rem">
+      <th>
+        <input id="tax" type="range" max="100" value="20" />
+        <label for="tax">Tax Rate: <mark id="tax-value">0</mark></label>
+      </th>
+    </table>
+    <br />
+    <div>
+      <div class="fancy-list">
+        <ul>
+          <li>
+            Gross Profit:
+            <mark id="gross_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Taxed Gross Profit:
+            <mark id="taxed_gross_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Needs (50%):
+            <mark id="needs_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Wants (30%):
+            <mark id="wants_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Savings (20%):
+            <mark id="savings_result" style="float: right">0.00</mark>
+          </li>
+        </ul>
+      </div>
     </div>
-    <hr>
-    <div id="income_expenses" style="margin-bottom: 20px;">
-        <h2>Income and Expenses</h2>
-        <small>Example: 10, 15.50, 5.25, 100</small>
-        <div>
-            <label for="income">Income:
-                <textarea id="income" cols="20" rows="5" style="width: 100%;">10 15.50 5.25 100</textarea>
-            </label>
-            <label for="expenses">Expenses:
-                <textarea id="expenses" cols="20" rows="5" style="width: 100%;">5 10 5 10</textarea>
-            </label>
-        </div>
-        <label for="tax">Tax Rate: <mark id="tax-value">0</mark>%
-            <input id="tax" type="range" max="100" value="20">
-        </label>
-        <p>Gross Profit: <mark id="gross_result">0.00</mark></p>
-        <p>Taxed Gross Profit: <mark id="taxed_gross_result">0.00</mark></p>
-        <div id="breakdown" style="margin-bottom: 20px;">
-            <h3>50/30/20 Rule Breakdown</h3>
-            <p>Needs (50%): <mark id="needs_result">0.00</mark></p>
-            <p>Wants (30%): <mark id="wants_result">0.00</mark></p>
-            <p>Savings (20%): <mark id="savings_result">0.00</mark></p>
-        </div>
-    </div>
+  </div>
 </div>
 
 <script type="module">
-    import init, { break_even, optimal_item_profit, gross, taxed_gross } from "/core-bindings/core_rs.js";
+  import init, {
+    break_even,
+    optimal_item_profit,
+    gross,
+    taxed_gross,
+  } from "/core-bindings/core_rs.js";
 
-    async function run() {
-        await init();
+  async function run() {
+    await init();
 
-        const update_break_even = function () {
-            const fixed = parseFloat(document.getElementById("fixed").value);
-            const variable = parseFloat(document.getElementById("variable").value);
-            const unit_price = parseInt(document.getElementById("unit_price").value);
-            const result = break_even(fixed, variable, unit_price);
-            document.getElementById("result").textContent = result;
-        }
-        update_break_even();
+    const update_break_even = function () {
+      const fixed = parseFloat(document.getElementById("fixed").value);
+      const variable = parseFloat(document.getElementById("variable").value);
+      const unit_price = parseInt(document.getElementById("unit_price").value);
+      const result = break_even(fixed, variable, unit_price);
+      document.getElementById("result").textContent = result;
+      document.getElementById("margin").textContent =
+        ((1.0 - variable / unit_price) * 100).toFixed(1) + "%";
+    };
+    update_break_even();
 
-        document.getElementById("fixed").oninput = update_break_even;
-        document.getElementById("variable").oninput = update_break_even;
-        document.getElementById("unit_price").oninput = update_break_even;
+    document.getElementById("fixed").oninput = update_break_even;
+    document.getElementById("variable").oninput = update_break_even;
+    document.getElementById("unit_price").oninput = update_break_even;
 
-        document.getElementById("optimal_profit_btn").addEventListener("click", () => {
-            const fixed = parseInt(document.getElementById("fixed_cost").value);
-            const result = optimal_item_profit(document.getElementById("item_list").value, fixed);
-            document.getElementById("optimal_profit_result").textContent = result;
-        });
+    document
+      .getElementById("optimal_profit_btn")
+      .addEventListener("click", () => {
+        const fixed = parseInt(document.getElementById("fixed_cost").value);
+        const result = optimal_item_profit(
+          document.getElementById("item_list").value,
+          fixed
+        );
+        document.getElementById("optimal_profit_result").textContent = result;
+      });
 
-        const update_gross = function () {
-            const income = document.getElementById("income").value;
-            const expenses = document.getElementById("expenses").value;
-            const profit = gross(income, expenses);
-            document.getElementById("gross_result").textContent = profit.toFixed(2);
+    const update_gross = function () {
+      const income = document.getElementById("income").value;
+      const expenses = document.getElementById("expenses").value;
+      const profit = gross(income, expenses);
+      document.getElementById("gross_result").textContent = profit.toFixed(2);
 
-            const tax_rate = parseFloat(document.getElementById("tax").value) / 100;
-            const taxed_profit = profit - taxed_gross(profit, tax_rate);
-            document.getElementById("taxed_gross_result").textContent = (taxed_profit).toFixed(2);
+      const tax_rate = parseFloat(document.getElementById("tax").value) / 100;
+      const taxed_profit = profit - taxed_gross(profit, tax_rate);
+      document.getElementById("taxed_gross_result").textContent =
+        taxed_profit.toFixed(2);
 
-            const needs = (taxed_profit * 0.5).toFixed(2);
-            const wants = (taxed_profit * 0.3).toFixed(2);
-            const savings = (taxed_profit * 0.2).toFixed(2);
-            document.getElementById("needs_result").textContent = needs;
-            document.getElementById("wants_result").textContent = wants;
-            document.getElementById("savings_result").textContent = savings;
-        }
-        update_gross();
+      const needs = (taxed_profit * 0.5).toFixed(2);
+      const wants = (taxed_profit * 0.3).toFixed(2);
+      const savings = (taxed_profit * 0.2).toFixed(2);
+      document.getElementById("needs_result").textContent = needs;
+      document.getElementById("wants_result").textContent = wants;
+      document.getElementById("savings_result").textContent = savings;
+    };
+    update_gross();
 
-        var slider = document.getElementById("tax");
-        var output = document.getElementById("tax-value");
-        output.innerHTML = slider.value;
+    var slider = document.getElementById("tax");
+    var output = document.getElementById("tax-value");
+    output.innerHTML = slider.value + "%";
 
-        slider.oninput = function () {
-            output.innerHTML = this.value;
-            update_gross();
-        }
-        document.getElementById("income").oninput = update_gross
-        document.getElementById("expenses").oninput = update_gross
-    }
+    slider.oninput = function () {
+      output.innerHTML = this.value + "%";
+      update_gross();
+    };
+    document.getElementById("income").oninput = update_gross;
+    document.getElementById("expenses").oninput = update_gross;
+  }
 
-    document.addEventListener("DOMContentLoaded", run);
+  document.addEventListener("DOMContentLoaded", run);
 </script>
 
-{% endblock content %}
-
-{{ finance.content | safe}}
+{% endblock content %} {{ finance.content | safe}}
