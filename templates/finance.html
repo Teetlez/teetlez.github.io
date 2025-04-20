@@ -5,6 +5,70 @@
     <h1>{{ page.title }}</h1>
   </div>
   <br />
+  <div id="income_expenses" style="margin-bottom: 20px">
+    <h2>Income and Expenses</h2>
+    <small>Example: 10, 15.50, 5.25, 100</small>
+    <table>
+      <th>
+        <label for="income">Income</label>
+      </th>
+      <th>
+        <label for="expenses">Expenses</label>
+      </th>
+      <tr>
+        <td>
+          <textarea
+            id="income"
+            rows="3"
+            style="width: 100%"
+            placeholder="10 15.50 5.25 100"
+          ></textarea>
+        </td>
+        <td>
+          <textarea
+            id="expenses"
+            rows="3"
+            style="width: 100%"
+            placeholder="5 10 5 10"
+          ></textarea>
+        </td>
+      </tr>
+    </table>
+    <table style="margin-top: 0.5rem">
+      <th>
+        <input id="tax" type="range" max="100" value="20" />
+        <label for="tax">Tax Rate: <mark id="tax-value">0</mark></label>
+      </th>
+    </table>
+    <br />
+    <div>
+      <div class="fancy-list">
+        <ul>
+          <li>
+            Gross Profit:
+            <mark id="gross_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Taxed Gross Profit:
+            <mark id="taxed_gross_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Needs (50%):
+            <mark id="needs_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Wants (30%):
+            <mark id="wants_result" style="float: right">0.00</mark>
+          </li>
+          <li>
+            Savings (20%):
+            <mark id="savings_result" style="float: right">0.00</mark>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
   <div id="break_even" style="margin-bottom: 20px">
     <h2>Break Even Analysis</h2>
     <table>
@@ -73,70 +137,6 @@
       <button class="big" id="optimal_profit_btn">
         Calculate Optimal Profit
       </button>
-    </div>
-  </div>
-  <hr />
-  <div id="income_expenses" style="margin-bottom: 20px">
-    <h2>Income and Expenses</h2>
-    <small>Example: 10, 15.50, 5.25, 100</small>
-    <table>
-      <th>
-        <label for="income">Income</label>
-      </th>
-      <th>
-        <label for="expenses">Expenses</label>
-      </th>
-      <tr>
-        <td>
-          <textarea
-            id="income"
-            rows="3"
-            style="width: 100%"
-            placeholder="10 15.50 5.25 100"
-          ></textarea>
-        </td>
-        <td>
-          <textarea
-            id="expenses"
-            rows="3"
-            style="width: 100%"
-            placeholder="5 10 5 10"
-          ></textarea>
-        </td>
-      </tr>
-    </table>
-    <table style="margin-top: 0.5rem">
-      <th>
-        <input id="tax" type="range" max="100" value="20" />
-        <label for="tax">Tax Rate: <mark id="tax-value">0</mark></label>
-      </th>
-    </table>
-    <br />
-    <div>
-      <div class="fancy-list">
-        <ul>
-          <li>
-            Gross Profit:
-            <mark id="gross_result" style="float: right">0.00</mark>
-          </li>
-          <li>
-            Taxed Gross Profit:
-            <mark id="taxed_gross_result" style="float: right">0.00</mark>
-          </li>
-          <li>
-            Needs (50%):
-            <mark id="needs_result" style="float: right">0.00</mark>
-          </li>
-          <li>
-            Wants (30%):
-            <mark id="wants_result" style="float: right">0.00</mark>
-          </li>
-          <li>
-            Savings (20%):
-            <mark id="savings_result" style="float: right">0.00</mark>
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </div>
