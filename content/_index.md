@@ -37,6 +37,16 @@ This website is a place for me to showcase my projects, share my thoughts throug
 
 I created this site to connect with others, to offer a space where my work and ideas can be explored, and to hopefully spark some interesting ideas for others. I’m always open to new collaborations, whether it's for a project, a discussion, or just sharing knowledge!
 
+### Why the name?
+
+The name `LOGÆΣTHOS` (Lo-ges-thos) comes from a combination of the Greek words `LOGOS` and `AESTHETIKOS` using some Greek letters (**Æ** and **Σ**). Basically a marriage between logic and aesthetics
+
+> I'm probably going to really regret throwing non-ascii text in for something like my website title with regards to browser rendering/compatability, but that's an issue for future Tim :smile:
+
+I know that technically it would be something like `ΛΟΓΕΣΘΟΣ` or `LOGEΣΘΟΣ` using the koine greek epsilon **E** and possibly theta **Θ**, but I think that it's a happy medium between phonetic readability and etomology. Plus I think it looks cool, and in the end, language was made for man, not man for language.
+
+I also decided on the sylalized logo version **`ΛÆΣ`** by taking the beginning, middle, and end of the word as greek letters. Simply because I think the way **Æ** creates a cool transition between **Λ** and **Σ**
+
 ## A Little More About Me
 
 I am a Computer Science graduate from the University of New Hampshire, awarded **1st place** at the 2022 UNH Undergraduate Research Conference in Computer Science Applications. With a strong passion for computer graphics and software engineering, I specialize in designing scalable, efficient, and innovative solutions.
@@ -44,13 +54,3 @@ I am a Computer Science graduate from the University of New Hampshire, awarded *
 In my free time, I enjoy:
 
 🎿 Snowboarding | 🎮 Video Games | ♟️ Chess | 💡 Philosophy | 🎹 Piano | 🛠️ 3D Printing
-
----
-
-## Let's Connect
-
-If you’re interested in collaborating, discussing ideas, or just want to connect, feel free to reach out! I’m always open to new opportunities, whether they’re technical, creative, or both.
-
-Thank you for taking the time to visit my site. I hope you find something that sparks your curiosity, and I’d love to hear from you soon!
-
-Cheers

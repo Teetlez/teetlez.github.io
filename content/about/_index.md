@@ -1,109 +1,58 @@
 +++
-title = "About Me"
-description = "Software Engineer with expertise in IT solutions, computer graphics, and cutting-edge technologies. Explore my skills, experiences, and projects."
+title = "About"
+description = "Hi, I’m Timothy — a systems-minded developer exploring the space between logic and visual design."
 +++
 
-
-{{ image(url="/images/profile/profile7.jpg", alt="Timothy Clocksin", no_hover=true) }}
+{{ image(url="/images/profile/profile7.jpg", alt="Timothy Clocksin", no_hover=true, start=true) }}
 
 # Timothy Clocksin
 
-**Software Engineer & Developer**
+**Engineer & Builder of Tools**
 
-## Contact Information
+I enjoy crafting performant systems, building visual experiences, and making things that feel both elegant and efficient. I’ve worked on everything from network tools to VR experiences, often blending practical utility with a visual or conceptual edge.
 
-- **Location:** NH, USA
-- **Email:** [timothy.clocksin248@gmail.com](mailto:timothy.clocksin248@gmail.com)
+<br>
 
-## Work Experience
+## What I Do
 
-### Software Engineer | NCS Global Services LLC
-
-**Nov 2023 - Present**
-
-- Designed ITAD software for secure data erasure and diagnostics.
-- Improved workflows, reducing execution time by 20% and memory usage by 80%.
-- Developed an AI model for system price estimation using deep learning.
-- Modernized DevOps pipelines, increasing productivity by 50%.
-
-### Junior Software Developer | NCS Global Services LLC
-
-**May 2023 - Nov 2023**
-
-- Optimized PXE Boot Server, cutting setup time by 85%.
-- Enhanced memory testing efficiency and expanded coverage.
-- Unified tools with a custom Linux OS, reducing redundant operations.
-
-### Intern | UNH Interoperability Lab
-
-**Dec 2018 - Sep 2022**
-
-- Designed and maintained IPv6 and IPsec testing tools using Python and Tcl.
-- Improved code efficiency, reducing redundancy by 67%.
-- Collaborated in Agile workflows using Jira, Confluence, and Bitbucket.
-
-### Volunteer Teacher | Mamelodi Initiative
-
-**Jun 2022 - Jul 2022**
-
-- Taught math and coding workshops, improving student performance by 30%.
+- Architect and optimize tools for system diagnostics, data workflows, and automation.
+- Design 3D environments and rendering engines for experimental and applied projects.
+- Build and refine pipelines—whether DevOps, visual, or computational—for speed and clarity.
+- Explore the intersection of logic, visual aesthetics, and human-centered tooling.
 
 ---
 
-## Projects
+## Selected Projects
 
-### Albacore VR Experience
+[**Albacore VR**](/projects/albacore-vr/)
+Interactive museum experience for Oculus Quest
 
-**Technologies:** Unity, Blender, Oculus API
+- Designed accessible 3D spaces in Unity and Blender
+- Optimized complex models for real-time rendering
+- Honored at a university research conference for innovation in accessibility
 
-- Created a VR app for museum accessibility with interactive features and optimized 3D assets.
-- Reduced polygon counts by 50-75% and debugged Quest 2 performance issues.
-- **Award:** 1st place at the 2022 UNH Undergraduate Research Conference.
+[**Rust Path-Tracer**](/projects/rust-pathtracer/)  
+A minimal, physically-based renderer built from scratch
 
-### Path-Tracing Engine
+- Implemented BVH acceleration, global illumination, and custom material models
+- Created as a deep-dive into Rust, rendering math, and code aesthetics
 
-**Technologies:** Rust, Monte Carlo Methods
+## Technical Interests
 
-- Built a path-tracer supporting various materials, HDR lighting, and BVH optimization.
-- Developed to enhance expertise in rendering techniques and Rust programming.
+I lean toward tools and languages that prioritize expressiveness, performance, and clarity. A few that I’ve spent meaningful time with:
 
----
+**Languages:**  
+Rust • C++ • Python • Tcl • JavaScript • Bash
 
-## Education
-
-### University of New Hampshire
-
-**2018 - 2022**
-**Degree:** Bachelor of Science in Computer Science
-
-#### Key Coursework
-
-- Computer Graphics | Operating Systems | Networking Protocols
-- Algorithms & Data Structures | Mathematical Proofs
+**Tools & Frameworks:**  
+Git • Docker • Linux • OpenGL • Unity • Blender • Django
 
 ---
 
-## Skills
+## Elsewhere
 
-### Technical Skills
+I'm based in New England, and when I’m not working on technical projects, I like exploring visual logic, teaching, or experimenting with generative systems.
 
-- **Git** <progress value="90" max="100"></progress>
-- **Linux** <progress value="85" max="100"></progress>
-- **Docker** <progress value="80" max="100"></progress>
-- **OpenGL** <progress value="75" max="100"></progress>
-- **Visual Studio** <progress value="70" max="100"></progress>
-- **Django** <progress value="65" max="100"></progress>
-- **Unity Engine** <progress value="60" max="100"></progress>
-- **Blender** <progress value="50" max="100"></progress>
-- **Jira** <progress value="50" max="100"></progress>
+---
 
-### Programming Languages
-
-- **TCL** <progress value="95" max="100"></progress>
-- **C/C++** <progress value="85" max="100"></progress>
-- **Java** <progress value="75" max="100"></progress>
-- **Rust** <progress value="65" max="100"></progress>
-- **Python** <progress value="60" max="100"></progress>
-- **HTML/CSS/JavaScript** <progress value="50" max="100"></progress>
-- **Bash** <progress value="55" max="100"></progress>
-- **Scala** <progress value="50" max="100"></progress>
+_This site is a small collection of things I’ve built and explored. If you're curious about anything here, feel free to reach out._
