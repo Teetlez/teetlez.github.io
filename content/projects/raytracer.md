@@ -1,7 +1,8 @@
 +++
 title = "Ray-Tracing"
 description = "A GLSL ray-tracing project inspired by an old OpenGL school assignment."
-template = "page.html"
+template = "article.html"
+date = 2023-01-26
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]

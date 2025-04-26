@@ -17,7 +17,7 @@ insert_anchor_links = "right"
               /ÆÆÆ/     \ÆÆ\ /ÆÆÆÆÆÆÆÆ|            /ÆÆÆ/                   
              /ÆÆÆ/      \ÆÆÆvÆÆ/   |ÆÆ|           /ÆÆÆ/                    
              /ÆÆ/        \ÆÆÆÆ/    |ÆÆ|          /ÆÆ/                      
-            /ÆÆ/          \ÆÆ/     |ÆÆ|        /ÆÆÆ/                       
+            /ÆÆ/          \ÆÆ/     |ÆÆ|________/ÆÆÆ/                       
            /ÆÆÆ/          |ÆÆ|     |ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ|                
 /*                                                                        */
 /* ###################################################################### */
@@ -53,8 +53,6 @@ I know that technically it would be something like `ΛΟΓΕΣΘΟΣ` or `LOGEΣ
 I also decided on the sylalized logo version **`ΛÆΣ`** by taking the beginning, middle, and end of the word as greek letters. Simply because I think the way **Æ** creates a cool transition between **Λ** and **Σ**
 
 ## A Little More About Me
-
-I am a Computer Science graduate from the University of New Hampshire, awarded **1st place** at the 2022 UNH Undergraduate Research Conference in Computer Science Applications. With a strong passion for computer graphics and software engineering, I specialize in designing scalable, efficient, and innovative solutions.
 
 In my free time, I enjoy:
 

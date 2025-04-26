@@ -1,7 +1,8 @@
 +++
 title = "USS Albacore VR"
 description = "A virtual reality tour of the USS Albacore submarine, created to provide an accessible experience for all visitors."
-template = "page.html"
+template = "article.html"
+date = 2023-01-19
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]

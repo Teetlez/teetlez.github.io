@@ -1,7 +1,8 @@
 +++
 title = "Asteroid Escape"
 description = "A simple interactive game featuring mouse controls and collision mechanics."
-template = "page.html"
+template = "article.html"
+date = 2016-04-07
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
@@ -10,7 +11,7 @@ tags = ["Game Development", "Old Projects"]
 
 Asteroid Escape is a straightforward game that demonstrates the use of **mouse interaction** and **collision detection** mechanics. The goal is to avoid asteroids while collecting medpacks to maintain your health.
 
-{{ js_canvas(script="/scripts/AsteroidEscape(scr).js", author="Timothy Clocksin", class="projectCanvas") }}
+{{ proc_js_canvas(script="/scripts/AsteroidEscape.js", author="Timothy Clocksin") }}
 
 ## Overview
 

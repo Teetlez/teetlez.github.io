@@ -1,7 +1,8 @@
 +++
 title = "3D Wireframe"
 description = "A demonstration of 3D wireframe rendering without the use of 3D libraries or functions, built from scratch to illustrate fundamental concepts."
-template = "page.html"
+template = "article.html"
+date = 2016-04-16
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
@@ -10,7 +11,7 @@ tags = ["Rendering", "3D Graphics", "Old Projects"]
 
 This project showcases a **3D wireframe rendering system** built without the use of any external 3D libraries or functions. The purpose was to demonstrate an understanding of the fundamental processes behind rendering wireframes in 3D.
 
-{{ js_canvas(script="/scripts/3DWireframe(scr).js", author="Timothy Clocksin", class="projectCanvas") }}
+{{ proc_js_canvas(script="/scripts/3DWireframe.js", author="Timothy Clocksin") }}
 
 ## Overview
 

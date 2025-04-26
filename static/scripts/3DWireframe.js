@@ -14,6 +14,11 @@ Spin camera with
 - RIGHT =rotate front right
 */
 
+void setup() {
+    size(400, 400, P2D);
+    background(255, 193, 5);
+};  
+
 var backgroundColour = color(255, 193, 5);
 var edgeColour       = color(255, 0, 136);
 var nodeSize         = 8;
@@ -29,17 +34,17 @@ var nSize = 0.005;
 var nodes = [];
 
 //nested loop to create node array and save time
-for (var y=-150; y&lt;=150; y+=50){
-    for (var x=-150; x&lt;=150; x+=50){
+for (var y=-150; y<=150; y+=50){
+    for (var x=-150; x<=150; x+=50){
         nodes.push([x, y, map(noise((xoff-y)*nSize,(yoff-x)*nSize),0,1,-200,200)]);
         xoff+=3;
         yoff+=3;
     }
 }
-var rotateZ3D = function(theta) {
+void rotateZ3D(theta) {
     var sinTheta = sin(theta);
     var cosTheta = cos(theta);
-    for (var n = 0; n &lt; nodes.length; n++) {
+    for (var n = 0; n < nodes.length; n++) {
         var node = nodes[n];
         var x = node[0];
         var y = node[1];
@@ -48,10 +53,10 @@ var rotateZ3D = function(theta) {
     }
 };
 
-var rotateY3D = function(theta) {
+void rotateY3D(theta) {
    var sinTheta = sin(theta);
    var cosTheta = cos(theta);
-   for (var n = 0; n &lt; nodes.length; n++) {
+   for (var n = 0; n < nodes.length; n++) {
       var node = nodes[n];
       var x = node[0];
       var z = node[2];
@@ -60,10 +65,10 @@ var rotateY3D = function(theta) {
    }
 };
 
-var rotateX3D = function(theta) {
+void rotateX3D(theta) {
    var sinTheta = sin(theta);
    var cosTheta = cos(theta);
-   for (var n = 0; n &lt; nodes.length; n++) {
+   for (var n = 0; n < nodes.length; n++) {
       var node = nodes[n];
       var y = node[1];
       var z = node[2];
@@ -73,14 +78,15 @@ var rotateX3D = function(theta) {
 };
 
 
-var draw= function() {
+void draw() {
+    translate(200, 200);
     background(backgroundColour);
     
     // Draw edges
     noFill();
     stroke(edgeColour);
     //ignores certain line draws to avoid line wrap around
-    for(var y = 0; y &lt; nodes.length-1; y++){
+    for(var y = 0; y < nodes.length-1; y++){
          var node = nodes[y];
          
         //target node one to the right of selected one
@@ -96,7 +102,7 @@ var draw= function() {
          }
      }
      
-    for(var y = 0; y &lt; nodes.length-8; y++){
+    for(var y = 0; y < nodes.length-8; y++){
          var node = nodes[y];
          
          //target a node one row down and one column to the right
@@ -111,7 +117,7 @@ var draw= function() {
         }
      }
      
-    for(var y = 0; y &lt; nodes.length-7; y++){
+    for(var y = 0; y < nodes.length-7; y++){
          var node = nodes[y];
          
          //target node directly below it
@@ -123,7 +129,7 @@ var draw= function() {
      
     //draw nodes
     noStroke();
-    for (var x = 0; x &lt; nodes.length; x++) {
+    for (var x = 0; x < nodes.length; x++) {
         var node = nodes[x];
         
         //node z depth determines green color
@@ -135,18 +141,18 @@ var draw= function() {
     }
     
     //rotation controls
-    if(keyIsPressed &amp;&amp; keyCode === UP){
-        rotateX3D(-2);
-    }else if(keyIsPressed &amp;&amp; keyCode === DOWN){
-        rotateX3D(2);   
-    }else if(keyIsPressed &amp;&amp; keyCode === LEFT){
-        rotateY3D(-2);
-    }else if(keyIsPressed &amp;&amp; keyCode === RIGHT){
-        rotateY3D(2);
-    }else if(keyIsPressed &amp;&amp; keyCode === ALT){
-        rotateZ3D(2);
-    }else if(keyIsPressed &amp;&amp; keyCode === CONTROL){
-        rotateZ3D(-2);
+    if(keyPressed && keyCode === UP){
+        rotateX3D(-0.2);
+    }else if(keyPressed && keyCode === DOWN){
+        rotateX3D(0.2);   
+    }else if(keyPressed && keyCode === LEFT){
+        rotateY3D(-0.2);
+    }else if(keyPressed && keyCode === RIGHT){
+        rotateY3D(0.2);
+    }else if(keyPressed && keyCode === ALT){
+        rotateZ3D(0.2);
+    }else if(keyPressed && keyCode === CONTROL){
+        rotateZ3D(-0.2);
     }else{
         rotateX3D(0);
         rotateY3D(0);
@@ -154,5 +160,4 @@ var draw= function() {
     }
     
     //return position after rotation
-    translate(200, 200);
 };

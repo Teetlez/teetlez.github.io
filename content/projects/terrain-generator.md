@@ -1,7 +1,8 @@
 +++
 title = "Procedural Terrain"
 description = "A procedural terrain generator utilizing Perlin noise to simulate natural landscapes."
-template = "page.html"
+template = "article.html"
+date = 2016-04-04
 [extra]
 author = "Timothy Clocksin"
 [taxonomies]
@@ -10,7 +11,7 @@ tags = ["Procedural Generation",  "2.5D Visualization", "Old Projects"]
 
 This project showcases a **non-interactive terrain generator** capable of creating natural-looking environments, including **trees**, **grass**, **mountains**, **snow**, **beaches**, **lakes/ponds**, **clouds**, and **hills**. The generator leverages **Perlin noise** for smooth, realistic transitions and an **isometric viewpoint** for a stylized aesthetic.
 
-{{ js_canvas(script="/scripts/ProceduralTerrain(scr).js", author="Timothy Clocksin", class="projectCanvas") }}
+{{ proc_js_canvas(script="/scripts/ProceduralTerrain.js", author="Timothy Clocksin") }}
 
 ## Overview
 

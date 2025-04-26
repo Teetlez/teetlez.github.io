@@ -32,7 +32,6 @@
     backdrop-filter: saturate(2.8) blur(0.23rem);
     padding: 1rem;
     overflow: hidden;
-    padding: 20px;
     max-width: 650px;
     margin: auto;
 
@@ -44,6 +43,35 @@
         }
     }
 }
+
+.canvas-container {
+    text-align: center;
+    box-shadow: var(--edge-highlight), var(--shadow-glass);
+    border-radius: var(--rounded-corner);
+    background-color: var(--fg-muted-1);
+    backdrop-filter: saturate(2.8) blur(0.23rem);
+
+    .canvas {
+        box-shadow: var(--edge-highlight);
+        text-shadow: var(--text-shadow-glow);
+        filter: var(--drop-shadow);
+        border-radius: var(--rounded-corner);
+        display:inline-flex;
+    
+        &:focus {
+            // accent border
+            // keep inset + add accent glow
+            box-shadow: var(--shadow-glow), var(--edge-highlight);
+        }
+        &:disabled {
+            filter: var(--blur);
+        }
+    }
+    .author {
+        text-align:left;
+    }
+}
+
 @include theme-variables using ($theme) {
     // FONT WEIGHTS
     --font-weight-thin: 100;

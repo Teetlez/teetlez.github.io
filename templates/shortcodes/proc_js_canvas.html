@@ -1,0 +1,12 @@
+<script src="/js/processing.min.js"></script>
+<div class="card canvas-container" style="align-items: center">
+  <script
+    async
+    src="{{ script | safe }}"
+    type="text/processing"
+    class="embed_js_script"
+  ></script>
+  <canvas class="canvas">This browser doesn't support this canvas</canvas>
+  <br />
+  <i class="author">by {{ author }}</i>
+</div>
