@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Rust</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/rust/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-04-01T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/rust/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Path-Tracing</title>
+        <published>2023-04-01T00:00:00+00:00</published>
+        <updated>2023-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/pathtracer/"/>
+        <id>https://timothyclocksin.info/projects/pathtracer/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/pathtracer/">&lt;p&gt;This project is a &lt;strong&gt;Monte Carlo path-tracer&lt;&#x2F;strong&gt; implemented in &lt;strong&gt;Rust&lt;&#x2F;strong&gt;, inspired by the book &lt;em&gt;Raytracing in One Weekend&lt;&#x2F;em&gt;. The primary goal was to enhance my understanding of both &lt;strong&gt;rendering techniques&lt;&#x2F;strong&gt; and &lt;strong&gt;Rust programming&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;key-features&quot;&gt;Key Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rust Implementation&lt;&#x2F;strong&gt;: Developed entirely in Rust for performance and safety.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Monte Carlo Path-Tracing&lt;&#x2F;strong&gt;: Realistic light simulation through randomized sampling.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Scenes&lt;&#x2F;strong&gt;: Flexible scene input allows users to tailor rendering setups.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;rendered-images&quot;&gt;Rendered Images&lt;&#x2F;h3&gt;
+&lt;p&gt;Click an image to view it in full size.&lt;&#x2F;p&gt;
+&lt;div class=&quot;photo-gallery&quot;&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;1678228930342.avif&quot;&gt;
+            &lt;img src=&quot;1678228930342.avif&quot; alt=&quot;Gallery Image 1&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;1678232201587.avif&quot;&gt;
+            &lt;img src=&quot;1678232201587.avif&quot; alt=&quot;Gallery Image 2&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Cornell.avif&quot;&gt;
+            &lt;img src=&quot;Cornell.avif&quot; alt=&quot;Gallery Image 3&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;NightLight.avif&quot;&gt;
+            &lt;img src=&quot;NightLight.avif&quot; alt=&quot;Gallery Image 4&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend.avif&quot; alt=&quot;Gallery Image 5&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend2.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend2.avif&quot; alt=&quot;Gallery Image 6&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend3.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend3.avif&quot; alt=&quot;Gallery Image 7&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend4.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend4.avif&quot; alt=&quot;Gallery Image 8&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Studio.avif&quot;&gt;
+            &lt;img src=&quot;Studio.avif&quot; alt=&quot;Gallery Image 9&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Teaset3.avif&quot;&gt;
+            &lt;img src=&quot;Teaset3.avif&quot; alt=&quot;Gallery Image 10&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;&#x2F;div&gt;
+&lt;style&gt;
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .photo-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .photo-item img:hover {
+        transform: scale(1.05);
+    }
+&lt;&#x2F;style&gt;&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h2&gt;
+&lt;p&gt;To run the path-tracer, use the following command-line options:&lt;&#x2F;p&gt;
+&lt;div class=&quot;crt scanlines&quot; aria-hidden=&quot;true&quot;&gt;
+	&lt;div class=&quot;container&quot; style=&quot;text-align: center&quot;&gt;
+&lt;pre class=&quot;asciiart&quot; style=&quot;display: inline-block; text-align: left&quot;&gt;
+&lt;p&gt;rust_raytracer.exe [OPTIONS] [SCENE]&lt;&#x2F;p&gt;
+&lt;p&gt;Arguments:
+[SCENE] Scene file to use&lt;&#x2F;p&gt;
+&lt;p&gt;Options:
+-s, –samples [SAMPLES] Number of samples per pixel [default: 128]
+-p, –passes [PASSES] Number of frames to cumulate [default: 64]
+-b, –bounces [BOUNCES] Max number of times a ray can bounce [default: 8]
+–width [WIDTH] Pixel width of frame [default: 640]
+–height [HEIGHT] Pixel height of frame [default: 480]
+-g, –gamma [GAMMA] Gamma level [default: 2.2]
+-l, –light-clamp [LIGHT_CLAMP] Max light brightness [default: inf]
+-f, –filter Apply bilateral filter after render to reduce noise
+-h, –help Print help
+-V, –version Print version&lt;&#x2F;p&gt;
+&lt;&#x2F;pre&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

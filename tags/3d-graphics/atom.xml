@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - 3D Graphics</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/3d-graphics/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2016-04-16T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/3d-graphics/atom.xml</id>
+    <entry xml:lang="en">
+        <title>3D Wireframe</title>
+        <published>2016-04-16T00:00:00+00:00</published>
+        <updated>2016-04-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/3d-wireframe/"/>
+        <id>https://timothyclocksin.info/projects/3d-wireframe/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/3d-wireframe/">&lt;p&gt;This project showcases a &lt;strong&gt;3D wireframe rendering system&lt;&#x2F;strong&gt; built without the use of any external 3D libraries or functions. The purpose was to demonstrate an understanding of the fundamental processes behind rendering wireframes in 3D.&lt;&#x2F;p&gt;
+&lt;script src=&quot;&#x2F;js&#x2F;processing.min.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;div class=&quot;card canvas-container&quot; style=&quot;align-items: center&quot;&gt;
+  &lt;script
+    async
+    src=&quot;3DWireframe.js&quot;
+    type=&quot;text&#x2F;processing&quot;
+    class=&quot;embed_js_script&quot;
+  &gt;&lt;&#x2F;script&gt;
+  &lt;canvas class=&quot;canvas&quot;&gt;This browser doesn&#x27;t support this canvas&lt;&#x2F;canvas&gt;
+  &lt;br &#x2F;&gt;
+  &lt;i class=&quot;author&quot;&gt;by Timothy Clocksin&lt;&#x2F;i&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Custom Implementation&lt;&#x2F;strong&gt;: All 3D rendering logic was created from scratch.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Processing.js Environment&lt;&#x2F;strong&gt;: Built within the constraints of Processing.js, which limits flexibility for certain advanced features such as shading.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;While shading was omitted, this project highlights the foundational principles of 3D rendering.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;&#x2F;h2&gt;
+&lt;p&gt;For more details on 3D rendering concepts, visit:
+&lt;a href=&quot;https:&#x2F;&#x2F;www.khanacademy.org&#x2F;computing&#x2F;computer-programming&#x2F;programming-games-visualizations&#x2F;programming-3d-shapes&#x2F;a&#x2F;generating-3d-shapes&quot;&gt;Generating 3D Shapes - Khan Academy&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;↑&lt;&#x2F;kbd&gt;&#x2F;&lt;kbd&gt;↓&lt;&#x2F;kbd&gt;&lt;&#x2F;strong&gt;: Rotate vertically&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;←&lt;&#x2F;kbd&gt;&#x2F;&lt;kbd&gt;→&lt;&#x2F;kbd&gt;&lt;&#x2F;strong&gt;: Rotate horizontally&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;Ctrl&lt;&#x2F;kbd&gt;&lt;&#x2F;strong&gt;: Rotate counter-clockwise&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;Alt&lt;&#x2F;kbd&gt;&lt;&#x2F;strong&gt;: Rotate clockwise&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;source-code&quot;&gt;Source Code&lt;&#x2F;h2&gt;
+&lt;p&gt;The full source code is available here:
+&lt;a href=&quot;https:&#x2F;&#x2F;timothyclocksin.info&#x2F;projects&#x2F;3d-wireframe&#x2F;3DWireframe.js&quot;&gt;3DWireframe.js&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;processingjs.org&#x2F;&quot;&gt;Processing.js&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http:&#x2F;&#x2F;processingjs.org&#x2F;&quot;&gt;Processing.js&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;3D_rendering&quot;&gt;3D Rendering Basics&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

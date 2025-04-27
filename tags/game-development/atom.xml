@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Game Development</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/game-development/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-19T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/game-development/atom.xml</id>
+    <entry xml:lang="en">
+        <title>USS Albacore VR</title>
+        <published>2023-01-19T00:00:00+00:00</published>
+        <updated>2023-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/albacore-vr/"/>
+        <id>https://timothyclocksin.info/projects/albacore-vr/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/albacore-vr/">&lt;p&gt;The Albacore Submarine is a decommissioned military vessel that served from 1953 to 1972 and has since been converted into a museum exhibit. This project aims to create a &lt;strong&gt;virtual reality tour&lt;&#x2F;strong&gt; of the submarine using an &lt;strong&gt;Oculus Quest 2 VR headset&lt;&#x2F;strong&gt;, providing an accessible experience for those unable to visit the submarine in person.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;To recreate the submarine’s environment:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unity&lt;&#x2F;strong&gt; was used to simulate the submarine’s appearance and functionality in a virtual space.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Blender&lt;&#x2F;strong&gt; was employed to design 3D assets, including gauges, buoys, and the submarine’s exterior.&lt;&#x2F;li&gt;
+&lt;li&gt;Motion control capabilities and interactive objects (e.g., switches and controls) were incorporated for an immersive experience.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;This VR tour will be available at designated stations at the museum, making the submarine accessible to all.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;a-short-demo-video&quot;&gt;A short demo video&lt;&#x2F;h3&gt;
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;fe11-2284g8&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;project-images&quot;&gt;Project Images&lt;&#x2F;h3&gt;
+&lt;div class=&quot;photo-gallery&quot;&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Control.avif&quot;&gt;
+            &lt;img src=&quot;Control.avif&quot; alt=&quot;Gallery Image 1&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Map.avif&quot;&gt;
+            &lt;img src=&quot;Map.avif&quot; alt=&quot;Gallery Image 2&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Exterior.avif&quot;&gt;
+            &lt;img src=&quot;Exterior.avif&quot; alt=&quot;Gallery Image 3&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Bunks.avif&quot;&gt;
+            &lt;img src=&quot;Bunks.avif&quot; alt=&quot;Gallery Image 4&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Kitchen1.avif&quot;&gt;
+            &lt;img src=&quot;Kitchen1.avif&quot; alt=&quot;Gallery Image 5&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Kitchen2.avif&quot;&gt;
+            &lt;img src=&quot;Kitchen2.avif&quot; alt=&quot;Gallery Image 6&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Kitchen3.avif&quot;&gt;
+            &lt;img src=&quot;Kitchen3.avif&quot; alt=&quot;Gallery Image 7&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Credits.avif&quot;&gt;
+            &lt;img src=&quot;Credits.avif&quot; alt=&quot;Gallery Image 8&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;&#x2F;div&gt;
+&lt;style&gt;
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .photo-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .photo-item img:hover {
+        transform: scale(1.05);
+    }
+&lt;&#x2F;style&gt;&lt;h2 id=&quot;creators&quot;&gt;Creators&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;meet-the-team&quot;&gt;Meet the Team&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;william-lee-966985170&#x2F;&quot;&gt;William Lee&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;matthew-hartman-920b231a2&#x2F;&quot;&gt;Matthew Hartman&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;cameronday2000&#x2F;&quot;&gt;Cameron Day&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;timothyclocksin&#x2F;&quot;&gt;Timothy Clocksin&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ussalbacore.org&quot;&gt;USS Albacore Museum&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;unity.com&quot;&gt;Unity Game Engine&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blender.org&quot;&gt;Blender 3D Modeling Software&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Asteroid Escape</title>
+        <published>2016-04-07T00:00:00+00:00</published>
+        <updated>2016-04-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/asteroid-game/"/>
+        <id>https://timothyclocksin.info/projects/asteroid-game/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/asteroid-game/">&lt;p&gt;Asteroid Escape is a straightforward game that demonstrates the use of &lt;strong&gt;mouse interaction&lt;&#x2F;strong&gt; and &lt;strong&gt;collision detection&lt;&#x2F;strong&gt; mechanics. The goal is to avoid asteroids while collecting medpacks to maintain your health.&lt;&#x2F;p&gt;
+&lt;script src=&quot;&#x2F;js&#x2F;processing.min.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;div class=&quot;card canvas-container&quot; style=&quot;align-items: center&quot;&gt;
+  &lt;script
+    async
+    src=&quot;AsteroidEscape.js&quot;
+    type=&quot;text&#x2F;processing&quot;
+    class=&quot;embed_js_script&quot;
+  &gt;&lt;&#x2F;script&gt;
+  &lt;canvas class=&quot;canvas&quot;&gt;This browser doesn&#x27;t support this canvas&lt;&#x2F;canvas&gt;
+  &lt;br &#x2F;&gt;
+  &lt;i class=&quot;author&quot;&gt;by Timothy Clocksin&lt;&#x2F;i&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Collision Mechanics&lt;&#x2F;strong&gt;: Hitting an asteroid decreases health.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Health Recovery&lt;&#x2F;strong&gt;: Collect medpacks to regain lost health.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mouse&lt;&#x2F;strong&gt;: Move the starship.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Right Click&lt;&#x2F;strong&gt;: Reset the game.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;source-code&quot;&gt;Source Code&lt;&#x2F;h2&gt;
+&lt;p&gt;Download the source code for the game:
+&lt;a href=&quot;https:&#x2F;&#x2F;timothyclocksin.info&#x2F;projects&#x2F;asteroid-game&#x2F;AsteroidEscape.js&quot;&gt;AsteroidEscape.js&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;processingjs.org&#x2F;&quot;&gt;Processing.js&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;additional-notes&quot;&gt;Additional Notes&lt;&#x2F;h2&gt;
+&lt;p&gt;This project is a fun way to explore basic game development concepts such as collision detection, health mechanics, and mouse-based controls. If you’d like to see the game in action or modify it, check out the source code above!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
