@@ -6,6 +6,7 @@
 @use 'animations';
 @use 'fancy-list';
 @use 'overshoot';
+@use 'background';
 
 @mixin theme-variables {
     :root {

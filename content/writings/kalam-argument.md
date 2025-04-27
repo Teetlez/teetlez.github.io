@@ -7,6 +7,7 @@ tags = ["apologetics", "philosophy"]
 [extra]
 katex = true
 toc = true
+go_to_top = true
 +++
 
 ## Overview
@@ -85,13 +86,13 @@ The second premise asserts that the universe (i.e. All of matter, time, space, a
 
 By actual infinites, I mean a specific kind of infinity that would exist in physical and temporal reality. I'm not saying that the mathematical concept is somehow false, but I am saying that it is a tool mathematicians can play with as long as they don't take it out of the toy-box of _mathematics_. The problem with bringing infinities into the actual (i.e. physical and temporal) world, is that it enviably creates paradoxes when followed to their logical conclusion. This has been previously shown with the example of [Hilbert's Grand Hotel](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel), where a full hotel can accept an infinite amount of guests, check out an infinite number of guests, and still have the exact same number of guests the entire time. Logically, when paradoxes occur in logic, then at least one of the assumptions leading to the conclusion must be false. Thus, since the mathematics are logically sound, then the assumption of an actual infinity (the premise) must be false.
 
-This will also apply to the infinite causal chain mentioned earlier. Let's assume there was a past infinite chain of events $ E$  with the notation $ E(0)$  denoting the last occurring event (this chain has no beginning, but it ends. This models a reality where the universe had no beginning, and $ E(0)$  is _now_). Because we are in this moment _now_ (i.e. $ E(0)$ ), we can say that $ E(0)$  is true because it happens right _now_. However, because this is a causal chain, we also know that $ E(0)$  is contingent (caused by something), or let's assume so for now. This would mean that logically $ E(0)$  was caused by some event E(-1). From this we can generalize that for any event $ E(n)$  within the causal chain, we know:
+This will also apply to the infinite causal chain mentioned earlier. Let's assume there was a past infinite chain of events $ E$ with the notation $ E(0)$ denoting the last occurring event (this chain has no beginning, but it ends. This models a reality where the universe had no beginning, and $ E(0)$ is _now_). Because we are in this moment _now_ (i.e. $ E(0)$ ), we can say that $ E(0)$ is true because it happens right _now_. However, because this is a causal chain, we also know that $ E(0)$ is contingent (caused by something), or let's assume so for now. This would mean that logically $ E(0)$ was caused by some event E(-1). From this we can generalize that for any event $ E(n)$ within the causal chain, we know:
 
-1. It is contingent (caused by some event in $ E$  other than itself)
+1. It is contingent (caused by some event in $ E$ other than itself)
 2. The causal event is some $ E(n-1)$
 3. If some $ E(n) $ isn't caused by something, then it fails to exist (1st point)
 
-This is a very bad thing, because we have just shown paradoxically that $ (\forall x \in \N)(\neg E(x)) $ meaning, that for all possible events in the chain, they fail to exist unless caused by some other $ E(x)$ , which doesn't exist because it also fails to have a causing event. Basically, if our two deduced points are true for all events, then all events fail to exist. Paradoxically, we know $ E(0)$  does exist, because it is happening right _now_, but $ 0 \in \N $ so logically $ E(0)$  fails to exist.
+This is a very bad thing, because we have just shown paradoxically that $ (\forall x \in \N)(\neg E(x)) $ meaning, that for all possible events in the chain, they fail to exist unless caused by some other $ E(x)$ , which doesn't exist because it also fails to have a causing event. Basically, if our two deduced points are true for all events, then all events fail to exist. Paradoxically, we know $ E(0)$ does exist, because it is happening right _now_, but $ 0 \in \N $ so logically $ E(0)$ fails to exist.
 
 So what is our way forward? The issue must lie in our assumptions. There must be some $ E(\alpha) $ that is necessary for all following events in $ E $ to be caused by. At the bottom of all this, there needs to be some ground to stand on. Thus, the simplest explanation is that this infinite chain of events is not actually infinite, but has some beginning and therefore not infinite.
 
@@ -103,7 +104,7 @@ These models have been largely overshadowed by evidence supporting the Big Bang 
 
 2. **The Universe Is Past Eternal:** Some argue for a past-eternal universe, suggesting that the universe has existed for an infinite amount of time.
 
-The Kalam argument challenges this with evidence from contemporary cosmology, such as the discovery of cosmic background radiation, increase of entropy, and the expansion of space, all pointing to a beginning. Even if there wasn't scientific evidence to point to, the previous section has shown the issue with the idea of a past infinite amount of time to be arguably illogical.  
+The Kalam argument challenges this with evidence from contemporary cosmology, such as the discovery of cosmic background radiation, increase of entropy, and the expansion of space, all pointing to a beginning. Even if there wasn't scientific evidence to point to, the previous section has shown the issue with the idea of a past infinite amount of time to be arguably illogical.
 
 3. **Time Is Cyclic:** Others propose a cyclical model, where the universe undergoes endless cycles of birth, death, and rebirth. Or even that one day entropy will reverse itself.
 

@@ -3,7 +3,7 @@ title = "About"
 description = "Hi, I’m Timothy — a systems-minded developer exploring the space between logic and visual design."
 +++
 
-{{ image(url="/images/profile/profile7.jpg", alt="Timothy Clocksin", no_hover=true, start=true) }}
+{{ image(url="profile7.avif", alt="Timothy Clocksin", no_hover=true, start=true) }}
 
 # Timothy Clocksin
 
