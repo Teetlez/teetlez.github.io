@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Font Rendering</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/font-rendering/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-06-26T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/font-rendering/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Secret Ink</title>
+        <published>2025-06-26T00:00:00+00:00</published>
+        <updated>2025-06-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/secret-ink/"/>
+        <id>https://timothyclocksin.info/projects/secret-ink/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/secret-ink/">&lt;p&gt;This project started because I simply couldn’t find the thing I wanted: A good SCP-like-generator-with-built-in-redactions that looked like it was actually typed on paper. However, as I started working on it, I soon came to realize that this was hard to find for a reason.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;a-puddle-as-deep-as-an-ocean&quot;&gt;A puddle as deep as an ocean&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img class=&quot;end&quot;alt=&quot;Picture depicting how Harfbuzz holds up of all modern infrastructure&quot;src=&quot;xkcd.avif&quot;decoding=&quot;async&quot; loading=&quot;lazy&quot;&#x2F;&gt;
+If you never went down the rabbit hole of how you get from the &lt;strong&gt;char&lt;&#x2F;strong&gt; primitive of 8-bit binary to &lt;em&gt;these words on the screen&lt;&#x2F;em&gt; (shut up about utf-8, I know, it’s more than 1 byte, kinda), you will soon realize that it is way more complicated than you think. This modified xkcd comic from the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;harfbuzz&#x2F;harfbuzz&quot;&gt;HarfBuzz github&lt;&#x2F;a&gt; page should at least give you some idea of the strange complexity we are dealing with here, and HarfBuzz isn’t even the whole of it, that’s just for &lt;em&gt;text shaping&lt;&#x2F;em&gt;. That doesn’t even cover:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rasterizing&lt;&#x2F;li&gt;
+&lt;li&gt;Word-Wrapping&lt;&#x2F;li&gt;
+&lt;li&gt;UTF-8&lt;&#x2F;li&gt;
+&lt;li&gt;Fonts&lt;&#x2F;li&gt;
+&lt;li&gt;Locales&lt;&#x2F;li&gt;
+&lt;li&gt;Inevitable hopelessness&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img class=&quot;start&quot;alt=&quot;Picture depicting how Harfbuzz holds up of all modern infrastructure&quot;src=&quot;ink-banner.webp&quot;decoding=&quot;async&quot; loading=&quot;lazy&quot;&#x2F;&gt;
+So, needless to say, I had a lot more work cut out for me than I thought. Hopefully I can go more in depth with all of that, but right now, I am putting this on the backburner. I will make it avalible to anyone who wants to look at my awful code.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Teetlez&#x2F;secret-ink&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gh-card.dev&#x2F;repos&#x2F;Teetlez&#x2F;secret-ink.svg?fullname=&quot; alt=&quot;Teetlez&#x2F;secret-ink - GitHub&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;&quot;&gt;Config file&lt;&#x2F;h3&gt;
+&lt;p&gt;I did add a config file to make the setup somewhat easier, but just keep in mind that you will have to download&#x2F;specify your own fonts and page textures, since I didn’t want to put those on my repo.&lt;&#x2F;p&gt;
+&lt;div class=&quot;crt scanlines&quot; aria-hidden=&quot;true&quot;&gt;
+	&lt;div class=&quot;container&quot; style=&quot;text-align: left&quot;&gt;
+&lt;pre class=&quot;asciiart&quot; style=&quot;display: inline-block; text-align: left&quot;&gt;
+&lt;p&gt;page_width = 2048
+page_height = 2048
+margin_top = 100
+margin_bottom = 200
+margin_left = 100
+margin_right = 100&lt;&#x2F;p&gt;
+&lt;p&gt;letter_spacing = 20.0
+line_spacing = 20.0&lt;&#x2F;p&gt;
+&lt;p&gt;default_font = “fonts&#x2F;Special_Elite&#x2F;SpecialElite-Regular.ttf”
+heading_font = “fonts&#x2F;Pica&#x2F;Pica.ttf”
+stamp_font = “fonts&#x2F;stampwriter_kit&#x2F;STAMPWRITER-KIT.ttf”
+font_size = 32.0
+heading_size = 64.0
+stamp_size = 72.0&lt;&#x2F;p&gt;
+&lt;p&gt;jitter_px = 2.0
+blur_sigma = 0.3
+ink_opacity = 0.95&lt;&#x2F;p&gt;
+&lt;p&gt;redaction_marker = “==”
+stamp_marker = “!!”&lt;&#x2F;p&gt;
+&lt;p&gt;paper_albedo = “paper&#x2F;CC0-Texture-Paper01&#x2F;PaperAlbedo.png”
+paper_normal = “paper&#x2F;CC0-Texture-Paper01&#x2F;PaperNormal.png”
+paper_roughness = “paper&#x2F;CC0-Texture-Paper01&#x2F;PaperRough.png”&lt;&#x2F;p&gt;
+&lt;&#x2F;pre&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+</feed>

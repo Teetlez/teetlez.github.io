@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Graphics</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/graphics/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-02T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/graphics/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Progress</title>
+        <published>2025-08-02T00:00:00+00:00</published>
+        <updated>2025-08-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/progress/"/>
+        <id>https://timothyclocksin.info/projects/progress/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/progress/">&lt;h1 id=&quot;background&quot;&gt;Background&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;style-inspiration&quot;&gt;Style inspiration&lt;&#x2F;h2&gt;
+&lt;p&gt;I always enjoyed watching audio-illustrations from the youtube channel &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@CSLewisDoodle&quot;&gt;CSLewisDoodle&lt;&#x2F;a&gt;. The videos always helped me visualize the concepts easily and I really liked the style (I think the original pictograms were syled off of &lt;a href=&quot;https:&#x2F;&#x2F;www.leremy.com&quot;&gt;Gan Khoon Lay&lt;&#x2F;a&gt; specifically), specifically the white-on-black outlining of stick-figure pictograms.
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;7AXi4-_HPRk&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;technological-inspiration&quot;&gt;Technological Inspiration&lt;&#x2F;h2&gt;
+&lt;p&gt;I wanted to see if there was a way I could use this style as inspiration for making a game. Thankfully, the general concept I was going for had been done before, in the 1-bit game &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;obradinn.com&quot;&gt;Return of the Obra Dinn&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;. The style I want is a little bit different (and more of the focus was on the use of dithering rather than the outlines), but the overall tech direction is similar. Some of the technology used is very helpfully documented in Lucas Pope’s &lt;a href=&quot;https:&#x2F;&#x2F;forums.tigsource.com&#x2F;index.php?topic=40832.msg1027183#msg1027183&quot;&gt;dev logs&lt;&#x2F;a&gt;, so even though he made his game in Unity (and I am hoping to do mine in Godot), I will be able to at least use many of the techniques and stand on the shoulders of this giant.
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;ILolesm8kFY&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;story-inpsiration&quot;&gt;Story Inpsiration&lt;&#x2F;h2&gt;
+&lt;p&gt;When I was young, I remember me and my brother playing this flash point-and-click game of &lt;em&gt;The Pilgrim’s Progress&lt;&#x2F;em&gt; which was more moving than you would think for a game like that, but there was something about it that I still remember yet can’t quite put my finger on why I do. I’m not sure why, but I think it’s fitting for this pictogram-based game to have a story-telling method of metaphore or allegory. Using personifications of different challenges and issues you run into along your journey, to represent everyday challenges.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gameplay&quot;&gt;Gameplay&lt;&#x2F;h2&gt;
+&lt;p&gt;Despite being arguably the most important aspect, it is the area I have the foggiest idea for. One direction I was leaning towads was having it be somewhat like Playdead’s &lt;a href=&quot;https:&#x2F;&#x2F;playdead.com&#x2F;games&#x2F;limbo&quot;&gt;Limbo&lt;&#x2F;a&gt; as a 2.5D platformer. However, I would like a little more in terms of gameplay mechanics in the game than that, so I guess this is something I need to ponder on.
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;Y4HSyVXKYz8&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;&#x2F;iframe&gt;
+&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Path-Tracing</title>
+        <published>2023-04-01T00:00:00+00:00</published>
+        <updated>2023-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/pathtracer/"/>
+        <id>https://timothyclocksin.info/projects/pathtracer/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/pathtracer/">&lt;p&gt;This project is a &lt;strong&gt;Monte Carlo path-tracer&lt;&#x2F;strong&gt; implemented in &lt;strong&gt;Rust&lt;&#x2F;strong&gt;, inspired by the book &lt;em&gt;Raytracing in One Weekend&lt;&#x2F;em&gt;. The primary goal was to enhance my understanding of both &lt;strong&gt;rendering techniques&lt;&#x2F;strong&gt; and &lt;strong&gt;Rust programming&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;key-features&quot;&gt;Key Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rust Implementation&lt;&#x2F;strong&gt;: Developed entirely in Rust for performance and safety.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Monte Carlo Path-Tracing&lt;&#x2F;strong&gt;: Realistic light simulation through randomized sampling.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Scenes&lt;&#x2F;strong&gt;: Flexible scene input allows users to tailor rendering setups.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;rendered-images&quot;&gt;Rendered Images&lt;&#x2F;h3&gt;
+&lt;p&gt;Click an image to view it in full size.&lt;&#x2F;p&gt;
+&lt;div class=&quot;photo-gallery&quot;&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;1678228930342.avif&quot;&gt;
+            &lt;img src=&quot;1678228930342.avif&quot; alt=&quot;Gallery Image 1&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;1678232201587.avif&quot;&gt;
+            &lt;img src=&quot;1678232201587.avif&quot; alt=&quot;Gallery Image 2&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Cornell.avif&quot;&gt;
+            &lt;img src=&quot;Cornell.avif&quot; alt=&quot;Gallery Image 3&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;NightLight.avif&quot;&gt;
+            &lt;img src=&quot;NightLight.avif&quot; alt=&quot;Gallery Image 4&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend.avif&quot; alt=&quot;Gallery Image 5&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend2.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend2.avif&quot; alt=&quot;Gallery Image 6&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend3.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend3.avif&quot; alt=&quot;Gallery Image 7&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;OneWeekend4.avif&quot;&gt;
+            &lt;img src=&quot;OneWeekend4.avif&quot; alt=&quot;Gallery Image 8&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Studio.avif&quot;&gt;
+            &lt;img src=&quot;Studio.avif&quot; alt=&quot;Gallery Image 9&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;div class=&quot;photo-item&quot;&gt;
+        &lt;a href=&quot;Teaset3.avif&quot;&gt;
+            &lt;img src=&quot;Teaset3.avif&quot; alt=&quot;Gallery Image 10&quot; loading=&quot;lazy&quot; class=&quot;full&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+    &lt;&#x2F;div&gt;  &lt;&#x2F;div&gt;
+&lt;style&gt;
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .photo-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .photo-item img:hover {
+        transform: scale(1.05);
+    }
+&lt;&#x2F;style&gt;&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;&#x2F;h2&gt;
+&lt;p&gt;To run the path-tracer, use the following command-line options:&lt;&#x2F;p&gt;
+&lt;div class=&quot;crt scanlines&quot; aria-hidden=&quot;true&quot;&gt;
+	&lt;div class=&quot;container&quot; style=&quot;text-align: center&quot;&gt;
+&lt;pre class=&quot;asciiart&quot; style=&quot;display: inline-block; text-align: left&quot;&gt;
+&lt;p&gt;rust_raytracer.exe [OPTIONS] [SCENE]&lt;&#x2F;p&gt;
+&lt;p&gt;Arguments:
+[SCENE] Scene file to use&lt;&#x2F;p&gt;
+&lt;p&gt;Options:
+-s, –samples [SAMPLES] Number of samples per pixel [default: 128]
+-p, –passes [PASSES] Number of frames to cumulate [default: 64]
+-b, –bounces [BOUNCES] Max number of times a ray can bounce [default: 8]
+–width [WIDTH] Pixel width of frame [default: 640]
+–height [HEIGHT] Pixel height of frame [default: 480]
+-g, –gamma [GAMMA] Gamma level [default: 2.2]
+-l, –light-clamp [LIGHT_CLAMP] Max light brightness [default: inf]
+-f, –filter Apply bilateral filter after render to reduce noise
+-h, –help Print help
+-V, –version Print version&lt;&#x2F;p&gt;
+&lt;&#x2F;pre&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ray-Tracing</title>
+        <published>2023-01-26T00:00:00+00:00</published>
+        <updated>2023-01-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/raytracer/"/>
+        <id>https://timothyclocksin.info/projects/raytracer/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/raytracer/">&lt;p&gt;This project is a GLSL-based ray-tracer that I ported from an older OpenGL school project. While the transition posed challenges—particularly the lack of recursion in GLSL—it also provided opportunities to improve upon the original code.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;interactive-demo&quot;&gt;Interactive Demo&lt;&#x2F;h2&gt;
+&lt;p&gt;Explore the ray-tracer in action below:&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;480&quot; height=&quot;480&quot; frameborder=&quot;0&quot; src=&quot;https:&#x2F;&#x2F;www.shadertoy.com&#x2F;embed&#x2F;DllSWH?gui=true&amp;t=10&amp;paused=true&amp;muted=true&quot; allowfullscreen&gt;Ray-Tracing hlsl window&lt;&#x2F;iframe&gt;
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Click &amp;amp; Drag&lt;&#x2F;strong&gt;: Move the camera around.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;project-notes&quot;&gt;Project Notes&lt;&#x2F;h2&gt;
+&lt;p&gt;The lack of recursion in GLSL was a significant limitation during the conversion. However, I managed to implement iterative methods to mimic recursive behavior, resulting in a functional and improved ray-tracer.&lt;&#x2F;p&gt;
+&lt;p&gt;Let me know if you’d like more details about the implementation or need help with similar projects!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

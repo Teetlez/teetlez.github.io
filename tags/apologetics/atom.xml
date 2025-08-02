@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - apologetics</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/apologetics/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-03-04T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/apologetics/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Kalam Cosmological Argument</title>
+        <published>2025-03-04T00:00:00+00:00</published>
+        <updated>2025-03-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/writings/kalam-argument/"/>
+        <id>https://timothyclocksin.info/writings/kalam-argument/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/writings/kalam-argument/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;The Kalam Cosmological Argument (Kalam or KCA in short) is a philosophical argument for the existence of a cause for the universe. It is a deductive argument positing that an extremely intelligent, powerful, and personal agent is the cause for the reality we find ourselves in. The argument is surprisingly simple, yet it has been highly influential in both philosophical and theological circles.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;definitions&quot;&gt;Definitions&lt;&#x2F;h3&gt;
+&lt;p&gt;For clarity, the following terms are used in the argument:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;$ B(x) = x$ began to exist: This denotes that $x$ has a beginning in time.&lt;&#x2F;li&gt;
+&lt;li&gt;$ C(x) = x$ had a cause: This denotes that $x$ has a cause of its existence.&lt;&#x2F;li&gt;
+&lt;li&gt;$ 𝕌 = $ the Universe: This refers to the totality of space, matter, time, and energy.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;&#x2F;h2&gt;
+&lt;p&gt;The Kalam Cosmological Argument can be broken down into a series of premises and a conclusion:&lt;&#x2F;p&gt;
+&lt;p&gt;$ P1.\enspace B(x) \implies C(x) $&lt;&#x2F;p&gt;
+&lt;p&gt;$ P2.\enspace B(𝕌) $&lt;&#x2F;p&gt;
+&lt;p&gt;$ \therefore \enspace C(𝕌) $&lt;&#x2F;p&gt;
+&lt;p&gt;It looks like a weird math proof instead of an argument, but let’s look at it step by step.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;p1-enspace-b-x-implies-c-x&quot;&gt;$ P1.\enspace B(x) \implies C(x) $&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anything that begins to exist has a cause.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote class=&quot;note&quot;&gt;
+	&lt;p class=&quot;alert-title&quot;&gt;
+		&lt;i class=&quot;icon&quot;&gt;&lt;&#x2F;i&gt;Note&lt;&#x2F;p&gt;
+	&lt;p&gt;This isn’t claiming that &lt;em&gt;everything&lt;&#x2F;em&gt; has a cause, just all things that begin to exist (i.e., things that have a beginning).&lt;&#x2F;p&gt;
+
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;explanation-of-p1&quot;&gt;Explanation of P1&lt;&#x2F;h4&gt;
+&lt;p&gt;This premise is rooted in common experience and the intuitive understanding of causality. If something begins to exist, it must have a cause that brings it into being. For instance, if a car is built, there must be a builder, materials, and a process that brings the car into existence. Or even simpler, if you see tire burn marks in the street, it’s perfectly logical and coherent to assume that the marks were cause by something other than the tire marks themselves. In fact, most would argue that to say the car or tire marks popped into existence uncaused, without reason, is not only a bad explanation, but that it goes against everything we believe to be true about reality.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;objections-to-p1&quot;&gt;Objections to P1&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Quantum Mechanics:&lt;&#x2F;strong&gt; Some may point to phenomena in quantum mechanics, like particle fluctuations, where events seem to occur without clear causes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;However, such events do not contradict P1 because they don’t involve things coming into existence ex nihilo (out of nothing) but rather involve changes in the configuration of existing energy within the &lt;em&gt;quantum vacuum&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Particles appear and disappear in the same manner as a fist appears and disappears as the configurations of someones fingers change or shift. In addition, the appearance and disappearance of particles are governed by very specific rules, and is quite the opposite of “some thing popping into existence because of no thing without reason”.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Applies to the Cause:&lt;&#x2F;strong&gt; If everything that begins to exist needs a cause, then whatever caused that would need a cause too. You are then faced with a logically infinite chain of events with no “uncaused cause”&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;This objection is usually due to a fundamental misunderstanding of the first premise. There is a big distinction from “everything has a cause” and “everything &lt;em&gt;that begins to exist&lt;&#x2F;em&gt; has a cause”, and opponents fail to make this very basic distinction. It is intellectually embarrassing to propose such an argument that has been already addressed thousands of years ago, with Aristotle’s “Unmoved Mover”. To ask “What moved the ‘Unmoved Mover’” is simply a logical contradiction, and makes as much sense as the phrase “Can I have hot iced coffee, and without ice?” or “is this dairy milk, milk-free?”.&lt;&#x2F;p&gt;
+&lt;p&gt;Either you have an infinite chain of causal events with no first-cause (which will be explored later), or you have a first-cause that itself was not caused (because if it was caused then it would cease to be the first-cause). Let’s keep those two options in mind for later.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Necessity of a Material Cause:&lt;&#x2F;strong&gt; Some may argue that only material things require causes, but abstract objects (like numbers) do not.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Laying aside the question of whether abstract objects are actual &lt;em&gt;things&lt;&#x2F;em&gt; or not, this actually touches on a concept that points to the Kalam’s favor. When speaking of “things” whether material or otherwise, two important distinctions appear: things that can fail to exist (contingent) and things that cannot fail to exist given their very nature (necessary). An example of this is that we can imagine a world where 2 apples either did exist or a world where they didn’t (contingent), but we cannot imagine a world where 1 + 1 = 2 didn’t exist (necessary).&lt;&#x2F;p&gt;
+&lt;p&gt;The flaw in this argument is that it assumes that abstract objects have any sort of causal power instead of just having a nature of logical truths. “One made me do it” is a phrase that can only be uttered by an elegantly superfluous thespian or a skitzophrenic convinced that numbers are influencing his behavior. Either way, abstract object cannot be understood to have any casual power (only logical power), especially over the material world. thus this objection proves moot.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Anything Eternal Doesn’t Require a Causal Explanation:&lt;&#x2F;strong&gt; If something has always existed, critics might argue, it doesn’t need a cause.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;This is actually one objection that the Kalam can actually affirm and doesn’t harm the argument (as seen in objection #2). However, this does more harm than good to the objector’s position. “&lt;em&gt;x&lt;&#x2F;em&gt; is eternal” means logically that there was never, and never will be, a time when &lt;em&gt;x&lt;&#x2F;em&gt; is non-existent (i.e. &lt;em&gt;x&lt;&#x2F;em&gt; never fails to exist), and thus means that &lt;em&gt;x&lt;&#x2F;em&gt; is logically necessary. So the objector actually forces themselves into a corner in admitting that if &lt;em&gt;x&lt;&#x2F;em&gt; never begins to exist then it doesn’t strictly require a cause, which is just the inverse representation of premise #1: $ \neg C(x) \implies \neg B(x) \equiv B(x) \implies C(x) $ (&lt;strong&gt;If &lt;em&gt;x&lt;&#x2F;em&gt; doesn’t require a causal explanation, then &lt;em&gt;x&lt;&#x2F;em&gt; must have no beginning&lt;&#x2F;strong&gt;).&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;but-can-t-this-also-apply-to-the-universe&quot;&gt;But can’t this also apply to the universe?&lt;&#x2F;h4&gt;
+&lt;p&gt;This leads us neatly into the second premise:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;p2-enspace-b-u&quot;&gt;$ P2.\enspace B(𝕌) $&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Universe began to exist.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;explanation-of-p2&quot;&gt;Explanation of P2&lt;&#x2F;h4&gt;
+&lt;p&gt;The second premise asserts that the universe (i.e. All of matter, time, space, and energy), began to exist at some point in the past. This is consistent with the prevailing scientific cosmological model, referred to as the &lt;em&gt;Big Bang&lt;&#x2F;em&gt;, which posits that the universe had a definite beginning around 13.8 billion years ago. However, This also has a logical component that is also quite compelling against an infinite causal chain.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;there-are-no-actual-infinities&quot;&gt;There are no &lt;em&gt;Actual&lt;&#x2F;em&gt; Infinities&lt;&#x2F;h4&gt;
+&lt;p&gt;By actual infinites, I mean a specific kind of infinity that would exist in physical and temporal reality. I’m not saying that the mathematical concept is somehow false, but I am saying that it is a tool mathematicians can play with as long as they don’t take it out of the toy-box of &lt;em&gt;mathematics&lt;&#x2F;em&gt;. The problem with bringing infinities into the actual (i.e. physical and temporal) world, is that it enviably creates paradoxes when followed to their logical conclusion. This has been previously shown with the example of &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hilbert%27s_paradox_of_the_Grand_Hotel&quot;&gt;Hilbert’s Grand Hotel&lt;&#x2F;a&gt;, where a full hotel can accept an infinite amount of guests, check out an infinite number of guests, and still have the exact same number of guests the entire time. Logically, when paradoxes occur in logic, then at least one of the assumptions leading to the conclusion must be false. Thus, since the mathematics are logically sound, then the assumption of an actual infinity (the premise) must be false.&lt;&#x2F;p&gt;
+&lt;p&gt;This will also apply to the infinite causal chain mentioned earlier. Let’s assume there was a past infinite chain of events $ E$ with the notation $ E(0)$ denoting the last occurring event (this chain has no beginning, but it ends. This models a reality where the universe had no beginning, and $ E(0)$ is &lt;em&gt;now&lt;&#x2F;em&gt;). Because we are in this moment &lt;em&gt;now&lt;&#x2F;em&gt; (i.e. $ E(0)$ ), we can say that $ E(0)$ is true because it happens right &lt;em&gt;now&lt;&#x2F;em&gt;. However, because this is a causal chain, we also know that $ E(0)$ is contingent (caused by something), or let’s assume so for now. This would mean that logically $ E(0)$ was caused by some event E(-1). From this we can generalize that for any event $ E(n)$ within the causal chain, we know:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;It is contingent (caused by some event in $ E$ other than itself)&lt;&#x2F;li&gt;
+&lt;li&gt;The causal event is some $ E(n-1)$&lt;&#x2F;li&gt;
+&lt;li&gt;If some $ E(n) $ isn’t caused by something, then it fails to exist (1st point)&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;This is a very bad thing, because we have just shown paradoxically that $ (\forall x \in \N)(\neg E(x)) $ meaning, that for all possible events in the chain, they fail to exist unless caused by some other $ E(x)$ , which doesn’t exist because it also fails to have a causing event. Basically, if our two deduced points are true for all events, then all events fail to exist. Paradoxically, we know $ E(0)$ does exist, because it is happening right &lt;em&gt;now&lt;&#x2F;em&gt;, but $ 0 \in \N $ so logically $ E(0)$ fails to exist.&lt;&#x2F;p&gt;
+&lt;p&gt;So what is our way forward? The issue must lie in our assumptions. There must be some $ E(\alpha) $ that is necessary for all following events in $ E $ to be caused by. At the bottom of all this, there needs to be some ground to stand on. Thus, the simplest explanation is that this infinite chain of events is not actually infinite, but has some beginning and therefore not infinite.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;objections-to-p2&quot;&gt;Objections to P2&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Alternate Cosmological Models:&lt;&#x2F;strong&gt; Critics may propose alternative cosmological theories, such as the steady-state theory, that suggest the universe may have always existed or that it doesn’t have a definite beginning.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;These models have been largely overshadowed by evidence supporting the Big Bang model, which points to a beginning for the universe. As my friend also likes to say, “Just because you have a mathematical model for something, doesn’t mean that the model is reality”. Car models are great, and you can have immensely detailed ones too, but that doesn’t mean that it’ll drive you to work. Humans are fallible, and so that means we cannot have the mindset of Aristotle and “think” our way through discovering the universe. No matter how great our thought experiments or mathematical models, they always must be tested by the evidence.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;strong&gt;The Universe Is Past Eternal:&lt;&#x2F;strong&gt; Some argue for a past-eternal universe, suggesting that the universe has existed for an infinite amount of time.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The Kalam argument challenges this with evidence from contemporary cosmology, such as the discovery of cosmic background radiation, increase of entropy, and the expansion of space, all pointing to a beginning. Even if there wasn’t scientific evidence to point to, the previous section has shown the issue with the idea of a past infinite amount of time to be arguably illogical.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Time Is Cyclic:&lt;&#x2F;strong&gt; Others propose a cyclical model, where the universe undergoes endless cycles of birth, death, and rebirth. Or even that one day entropy will reverse itself.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The Kalam addresses this by highlighting that even a cyclic universe would still require a cause for its first inception, and that this model doesn’t solve the problem of a beginning because that just falls into the same category of the previous objection. Not only that, but cyclical models have shown that even mathematically, entropy is still preserved, and thus each cycle will have less energy than the previous, which also points to a beginning.&lt;&#x2F;p&gt;
+&lt;p&gt;The point of reversing entropy falls into a trap I like to call “scientific wish casting”. First, because there is zero evidence that it’s even physically possible, and secondly it ends up still presupposing a sort of “meta-time” when saying that it “reverses” itself. For example, let’s say you have the events $ A, B, C, D $ and at event $ C $ you reverse entropy. What actually happens? The event’s will still “flow” in the same direction $ A \to B \to C \to B \to … $ and you still have the problem of an infinite chain of events.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;therefore-enspace-c-u&quot;&gt;$ \therefore \enspace C(𝕌) $&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Therefore, the Universe had a cause.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;explanation-of-the-conclusion&quot;&gt;Explanation of the Conclusion&lt;&#x2F;h4&gt;
+&lt;p&gt;If both P1 and P2 are valid and the reasoning from them is sound, then the conclusion logically follows: the universe had a cause. I won’t put in my conclusion that this cause was &lt;em&gt;God&lt;&#x2F;em&gt;, not because I don’t believe it, but because I want to make this conclusion simple enough to be unobjectionably true, yet powerful enough to evoke reflection. At the very least one should ponder what that cause is, certainly not itself. So why is all of matter, space, time, and energy caused, rather than there just being nothing at all? Why is there something, rather than nothing?&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;objections&quot;&gt;Objections?&lt;&#x2F;h4&gt;
+&lt;p&gt;At this point, an objector could challenge the argument by disputing one of the premises (P1 or P2) or questioning the logical structure. However, if both premises are accepted and the reasoning from them is valid, the conclusion that the universe has a cause is difficult to rationally reject and is, in fact, logically impossible to refute.&lt;&#x2F;p&gt;
+&lt;p&gt;Since the argument follows the logical pattern of modus ponens (If P implies Q, and P is true, then Q must be true), any valid objection must either invalidate P1 or P2, or challenge the application of the principle of causality to the universe itself. Any other strategy would be to fight against the very structure of logic itself.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;application&quot;&gt;Application&lt;&#x2F;h2&gt;
+&lt;p&gt;Here I will allow myself to reflect on the implications of the conclusion. Note that this isn’t part of the argument, but the application of it’s implications. Is the Universe self-caused? Well, that begs the further question, if something causes itself, why? The only options are:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Due to its nature&lt;&#x2F;li&gt;
+&lt;li&gt;No reason at all&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The problem here is that if something exists due to it’s very nature, then it is not contingent, but necessary. But if it is necessary that means it can’t fail to exist, and so there shouldn’t be a time when before, $x$ didn’t exist, and after $x$ did exist.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, if, for the sake of argument, $x$ did begin to exist by it’s own nature at some time $t$, why didn’t it begin to exist at $ t-1 $ or $ t+1 $? If because of it’s nature it needed to begin at time $t$, then you no longer have a necessary thing, but a contingent one, that depends on time.&lt;&#x2F;p&gt;
+&lt;p&gt;We know that we can’t push the argument further back because then time would be necessary and thus eternal, which is paradoxical. If time had to begin at $ t=0 $ then to say that time had to begin to exist because of it’s nature is to reduce it to a brute fact, “It’s that way because it just is”.&lt;&#x2F;p&gt;
+&lt;p&gt;So, what other option is there? That matter can’t create all of matter and time can’t create time. So the cause needs to be immaterial to create material, timeless to create time, and spaceless to create space. In addition, Energy cannot be created by matter, time, or space, so there needs to be some energy source. Given the amount of energy in the whole universe, that is a lot larger than a 12V battery…&lt;&#x2F;p&gt;
+&lt;p&gt;So we have a cause that is:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Immaterial&lt;&#x2F;li&gt;
+&lt;li&gt;Timeless&lt;&#x2F;li&gt;
+&lt;li&gt;Spaceless&lt;&#x2F;li&gt;
+&lt;li&gt;Immensely Powerful&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Great, so then we have our universe-causer, right? Not quite.&lt;&#x2F;p&gt;
+&lt;p&gt;We have all the properties of something that is &lt;em&gt;capable&lt;&#x2F;em&gt; of causing the universe, but that doesn’t necessarily mean that those properties can cause the universe themselves. We know that whatever is the first cause must be necessary, but there is nothing inherent about the nature of being immaterial that leads to creation of the material. In other words, being immaterial is a requirement of something that causes the existence of all material, but that isn’t the explanation of why material begins to exist in the first place. The same fact applies to the other three; We are missing an important property. So then we must ask: what property has the capability of bringing causes into existence by it’s own nature? We know that everything that begins to exist has a cause, but what things have the ability to begin causes?&lt;&#x2F;p&gt;
+&lt;p&gt;Near the house I grew up in, there is a path that leads to a trail in the woods. It’s a very beautiful walk in the spring and the fall, and it leads to a glassy pond surrounded by the forests scenic tranquility. Say one day, I decided to go to that pond only to be cut off by a coarse stretch of asphalt tearing across the forest. I ask myself, “Why is this here?”&lt;&#x2F;p&gt;
+&lt;p&gt;Two possible answers will come to mind (excluding the non-answer that “it just popped into existence out of nothing for no reason at all, don’t question it”) are: This was caused either by nature, or by a will against nature. I quickly and obviously reject the idea that this was caused by nature, simply because it doesn’t at all fit the causal scope of nature. Yes, it’s there because heated tar was combined with some other substances to create asphalt, and the pigment of the paint reflects the specific spectrum to then appear yellow to my eyes. However, none of these explain &lt;em&gt;why&lt;&#x2F;em&gt; the road is there, only &lt;em&gt;how&lt;&#x2F;em&gt;. The remaining option is that there must be some active will that began a causal chain separate from the consistent causal chain of nature. This is the unique property of wills.&lt;&#x2F;p&gt;
+&lt;p&gt;Now even if you try to argue that the road was still caused by nature in the firing of neurons of some meat puppet, I can simply reject your assertion on the basis that I do not accept arguments coming from the firing neurons of a meat puppet. Because we humans in fact have a very odd shape within our universe, in a reality where everything around us seems to be governed and determined by simple and elegant laws, our minds actively fight against being put into the same mold. We bite and claw and scratch against the very idea that we are (as &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Notes_from_Underground#Part_1:_%22Underground%22&quot;&gt;Dostoyevsky&lt;&#x2F;a&gt; puts it) “merely keys on a piano”. It is beneath us, and every fiber in our being fights against the thought of bowing to it.&lt;&#x2F;p&gt;
+&lt;p&gt;So if from our natural experience we know that minds or wills have the property of being causal agents able to bring cause into existence, we can at least say that a personal mind and will would be the final property we would need in order to complete our picture of the cause of the Universe. Given that there doesn’t seem to be any equal or alternative proposition of something that can “cause causes”, we can say that the most likely cause of our universe is:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Immaterial&lt;&#x2F;li&gt;
+&lt;li&gt;Timeless&lt;&#x2F;li&gt;
+&lt;li&gt;Spaceless&lt;&#x2F;li&gt;
+&lt;li&gt;Immensely Powerful&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Personal&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;There are so many paths to continue from this, but I think this rambling has gone on for long enough. It is best, for the sake and sanity of the unfortunate sole that got this far, that I wrap up my thoughts.&lt;&#x2F;p&gt;
+&lt;p&gt;The Kalam Cosmological Argument remains &lt;em&gt;one of&lt;&#x2F;em&gt; the most effective arguments for the existence of a cause behind the universe. Its simplicity and logical rigor make it a valuable tool in both philosophical and apologetic discussions. Hopefully if I have the time (and motivation), I can delve into the other effective arguments for God (and specifically the Christian God).&lt;&#x2F;p&gt;
+&lt;p&gt;While it doesn’t explicitly prove God, I believe it acts as a near impenetrable wall against doubts. Even at my lowest, when I feel like there just isn’t a point to anything, I run up against the Kalam. I know that if I want to give into my doubts, I need to first disprove the Kalam. I know that I’ve tried many times, but it is solid. Hopefully you too are blessed by it, or at the very least, it leaves a pebble in your shoe, so that you can’t help but wonder:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;What caused all of this?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Newtonian views on the trinity: An analysis</title>
+        <published>2023-12-03T00:00:00+00:00</published>
+        <updated>2023-12-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/writings/newton-trinity/"/>
+        <id>https://timothyclocksin.info/writings/newton-trinity/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/writings/newton-trinity/">&lt;h2 id=&quot;purpose&quot;&gt;Purpose&lt;&#x2F;h2&gt;
+&lt;p&gt;This is an analysis of Issac Newtons’s comments on his views on the triune God. I don’t quite view Newton an authority on this subject, yet I think his comments still require addressing in a concise manner.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;These 12 (13?) points we never something Newton chose to publicly disclose, and were found within his personal writings. While he did heavily support the idea of theistic creation given the beauty of creation and mathematics, he was critical of the concept of the trinity.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;definitions&quot;&gt;Definitions&lt;&#x2F;h2&gt;
+&lt;p&gt;It would be wise to first define what is meant by a triune God. This will go a long way in helping to clear up some parts of scripture Newton thought contradicted the trinity. It will also help to define some names of different philosophies about the trinity&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Trinity&lt;&#x2F;strong&gt;: A combination of the two words “tri” (three) and “unity” (as one). There are two possible errors one could make when describing this:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Three Beings and one Being&lt;&#x2F;li&gt;
+&lt;li&gt;Three Persons and one Person&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Both of these statements are logical contradictions, but they do not descibe the Trinity. The way the Trinity is described is: &lt;strong&gt;God is one in Being and three in Persons.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Arianism&lt;&#x2F;strong&gt;: The belief that the Son of God did not always exist but was begotten&#x2F;made before the creation by God the Father. This is in essence defining the Son as contingent rather than necessary.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Subordinationism&lt;&#x2F;strong&gt;: a Trinitarian doctrine wherein the Son is subordinate to the Father, not only in submission and role, but with actual ontological subordination to varying degrees. This is to say that the Son is in submission to the Father by His very nature. This is different from saying that the Son humbled Himself by becoming human.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;newton-s-objections&quot;&gt;Newton’s Objections&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;1&quot;&gt;1&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The word God is nowhere in the scriptures used to signify more than one of the three persons at once.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This is a little tricky to address as I don’t know what hebrew or greek word for God he is referring to. However, regardless of what word is used, it falls prey to the confusion between God as a being and the Persons of God. To use the word God to signify more than one of the three persons might lead to confussing the persons of God (i.e. It is at least possible that the NT writers did this in order to keep people from thinking the Son synonymous with the Spirit).&lt;&#x2F;p&gt;
+&lt;p&gt;One of the things that needs to be considered is that the New Testament authors were trying to navigate the concept of the Trinty while also carefully avoiding the accusation of polytheism. The NT writers did affirm the deity of Christ in multiple areas implicitly (e.g. Subsituting Jesus in OT scriptures that referred to God). Regardless, This objection does nothing to undermine the concept of the trinity, but actually affirms the fact that each person is referred to as God.&lt;&#x2F;p&gt;
+&lt;p&gt;Lastly, Though I think @stealthy_warlord might object to this point, one of the hebrew words used for God is actually a singular plural (similar how it would be said that a cluster of grapes are one), which would imply more than one person, but one being.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2&quot;&gt;2&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The word God put absolutely without restriction to the Son or Holy Ghost doth always signify the Father from one end of the scriptures to the other.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;If I am understanding this statement correctly, it is essentially saying that in the scriptures the default meaning of the word &lt;em&gt;God&lt;&#x2F;em&gt; is the same as &lt;em&gt;God the Father&lt;&#x2F;em&gt;. However, one must not forget the original contexts of these scriptures. With the new revelations from the NT, there were concepts that had to be introduced with care and clairity. Two of these concepts would be that of the Son and of the Spirit. With the interactions within the Trinity, the person of the Father would be closest to how the ancient Hebrews would have understood God, thus needing less specification.&lt;&#x2F;p&gt;
+&lt;p&gt;The Son needed to be specified due the concept of God taking on this role of a servant and a sacrifice. The whole reason of specifying the Son as God is so that there is reason to not trust in the belief of Arianism. If it were not the case, how much more likely would Arianism rise as a result of this? I think if Newton’s statement was to imply some non-trinitarian view, then it clearly backfired.&lt;&#x2F;p&gt;
+&lt;p&gt;The Spirit needed to be specified due to the concept of God indwelling those who are saved. While it was already known that God is omnipresent, the idea of God dwelling within the saved would have to be specified as the Holy Spirit in order to avoid the Helper being confused with some other lesser spiritual being. Thus, it makes sense that it had to be constantly reiterated: the Holy Spirit &lt;em&gt;is&lt;&#x2F;em&gt; God.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3&quot;&gt;3&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Whenever it is said in the scriptures that there is but one God, it is meant the Father.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I am asumming by scriptures Newton means the NT, as the Father, Son, and Holy Spirit was a NT revelation given to us by Jesus. Regardless, I thik my point in #2 also applies to this. The NT writers were very careful to avoid the implication of there being more than one God, but that doesn’t mean they never imply Jesus Christ to be God. Here are two examples:&lt;&#x2F;p&gt;
+&lt;p&gt;In 1 Corinthians 8:6&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;yet for us there is one God, the Father, from whom are all things and for whom we exist, and one Lord, Jesus Christ, through whom are all things and through whom we exist.*&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The word for God here is “θεὸς” (Theos) and the word for Lord is “κύριος” (kyrios). Before any objections are that kyrios doesn’t refer to God, it is used numerous times in the scriptures when quoting OT scriptures that referred to God (1st Corinthians 14:21, 2nd Corinthians 6:17 &amp;amp; 18, and 2nd Corinthians 10:17 just for those two letters alone). Here we see clearly Paul avoiding the accusation of polytheism, yet still showing that Christ is God.&lt;&#x2F;p&gt;
+&lt;p&gt;Another possible issue someone might bring up is that the words for &lt;em&gt;from&lt;&#x2F;em&gt; “ἐξ” (ek) and &lt;em&gt;through&lt;&#x2F;em&gt; “διά” (dia) are different. However, both have been used in a way similar to “by” in english. Not only that, but this still would not call the trinity into question, as this is merely stating the origin and cause of all things, which are both attributed to God. There is nothing wrong to say that God’s divine Logos was the cause of all things and God’s divine power was the origin of all things.&lt;&#x2F;p&gt;
+&lt;p&gt;In Hebrews 13:8&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Jesus Christ is the same yesterday and today and forever.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Is the NT writer quoting the psalms and subsituting in Jesus Christ where God is mentioned, effectively equating Jesus to God.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;4&quot;&gt;4&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;When, after some heretics had taken Christ for a mere man and others for the supreme God, St John in his Gospel endeavoured to state his nature so that men might have from thence a right apprehension of him and avoid those heresies and to that end calls him the word or logos: we must suppose that he intended that term in the sense that it was taken in the world before he used it when in like manner applied to an intelligent being. For if the Apostles had not used words as they found them how could they expect to have been rightly understood. Now the term logos before St John wrote, was generally used in the sense of the Platonists, when applied to an intelligent being and the Arians understood it in the same sense, and therefore theirs is the true sense of St John.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This seems to dance dangerously close to an etymological fallacy. Koine Greek was the &lt;em&gt;lingua franca&lt;&#x2F;em&gt; of the time, and thus was spoken in many cultures that would be wholly separated from Platonist philosophies. To imagine that a Hebrew Sadducee from Jerusalem and a Greek Philosopher from Thebes would have the same understanding of the word &lt;em&gt;logos&lt;&#x2F;em&gt; doesn’t sound very plausible.&lt;&#x2F;p&gt;
+&lt;p&gt;Nonetheless, if logos is referring to how Platonists would describe it, that still would not give good ground to Arianism. In John 1:1-5&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things came into being through Him, and apart from Him nothing came into being that has come into being. In Him was life, and the life was the Light of men. The Light shines in the darkness, and the darkness did not comprehend it.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Arians claim that the Logos refers to a being created by God that then brought everything else into being. However, this does not obtain, as the Logos is so tightly linked to God that to state the Logos as contingent on God would imply that God is not necessarily logical by nature.&lt;&#x2F;p&gt;
+&lt;p&gt;It also doesn’t obtain that the Logos is a contingent being, as only contingent things come into being, yet the Logos did not come into being as &lt;em&gt;all&lt;&#x2F;em&gt; things came into being with the Logos being the efficient cause of &lt;em&gt;all&lt;&#x2F;em&gt; things. Given the previous statement, we have to assume that &lt;em&gt;apart&lt;&#x2F;em&gt; does not mean “Except for” but “without”. This is because of the repetative nature of the statement, and if it were the case that &lt;em&gt;apart&lt;&#x2F;em&gt; meant “except”, then we should expect John to have added the same exception to the meaning of &lt;em&gt;all&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, the next usage of the greek word “apart” &lt;em&gt;(choris)&lt;&#x2F;em&gt; in John isn’t used in a way the Arianist would want. The other usage is in John 15:5&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;I am the vine, you are the branches; he who abides in Me and I in him, he bears much fruit, for &lt;strong&gt;apart&lt;&#x2F;strong&gt; from Me you can do nothing.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Which draws a nice parallel to the first chapter. One might even imagine that this phrase is from what John drew from as inspiration for the beginning of his gospel. The next usage of the word just refers to the burial clothes of Jesus being set aside and probably shouldn’t be seen as to have the same literary weight as the previous two.&lt;&#x2F;p&gt;
+&lt;p&gt;Thus we can conclude that irrespective of the etemology of the time, an Arianist interpretation of John 1 would still be incorrect.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;5&quot;&gt;5&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The Son in several places confesseth his dependence on the will of the Father.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This is assuming that the statement Jesus made is referring in totality and not just Christ’s humbled state during His ministry on earth before He ascended. At best one could argue that this statement could go either way, but one must also consider the background information and not isolate scriptures.&lt;&#x2F;p&gt;
+&lt;p&gt;When Christ became incarnate, He willingly chose to set aside much of His divine rights by the act of humbliling Himself and taking on a human nature. However, the union and relationship within the Trinity was still present, and would make sense for Jesus to rely on the Father for guidance, knowledge, and will given Christ voluntary limitations. It is, at the very least, possible that Jesus did not have His perfect foreknowledge, and thus needed to depend on the Father, who did have divine omniscence, to know what He had to acomplish. Even though Jesus was morally perfect and His will was completely aligned with the Father’s, He still depended on the Father’s knowledge of what must happen in order to make good decisions according to both of their wills.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, Christ’s life was a perfect demonstration of how man ought to be in perfect relation to the Father. This is modeled through His knowledge of God’s word, constant devotion in prayer, complete humility and reliance on God, and obedience to Him even to death. So it is also possible that this is Christ showing us how we ought to align our wills to the will of God and depend completely on Him.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;6&quot;&gt;6&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The Son confesseth the Father greater, then calls him his God etc.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;A good analogy used by Nabeel Qureshi is “The president of the United States of America is greater than me, but that doesn’t mean he is more human than me.” Another point is Jesus uses a reference to King David in Psalm 110 to show that He is the Christ. In this passage there is the verse&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The Lord said to my Lord, “Sit at my right hand, until I put your enemies under your feet”&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Which shows the divinity of Christ, as King david had no earthly lord, yet the hebrew phrase uses Lord (Yahweh &amp;amp; Adonai). Both of these words are used to refer to God, and makes the concept of the trinity the most plausible option to not only interpret this verse, but also of how Jesus uses it. To suggest that this is referring to a created being would lead to idolatrous propositions.&lt;&#x2F;p&gt;
+&lt;p&gt;All of this is also ignoring the other two points I made in 5 &amp;amp; 8, where while Jesus is performing His earthly ministry, He relies on the Father.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;7&quot;&gt;7&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The Son acknowledgeth the original prescience of all future things to be in the Father only.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Again, this is assuming that the statement is not referring to Christ’s ministry before He ascended. However, there isn’t any reason given for this assumption, and taking the surrounding scriptures as context to interpret the passages where Jesus says this would further delegitamize this claim.&lt;&#x2F;p&gt;
+&lt;p&gt;As previously stated, when the Son became incarnate and humbled Himself, He would have set aside His right to divine omniscience. By choosing to take on a human nature, He was truly human and thus likewise limited in knowledge of the future. Thus He would have to depend on the Father for guidence. None of this seems to contradict the idea of the Trinity.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;8&quot;&gt;8&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;There is nowhere mention of a human soul in our Saviour besides the word, by the meditation of which the word should be incarnate. But the word itself was made flesh and took upon him the form of a servant.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This seems to be an argument from silence about Jesus’s human nature. However, this type of argument is more geared towards historical events rather than theological concepts and will only hold if&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The author was expected to have such information&lt;&#x2F;li&gt;
+&lt;li&gt;The author was intending to give a complete account of the situation&lt;&#x2F;li&gt;
+&lt;li&gt;The item was important enough and interesting enough to deserve mentioning at the time&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The first would only hold if there was already a conceptulization of the hypostatic union during the times of the NT. However, it is irational to expect this for the apostles who did know the truth of salvation and the need to spread the gospel, but did not require a robust theological doctrine on the dual natures of christ.&lt;&#x2F;p&gt;
+&lt;p&gt;The second wouldn’t hold either, as John’s intention was almost the opposite. The focus is on showing the divinity of Christ and not the humanity, as to those who were with Jesus in person weren’t questioning the humanity of Christ.&lt;&#x2F;p&gt;
+&lt;p&gt;The third would hold in a sense, but not in the way of expecting an explanation of Jesus being truly man. I go more into detail on #9, but to summerize: the humanity of Christ as a sacrifice for all of humanity is a necessary aspect for atonement on behalf of humanity. Because the authors assert Christ’s atomement for the sins of all, His humanity is clearly implied. Thus this would count as mention of Jesus’s truly human nature.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;9&quot;&gt;9&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;It was the son of God which He sent into the world and not a human soul that suffered for us. If there had been such a human soul in our Saviour, it would have been a thing of too great consequence to have been wholly omitted by the Apostles.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The problem with this statement is that the theological implications don’t seem to be followed to their logical conclusion. The reason for Christ to have a truly human nature is because that is what would be necessary for one to take on the sin of humanity. Because of this, the entire gospel would fall apart if Christ was not truly human. Thus, the Apostles preaching the gospel implicitly asserts the human nature of Jesus Christ.&lt;&#x2F;p&gt;
+&lt;p&gt;Secondarily, it is the having of a true human nature, not the having of a human sould, that is the important part. It is also a heresy to claim that there was a separate human soul apart from the Son that was overtaken by the divine. To say so would be no different than claiming Jesus was possesed. So since such a belief would be considered incorrect doctrine, why would we expect that to be mentioned in the scriptures?&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;10&quot;&gt;10&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;It is a proper epithet of the Father to be called almighty. For by God almighty we always understand the Father. Yet this is not to limit the power of the Son. For he doth whatsoever he seeth the Father do; but to acknowledge that all power is originally in the Father and that the Son hath power in him but what he derives from the Father, for he professes that of himself he can do nothing.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The persons of the Trinity are not independent from one another, as God is one being, but the persons are distinct. It doesn’t make sense for a person to exist without a being, and since God is a necessary being, so is His nature. If God’s nature is trinitarian, then to have one person exist and the others not would be a logical ontradiciton, since to be necessary means that it cannot fail to exist. Therefore, it makes logical sense for a trinitarian to say “if the Father did not exist, the Son could not do anything” as well as to refer to “apart from” as one cannot exist “apart from” their own nature.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;11&quot;&gt;11&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The Son in all things submits his will to the will of the Father, which could be unreasonable if he were equal to the Father.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;If the act of the Son, to submit His will, was described as a good&#x2F;virtuous act, then it would be compeletely unreasonable if the Son was &lt;em&gt;lesser&lt;&#x2F;em&gt; than the Father. Similar to how a weak, harmless man isn’t virtuous for witholding himself from a fight, the Son wouldn’t be virtuous for submitting to the Father if he &lt;em&gt;wasn’t&lt;&#x2F;em&gt; equal with Him. On the other hand, it &lt;em&gt;is&lt;&#x2F;em&gt; virtuous for a strong, dangerous man to abstain from a fight. Thus, in order for this to be seen as a loving and virtuous act, the Son &lt;em&gt;must&lt;&#x2F;em&gt; be equal with the Father.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;12&quot;&gt;12&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The union between him and the Father he interprets to be like that of the saints with one another. That is in agreement of will and counsel.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This statement doesn’t seem to be at all anti-trinitarian in it’s assersions. It is never said in scripture (I am assuming this statement is referring to Jesus’s high preistly prayer) that the union between Him and the Father is &lt;em&gt;merely&lt;&#x2F;em&gt; in agreement of will and counsel, but that it is an aspect of their relationship within the Trinity.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;13&quot;&gt;13&lt;&#x2F;h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;…&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This entry was left blank in Newton’s writings. Now I may be channelling some inner english teacher in me, but I think you could draw some insight from this. These writings weren’t something he wanted to end up publishing, but more intentful pondering on the mystery of the Trinity. It is more likely that these are personal notes of one wrestling with Theological concepts rather than one dismissing Christianity altogether.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

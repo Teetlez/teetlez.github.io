@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Procedural Generation</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/procedural-generation/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2016-04-04T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/procedural-generation/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Procedural Terrain</title>
+        <published>2016-04-04T00:00:00+00:00</published>
+        <updated>2016-04-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/terrain-generation/"/>
+        <id>https://timothyclocksin.info/projects/terrain-generation/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/terrain-generation/">&lt;p&gt;This project showcases a &lt;strong&gt;non-interactive terrain generator&lt;&#x2F;strong&gt; capable of creating natural-looking environments, including &lt;strong&gt;trees&lt;&#x2F;strong&gt;, &lt;strong&gt;grass&lt;&#x2F;strong&gt;, &lt;strong&gt;mountains&lt;&#x2F;strong&gt;, &lt;strong&gt;snow&lt;&#x2F;strong&gt;, &lt;strong&gt;beaches&lt;&#x2F;strong&gt;, &lt;strong&gt;lakes&#x2F;ponds&lt;&#x2F;strong&gt;, &lt;strong&gt;clouds&lt;&#x2F;strong&gt;, and &lt;strong&gt;hills&lt;&#x2F;strong&gt;. The generator leverages &lt;strong&gt;Perlin noise&lt;&#x2F;strong&gt; for smooth, realistic transitions and an &lt;strong&gt;isometric viewpoint&lt;&#x2F;strong&gt; for a stylized aesthetic.&lt;&#x2F;p&gt;
+&lt;script src=&quot;&#x2F;js&#x2F;processing.min.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;div class=&quot;card canvas-container&quot; style=&quot;align-items: center&quot;&gt;
+  &lt;script
+    async
+    src=&quot;ProceduralTerrain.js&quot;
+    type=&quot;text&#x2F;processing&quot;
+    class=&quot;embed_js_script&quot;
+  &gt;&lt;&#x2F;script&gt;
+  &lt;canvas class=&quot;canvas&quot;&gt;This browser doesn&#x27;t support this canvas&lt;&#x2F;canvas&gt;
+  &lt;br &#x2F;&gt;
+  &lt;i class=&quot;author&quot;&gt;by Timothy Clocksin&lt;&#x2F;i&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;key-features&quot;&gt;Key Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Perlin Noise&lt;&#x2F;strong&gt;: Generates natural-looking terrain shapes and textures.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Isometric Viewpoint&lt;&#x2F;strong&gt;: Provides a clean and stylized perspective.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Procedural Generation&lt;&#x2F;strong&gt;: Every render is unique.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;For more information about the mathematics behind Perlin Noise, see the article:
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Perlin_noise&quot;&gt;en.wikipedia.org&#x2F;wiki&#x2F;Perlin_noise&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;&#x2F;h2&gt;
+&lt;p&gt;No controls are necessary for this generator—just enjoy the results as they appear!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;source-code&quot;&gt;Source Code&lt;&#x2F;h2&gt;
+&lt;p&gt;The source code for this project can be found here:
+&lt;a href=&quot;https:&#x2F;&#x2F;timothyclocksin.info&#x2F;projects&#x2F;terrain-generation&#x2F;ProceduralTerrain.js&quot;&gt;ProceduralTerrain.js&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;processingjs.org&#x2F;&quot;&gt;Processing.js&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Perlin_noise&quot;&gt;Perlin Noise on Wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
