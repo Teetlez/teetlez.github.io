@@ -10,12 +10,12 @@ banner = "ink-banner.webp"
 tags = ["Font Rendering", "Font Layout", "backburner"]
 +++
 
-This project started because I simply couldn't find the thing I wanted: A good SCP-like-generator-with-built-in-redactions that looked like it was actually written on paper. However, as I started working on it, I soon came to realize that this was hard to find for a reason.
+This project started because I simply couldn't find the thing I wanted: A good SCP-like-generator-with-built-in-redactions that looked like it was actually typed on paper. However, as I started working on it, I soon came to realize that this was hard to find for a reason.
 
 ## A puddle as deep as an ocean
 
 {{ image(url="xkcd.avif", alt="Picture depicting how Harfbuzz holds up of all modern infrastructure", end=true) }}
-If you never went down the rabbit hole of how you get from the **char** primitive of 8-bit binary to _these words on the screen_ (shut up about utf-8, I know, I will get to that later), you will soon realize that it is way more complicated than you think. This modified xkcd comic from the [HarfBuzz github](https://github.com/harfbuzz/harfbuzz) page should at least give you some idea of the strange complexity we are dealing with here, and HarfBuzz isn't even the whole of it, that's just for _text shaping_. That doesn't even cover:
+If you never went down the rabbit hole of how you get from the **char** primitive of 8-bit binary to _these words on the screen_ (shut up about utf-8, I know, it's more than 1 byte, kinda), you will soon realize that it is way more complicated than you think. This modified xkcd comic from the [HarfBuzz github](https://github.com/harfbuzz/harfbuzz) page should at least give you some idea of the strange complexity we are dealing with here, and HarfBuzz isn't even the whole of it, that's just for _text shaping_. That doesn't even cover:
 
 - Rasterizing
 - Word-Wrapping
