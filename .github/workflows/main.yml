@@ -27,8 +27,8 @@ jobs:
     if: github.ref == 'refs/heads/master'
     steps:
       - name: checkout
-        uses: actions/checkout@v4
-      - uses: jetli/wasm-pack-action@v0.4.0
+        uses: actions/checkout@v7
+      - uses: jetli/wasm-pack-action@v0.4
         with:
           version: "latest"
       - name: compile-wasm
