@@ -12,7 +12,7 @@ tags = ["Ray-casting", "3D Rendering", "Old Projects"]
 
 This project recreates the **ray-casting method** used in classic 3D video games such as _DOOM_ and _Wolfenstein 3D_. The method involves shooting rays through a 2D array for every vertical row of pixels, where the height of the darkened "wall" is determined by the length of each ray.
 
-{{ proc_js_canvas(script="RaycastEngine.js", author="Timothy Clocksin") }}
+{{ <proc_js_canvas script="RaycastEngine.js" author="Timothy Clocksin" /> }}
 
 ## Overview
 

@@ -13,7 +13,7 @@ tags = ["Procedural Generation",  "2.5D Visualization", "Old Projects"]
 
 This project showcases a **non-interactive terrain generator** capable of creating natural-looking environments, including **trees**, **grass**, **mountains**, **snow**, **beaches**, **lakes/ponds**, **clouds**, and **hills**. The generator leverages **Perlin noise** for smooth, realistic transitions and an **isometric viewpoint** for a stylized aesthetic.
 
-{{ proc_js_canvas(script="ProceduralTerrain.js", author="Timothy Clocksin") }}
+{{ <proc_js_canvas script="ProceduralTerrain.js" author="Timothy Clocksin" /> }}
 
 ## Overview
 

@@ -14,7 +14,7 @@ This project started because I simply couldn't find the thing I wanted: A good S
 
 ## A puddle as deep as an ocean
 
-{{ image(url="xkcd.avif", alt="Picture depicting how Harfbuzz holds up of all modern infrastructure", end=true) }}
+{{ <image url="xkcd.avif" alt="Picture depicting how Harfbuzz holds up of all modern infrastructure" end={true} /> }}
 If you never went down the rabbit hole of how you get from the **char** primitive of 8-bit binary to _these words on the screen_ (shut up about utf-8, I know, it's more than 1 byte, kinda), you will soon realize that it is way more complicated than you think. This modified xkcd comic from the [HarfBuzz github](https://github.com/harfbuzz/harfbuzz) page should at least give you some idea of the strange complexity we are dealing with here, and HarfBuzz isn't even the whole of it, that's just for _text shaping_. That doesn't even cover:
 
 - Rasterizing
@@ -24,7 +24,7 @@ If you never went down the rabbit hole of how you get from the **char** primitiv
 - Locales
 - Inevitable hopelessness
 
-{{ image(url="ink-banner.webp", alt="Picture depicting how Harfbuzz holds up of all modern infrastructure", start=true) }}
+{{ <image url="ink-banner.webp" alt="Secret Ink banner" start={true} /> }}
 So, needless to say, I had a lot more work cut out for me than I thought. Hopefully I can go more in depth with all of that, but right now, I am putting this on the backburner. I will make it avalible to anyone who wants to look at my awful code.
 
 [![Teetlez/secret-ink - GitHub](https://gh-card.dev/repos/Teetlez/secret-ink.svg?fullname=)](https://github.com/Teetlez/secret-ink)
@@ -33,7 +33,7 @@ So, needless to say, I had a lot more work cut out for me than I thought. Hopefu
 
 I did add a config file to make the setup somewhat easier, but just keep in mind that you will have to download/specify your own fonts and page textures, since I didn't want to put those on my repo.
 
-{% crt() %}
+{% <crt> %}
 
 <div class="container" style="text-align: left">
 <pre class="asciiart" style="display: inline-block; text-align: left">
@@ -69,4 +69,4 @@ paper_roughness = "paper/CC0-Texture-Paper01/PaperRough.png"
 </pre>
 </div>
 
-{% end %}
+{% </crt> %}

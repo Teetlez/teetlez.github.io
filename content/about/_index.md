@@ -3,7 +3,7 @@ title = "About"
 description = "Hi, I’m Timothy — a systems-minded developer exploring the space between logic and visual design."
 +++
 
-{{ image(url="profile7.avif", alt="Timothy Clocksin", no_hover=true, start=true) }}
+{{ <image url="profile7.avif" alt="Timothy Clocksin" no_hover={true} start={true} /> }}
 
 # Timothy Clocksin
 
@@ -35,23 +35,23 @@ Interactive museum experience for Oculus Quest
 A minimal, physically-based renderer built from scratch
 
 - Implemented BVH acceleration, global illumination, and custom material models
-- Created as a deep-dive into Rust, rendering math, and code aesthetics
+- Created as a deep-dive into Rust and graphical rendering mathimatics
 
 ## Technical Interests
 
 I lean toward tools and languages that prioritize expressiveness, performance, and clarity. A few that I’ve spent meaningful time with:
 
-**Languages:**  
-Rust • C++ • Python • Tcl • JavaScript • Bash
+**Familiar Languages:**  
+Rust • C/C++ • C# • Python • Tcl • JavaScript • Bash
 
 **Tools & Frameworks:**  
-Git • Docker • Linux • OpenGL • Unity • Blender • Django
+Git • Linux • OpenGL • Unity • Blender • Django • .NET + Blazor
 
 ---
 
 ## Elsewhere
 
-I'm based in New England, and when I’m not working on technical projects, I like exploring visual logic, teaching, or experimenting with generative systems.
+I'm based in New England, and when I’m not working on technical projects, I like exploring visual logic, teaching, or losing hours of sleep on a new fixation.
 
 ---
 

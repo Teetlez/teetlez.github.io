@@ -38,9 +38,8 @@ It looks like a weird math proof instead of an argument, but let's look at it st
 
 > Anything that begins to exist has a cause.
 
-{% alert(note=true) %}
-This isn't claiming that _everything_ has a cause, just all things that begin to exist (i.e., things that have a beginning).
-{% end %}
+> [!NOTE]
+> This isn't claiming that _everything_ has a cause, just all things that begin to exist (i.e., things that have a beginning).
 
 #### Explanation of P1
 

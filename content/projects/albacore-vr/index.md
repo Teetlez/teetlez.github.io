@@ -26,14 +26,14 @@ This VR tour will be available at designated stations at the museum, making the 
 
 ### A short demo video
 
-{{ youtube(id="fe11-2284g8") }}
+{{ <youtube id="fe11-2284g8" /> }}
 
 ## Gallery
 
 ### Project Images
 
-{{ gallery(
-    urls=[
+{{ <gallery
+    urls={[
         "Control.avif",
         "Map.avif",
         "Exterior.avif",
@@ -42,7 +42,7 @@ This VR tour will be available at designated stations at the museum, making the 
         "Kitchen2.avif",
         "Kitchen3.avif",
         "Credits.avif"
-    ])
+    ]} />
 }}
 
 ## Creators

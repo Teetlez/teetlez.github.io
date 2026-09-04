@@ -13,7 +13,7 @@ tags = ["Rendering", "3D Graphics", "Old Projects"]
 
 This project showcases a **3D wireframe rendering system** built without the use of any external 3D libraries or functions. The purpose was to demonstrate an understanding of the fundamental processes behind rendering wireframes in 3D.
 
-{{ proc_js_canvas(script="3DWireframe.js", author="Timothy Clocksin") }}
+{{ <proc_js_canvas script="3DWireframe.js" author="Timothy Clocksin" /> }}
 
 ## Overview
 

@@ -173,7 +173,7 @@
         const fixed = parseInt(document.getElementById("fixed_cost").value);
         const result = optimal_item_profit(
           document.getElementById("item_list").value,
-          fixed
+          fixed,
         );
         document.getElementById("optimal_profit_result").textContent = result;
       });
@@ -213,4 +213,4 @@
   document.addEventListener("DOMContentLoaded", run);
 </script>
 
-{% endblock content %} {{ finance.content | safe}}
+{% endblock content %}

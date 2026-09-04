@@ -2,7 +2,7 @@
 insert_anchor_links = "right"
 +++
 
-{% crt() %}
+{% <crt> %}
 
 <div class="container" style="text-align: center">
 <pre class="asciiart" style="display: inline-block; text-align: left">
@@ -34,7 +34,7 @@ able to solve logical problems and get an artistic outcome.
 <pre>
 > <span class="cursor">_</span>
 </pre>
-{% end %}
+{% </crt> %}
 
 ## A space for logical art
 
@@ -46,7 +46,7 @@ I created this site to connect with others, to offer a space where my work and i
 
 The name `LOGÆΣTHOS` (Lo-ges-thos) comes from a combination of the Greek words `LOGOS` and `AESTHETIKOS` using some Greek letters (**Æ** and **Σ**). Basically a marriage between logic and aesthetics
 
-> I'm probably going to really regret throwing non-ascii text in for something like my website title with regards to browser rendering/compatability, but that's an issue for future Tim :smile:
+> I'm probably going to really regret throwing non-ascii text in for something like _my website title_ with regards to browser rendering/compatability, but that's an issue for future Tim :smile:
 
 I know that technically it would be something like `ΛΟΓΕΣΘΟΣ` or `LOGEΣΘΟΣ` using the koine greek epsilon **E** and possibly theta **Θ**, but I think that it's a happy medium between phonetic readability and etomology. Plus I think it looks cool, and in the end, language was made for man, not man for language.
 
