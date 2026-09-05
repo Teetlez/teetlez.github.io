@@ -2,10 +2,11 @@
 title = "Chapter 1: Sinister City"
 description = "It's all the same"
 date = 2026-09-03
-draft = true
+draft = false
 [taxonomies]
-tags = ["Story", "Progress", "Draft"]
+tags=["Story", "Progress", "Draft"]
 [extra]
+banner="banner.webp"
 author = "Timothy Clocksin"
 go_to_top = true
 +++
@@ -51,7 +52,7 @@ _not enough_
 
 {% </poem> %}
 
-I grab my coat.
+I put on my coat.
 
 Whether directed to the subject or object is of little consequence. Grant every vice and every lust, gorged on attraction
 and allure, yet the fattened hand stretches out for more. Rage against consumerism, tear down the source of abundance to

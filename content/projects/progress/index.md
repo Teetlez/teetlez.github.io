@@ -5,7 +5,7 @@ template = "article.html"
 date = 2025-08-02
 [extra]
 author = "Timothy Clocksin"
-banner = "cs_doodles.webp"
+banner = "banner.webp"
 [taxonomies]
 tags = ["Game Development", "Godot", "Graphics"]
 +++
