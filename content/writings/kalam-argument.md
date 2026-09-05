@@ -5,6 +5,7 @@ date = 2025-03-04
 [taxonomies]
 tags = ["apologetics", "philosophy"]
 [extra]
+author = "Timothy Clocksin"
 katex = true
 toc = true
 go_to_top = true

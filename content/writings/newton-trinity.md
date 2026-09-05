@@ -1,10 +1,11 @@
 +++
 title = "Newtonian views on the trinity: An analysis"
-description = "This is an analysis of Issac Newtons's comments on his views on the triune God. I don't quite view Newton an authority on this subject, yet I think his comments still require addressing in a concise manner."
+description = "This is an analysis of Issac Newtons's comments on his views on the triune God."
 date = 2023-12-03
 [taxonomies]
 tags = ["apologetics", "trinity"]
 [extra]
+author = "Timothy Clocksin"
 toc = true
 go_to_top = true
 +++
@@ -22,7 +23,6 @@ These 12 (13?) points we never something Newton chose to publicly disclose, and 
 It would be wise to first define what is meant by a triune God. This will go a long way in helping to clear up some parts of scripture Newton thought contradicted the trinity. It will also help to define some names of different philosophies about the trinity
 
 - **Trinity**: A combination of the two words "tri" (three) and "unity" (as one). There are two possible errors one could make when describing this:
-
   1. Three Beings and one Being
   2. Three Persons and one Person
 
