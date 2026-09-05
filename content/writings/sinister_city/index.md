@@ -2,7 +2,7 @@
 title = "Chapter 1: Sinister City"
 description = "It's all the same"
 date = 2026-09-03
-draft = false
+draft = true
 [taxonomies]
 tags=["Story", "Progress", "Draft"]
 [extra]

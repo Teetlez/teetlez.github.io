@@ -1,11 +1,19 @@
+{% component code_canvas(canvas_id: string, width: string, height: string) %}
+
 <canvas id="{{ canvas_id }}" width="{{ width }}" height="{{ height }}"></canvas>
 <script>
-    const canvas = document.getElementById("{{ canvas_id }}");
-    if (canvas.getContext) {
-        const ctx = canvas.getContext("2d");
-        // Custom drawing code inserted via the shortcode body
-        { { body | safe } }
-    } else {
-        console.error("Canvas not supported by your browser.");
+  const canvas = document.getElementById("{{ canvas_id }}");
+  if (canvas.getContext) {
+    const ctx = canvas.getContext("2d");
+    // Custom drawing code inserted via the shortcode body
+    {
+      {
+        body | safe;
+      }
     }
+  } else {
+    console.error("Canvas not supported by your browser.");
+  }
 </script>
+
+{% endcomponent code_canvas %}

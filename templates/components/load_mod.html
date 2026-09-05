@@ -1,3 +1,5 @@
+{% component load_mod(mod_path: string, functions: string, script: string) %}
+
 <textarea
   id="input-text"
   rows="5"
@@ -41,3 +43,5 @@
     document.addEventListener("DOMContentLoaded", loadWasm);
   </script>
 </div>
+
+{% endcomponent load_mod %}

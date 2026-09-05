@@ -1,33 +1,34 @@
+{% component palette_gen( mod_path: string, start_color: string, end_color:
+string, steps: integer, container_id: string) %}
+
 <div>
-    <input type="color" name="starting_color" value="#00b4d8">
+  <input type="color" name="starting_color" value="#00b4d8" />
 </div>
-<hr>
-<div id="{{ container_id | default(value='palette-output') }}">
-
-</div>
-
-
+<hr />
+<div id="{{ container_id | default(value='palette-output') }}"></div>
 
 <script type="module">
-    import init, { generate_palette } from "{{ mod_path | safe }}";
+  import init, { generate_palette } from "{{ mod_path | safe }}";
 
-    async function run() {
-        await init();
-        const palette = generate_palette("{{ start_color }}", "{{ end_color }}", {{ steps | default(value = "5") }});
-        const container = document.getElementById("{{ container_id | default(value='palette-output') }}");
+  async function run() {
+      await init();
+      const palette = generate_palette("{{ start_color }}", "{{ end_color }}", {{ steps | default(value = "5") }});
+      const container = document.getElementById("{{ container_id | default(value='palette-output') }}");
 
-        container.innerHTML = '';
-        palette.forEach(hex => {
-            const swatch = document.createElement("div");
-            swatch.style.backgroundColor = hex;
-            swatch.style.width = "40px";
-            swatch.style.height = "40px";
-            swatch.style.display = "inline-block";
-            swatch.style.marginRight = "4px";
-            swatch.title = hex;
-            container.appendChild(swatch);
-        });
-    }
+      container.innerHTML = '';
+      palette.forEach(hex => {
+          const swatch = document.createElement("div");
+          swatch.style.backgroundColor = hex;
+          swatch.style.width = "40px";
+          swatch.style.height = "40px";
+          swatch.style.display = "inline-block";
+          swatch.style.marginRight = "4px";
+          swatch.title = hex;
+          container.appendChild(swatch);
+      });
+  }
 
-    document.addEventListener("DOMContentLoaded", run);
+  document.addEventListener("DOMContentLoaded", run);
 </script>
+
+{% endcomponent palette_gen %}
