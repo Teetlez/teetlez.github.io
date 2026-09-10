@@ -36,8 +36,7 @@ For more details on 3D rendering concepts, visit:
 
 ## Source Code
 
-The full source code is available here:
-[3DWireframe.js](3DWireframe.js)
+The full source code is available [here](3DWireframe.js).
 
 [Processing.js](http://processingjs.org/)
 
@@ -45,5 +44,4 @@ The full source code is available here:
 
 ## Additional Resources
 
-- **[Processing.js](http://processingjs.org/)**
 - **[3D Rendering Basics](https://en.wikipedia.org/wiki/3D_rendering)**

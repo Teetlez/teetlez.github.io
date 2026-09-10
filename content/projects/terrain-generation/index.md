@@ -17,14 +17,8 @@ This project showcases a **non-interactive terrain generator** capable of creati
 
 ## Overview
 
-### Key Features
-
-- **Perlin Noise**: Generates natural-looking terrain shapes and textures.
-- **Isometric Viewpoint**: Provides a clean and stylized perspective.
-- **Procedural Generation**: Every render is unique.
-
-For more information about the mathematics behind Perlin Noise, see the article:
-[en.wikipedia.org/wiki/Perlin_noise](https://en.wikipedia.org/wiki/Perlin_noise)
+For more information about the mathematics behind Perlin Noise, see
+[the wikipedia article](https://en.wikipedia.org/wiki/Perlin_noise)
 
 ## Controls
 
@@ -32,13 +26,6 @@ No controls are necessary for this generator—just enjoy the results as they ap
 
 ## Source Code
 
-The source code for this project can be found here:
-[ProceduralTerrain.js](ProceduralTerrain.js)
+The source code for this project can be found [here](ProceduralTerrain.js).
 
 [Processing.js](http://processingjs.org/)
-
----
-
-## Additional Resources
-
-- **[Perlin Noise on Wikipedia](https://en.wikipedia.org/wiki/Perlin_noise)**

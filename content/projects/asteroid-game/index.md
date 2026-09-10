@@ -26,8 +26,7 @@ Asteroid Escape is a straightforward game that demonstrates the use of **mouse i
 
 ## Source Code
 
-Download the source code for the game:
-[AsteroidEscape.js](AsteroidEscape.js)
+Download the source code for the game [here](AsteroidEscape.js).
 
 [Processing.js](http://processingjs.org/)
 

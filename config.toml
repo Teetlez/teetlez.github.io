@@ -40,7 +40,7 @@ render_emoji = true
 author = "timothy clocksin"
 
 stylesheets = ["custom.css"]
-styles = ["mods.css", "background.css", "custom.css"]
+styles = ["mods.css", "custom.css"]
 accent_color = "#10b479"
 accent_color_dark = "#10ffae"
 fix_contrast = true

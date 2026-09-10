@@ -30,8 +30,7 @@ For a detailed technical explanation of the ray-casting technique, refer to [Lod
 
 ## Source Code
 
-The source code for the engine can be found here:
-[Download RaycastEngine.js](RaycastEngine.js)
+The source code for the engine can be found [here](RaycastEngine.js).
 
 [Processing.js](http://processingjs.org/)
 

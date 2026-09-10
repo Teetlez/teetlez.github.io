@@ -3,7 +3,9 @@ title = "About"
 description = "Hi, I’m Timothy — a systems-minded developer exploring the space between logic and visual design."
 +++
 
-{{ <image url="profile7.avif" alt="Timothy Clocksin" no_hover={true} start={true} /> }}
+<!-- {{ <image url="profile7.avif" alt="Timothy Clocksin" no_hover={true} start={true} /> }} -->
+
+{{ <polaroid image="profile7.avif" title="Instant photo <br/> format" caption="12/19/2022"/> }}
 
 # Timothy Clocksin
 

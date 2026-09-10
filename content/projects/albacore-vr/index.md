@@ -32,18 +32,16 @@ This VR tour will be available at designated stations at the museum, making the 
 
 ### Project Images
 
-{{ <gallery
-    urls={[
-        "Control.avif",
-        "Map.avif",
-        "Exterior.avif",
-        "Bunks.avif",
-        "Kitchen1.avif",
-        "Kitchen2.avif",
-        "Kitchen3.avif",
-        "Credits.avif"
-    ]} />
-}}
+{{<gallery urls={[
+"Control.avif",
+"Map.avif",
+"Exterior.avif",
+"Bunks.avif",
+"Kitchen1.avif",
+"Kitchen2.avif",
+"Kitchen3.avif",
+"Credits.avif"
+]}/>}}
 
 ## Creators
 

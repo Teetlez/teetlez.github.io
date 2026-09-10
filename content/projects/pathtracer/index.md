@@ -26,19 +26,18 @@ This project is a **Monte Carlo path-tracer** implemented in **Rust**, inspired 
 
 Click an image to view it in full size.
 
-{{ <gallery urls={[
-    "1678228930342.avif",
-    "1678232201587.avif",
-    "Cornell.avif",
-    "NightLight.avif",
-    "OneWeekend.avif",
-    "OneWeekend2.avif",
-    "OneWeekend3.avif",
-    "OneWeekend4.avif",
-    "Studio.avif",
-    "Teaset3.avif"
-    ]} />
-}}
+{{<gallery urls={[
+"1678228930342.avif",
+"1678232201587.avif",
+"Cornell.avif",
+"NightLight.avif",
+"OneWeekend.avif",
+"OneWeekend2.avif",
+"OneWeekend3.avif",
+"OneWeekend4.avif",
+"Studio.avif",
+"Teaset3.avif"
+]}/>}}
 
 ## Usage
 

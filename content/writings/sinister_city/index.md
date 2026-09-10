@@ -59,6 +59,6 @@ and allure, yet the fattened hand stretches out for more. Rage against consumeri
 free those trapped by greed, only to become ensnared yourself. Turn your view inward to better yourself and live your
 best life, and see yourself either succumb to the best of your vices or become lost in the sea of self-defined
 purposelessness. Embrace the nihilism, tell yourself that nothing matters, and see where you've ended up. Is that truly
-what you think is "enough"?
+what you think is "enough"? No matter the path, the journey ends the same, not enough.
 
-Justice? From me?
+I grab my umbrella.
