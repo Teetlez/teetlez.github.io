@@ -1,8 +1,7 @@
 +++
 title = "Chapter 1: Sinister City"
 description = "It's all the same"
-date = 2026-09-03
-draft = true
+date = 2026-09-24
 [taxonomies]
 tags=["Story", "Progress", "Draft"]
 [extra]
@@ -62,3 +61,16 @@ purposelessness. Embrace the nihilism, tell yourself that nothing matters, and s
 what you think is "enough"? No matter the path, the journey ends the same, not enough.
 
 I grab my umbrella.
+
+What is the meaning of all this? How can we create our own meaning when we didn't even create our selves? Our parents? Sure,
+they decided to bring a person into this world, but they weren't the ones to decide who that person would be. Molded and guided,
+yes, but guidence doesn't mean determineance of you are _supposed_ to be. Who am I? What is my purpose? Why am I even here?
+This can't be the end, all there is. Mountain-climbers in a universe of valleys.
+
+I open my door. and start another day.
+
+{% <poem> %}
+
+_Always the same. Every day._
+
+{% </poem> %}
