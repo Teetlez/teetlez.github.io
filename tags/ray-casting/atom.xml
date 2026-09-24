@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Ray-casting</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/ray-casting/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-04-01T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/ray-casting/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Path-Tracing</title>
+        <published>2023-04-01T00:00:00+00:00</published>
+        <updated>2023-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/pathtracer/"/>
+        <id>https://timothyclocksin.info/projects/pathtracer/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/pathtracer/">&lt;p&gt;This project is a &lt;strong&gt;Monte Carlo path-tracer&lt;/strong&gt; implemented in &lt;strong&gt;Rust&lt;/strong&gt;, inspired by the book &lt;em&gt;Raytracing in One Weekend&lt;/em&gt;. The primary goal was to enhance my understanding of both &lt;strong&gt;rendering techniques&lt;/strong&gt; and &lt;strong&gt;Rust programming&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;h3 id=&quot;key-features&quot;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rust Implementation&lt;/strong&gt;: Developed entirely in Rust for performance and safety.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monte Carlo Path-Tracing&lt;/strong&gt;: Realistic light simulation through randomized sampling.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Scenes&lt;/strong&gt;: Flexible scene input allows users to tailor rendering setups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;/h2&gt;
+&lt;h3 id=&quot;rendered-images&quot;&gt;Rendered Images&lt;/h3&gt;
+&lt;p&gt;Click an image to view it in full size.&lt;/p&gt;
+&lt;div class=&quot;photo-gallery&quot;&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;1678228930342.avif&quot;&gt;
+      &lt;img
+        src=&quot;1678228930342.avif&quot;
+        alt=&quot;Gallery Image 1&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;1678232201587.avif&quot;&gt;
+      &lt;img
+        src=&quot;1678232201587.avif&quot;
+        alt=&quot;Gallery Image 2&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Cornell.avif&quot;&gt;
+      &lt;img
+        src=&quot;Cornell.avif&quot;
+        alt=&quot;Gallery Image 3&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;NightLight.avif&quot;&gt;
+      &lt;img
+        src=&quot;NightLight.avif&quot;
+        alt=&quot;Gallery Image 4&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;OneWeekend.avif&quot;&gt;
+      &lt;img
+        src=&quot;OneWeekend.avif&quot;
+        alt=&quot;Gallery Image 5&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;OneWeekend2.avif&quot;&gt;
+      &lt;img
+        src=&quot;OneWeekend2.avif&quot;
+        alt=&quot;Gallery Image 6&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;OneWeekend3.avif&quot;&gt;
+      &lt;img
+        src=&quot;OneWeekend3.avif&quot;
+        alt=&quot;Gallery Image 7&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;OneWeekend4.avif&quot;&gt;
+      &lt;img
+        src=&quot;OneWeekend4.avif&quot;
+        alt=&quot;Gallery Image 8&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Studio.avif&quot;&gt;
+      &lt;img
+        src=&quot;Studio.avif&quot;
+        alt=&quot;Gallery Image 9&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Teaset3.avif&quot;&gt;
+      &lt;img
+        src=&quot;Teaset3.avif&quot;
+        alt=&quot;Gallery Image 10&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+&lt;p&gt;.photo-item img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}&lt;/p&gt;
+&lt;p&gt;.photo-item img:hover {
+transform: scale(1.05);
+}
+&lt;/style&gt;&lt;/p&gt;
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;To run the path-tracer, use the following command-line options:&lt;/p&gt;
+&lt;div class=&quot;crt scanlines&quot; aria-hidden=&quot;true&quot;&gt;
+	&lt;div class=&quot;container&quot; style=&quot;text-align: center&quot;&gt;
+&lt;pre class=&quot;asciiart&quot; style=&quot;display: inline-block; text-align: left&quot;&gt;
+&lt;p&gt;rust_raytracer.exe [OPTIONS] [SCENE]&lt;/p&gt;
+&lt;p&gt;Arguments:
+[SCENE] Scene file to use&lt;/p&gt;
+&lt;p&gt;Options:
+-s, –samples [SAMPLES] Number of samples per pixel [default: 128]
+-p, –passes [PASSES] Number of frames to cumulate [default: 64]
+-b, –bounces [BOUNCES] Max number of times a ray can bounce [default: 8]
+–width [WIDTH] Pixel width of frame [default: 640]
+–height [HEIGHT] Pixel height of frame [default: 480]
+-g, –gamma [GAMMA] Gamma level [default: 2.2]
+-l, –light-clamp [LIGHT_CLAMP] Max light brightness [default: inf]
+-f, –filter Apply bilateral filter after render to reduce noise
+-h, –help Print help
+-V, –version Print version&lt;/p&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ray-Tracing</title>
+        <published>2023-01-26T00:00:00+00:00</published>
+        <updated>2023-01-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/raytracer/"/>
+        <id>https://timothyclocksin.info/projects/raytracer/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/raytracer/">&lt;p&gt;This project is a GLSL-based ray-tracer that I ported from an older OpenGL school project. While the transition posed challenges—particularly the lack of recursion in GLSL—it also provided opportunities to improve upon the original code.&lt;/p&gt;
+&lt;h2 id=&quot;interactive-demo&quot;&gt;Interactive Demo&lt;/h2&gt;
+&lt;p&gt;Explore the ray-tracer in action below:&lt;/p&gt;
+&lt;iframe width=&quot;480&quot; height=&quot;480&quot; frameborder=&quot;0&quot; src=&quot;https://www.shadertoy.com/embed/DllSWH?gui=true&amp;t=10&amp;paused=true&amp;muted=true&quot; allowfullscreen&gt;Ray-Tracing hlsl window&lt;/iframe&gt;
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Click &amp;amp; Drag&lt;/strong&gt;: Move the camera around.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;project-notes&quot;&gt;Project Notes&lt;/h2&gt;
+&lt;p&gt;The lack of recursion in GLSL was a significant limitation during the conversion. However, I managed to implement iterative methods to mimic recursive behavior, resulting in a functional and improved ray-tracer.&lt;/p&gt;
+&lt;p&gt;Let me know if you’d like more details about the implementation or need help with similar projects!&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ray-Casting</title>
+        <published>2016-04-03T00:00:00+00:00</published>
+        <updated>2016-04-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/raycaster/"/>
+        <id>https://timothyclocksin.info/projects/raycaster/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/raycaster/">&lt;p&gt;This project recreates the &lt;strong&gt;ray-casting method&lt;/strong&gt; used in classic 3D video games such as &lt;em&gt;DOOM&lt;/em&gt; and &lt;em&gt;Wolfenstein 3D&lt;/em&gt;. The method involves shooting rays through a 2D array for every vertical row of pixels, where the height of the darkened “wall” is determined by the length of each ray.&lt;/p&gt;
+&lt;script src=&quot;/js/processing.min.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;card canvas-container&quot; style=&quot;align-items: center&quot;&gt;
+  &lt;script
+    async
+    src=&quot;RaycastEngine.js&quot;
+    type=&quot;text/processing&quot;
+    class=&quot;embed_js_script&quot;
+  &gt;&lt;/script&gt;
+  &lt;canvas class=&quot;canvas&quot;&gt;This browser doesn&#39;t support this canvas&lt;/canvas&gt;
+  &lt;br /&gt;
+  &lt;i class=&quot;author&quot;&gt;by Timothy Clocksin&lt;/i&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ray-casting Technique&lt;/strong&gt;: Simulates a pseudo-3D environment by calculating wall heights based on ray distances.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Early 3D Games&lt;/strong&gt;: Inspired by the mechanics and graphics of &lt;em&gt;DOOM&lt;/em&gt; and &lt;em&gt;Wolfenstein 3D&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For a detailed technical explanation of the ray-casting technique, refer to &lt;a rel=&quot;external&quot; href=&quot;https://lodev.org/cgtutor/raycasting.html&quot;&gt;Lode Vandevenne’s tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;↑&lt;/kbd&gt;&lt;/strong&gt;: Move forward&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;↓&lt;/kbd&gt;&lt;/strong&gt;: Move backward&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;←&lt;/kbd&gt;&lt;/strong&gt;: Turn left&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;kbd&gt;→&lt;/kbd&gt;&lt;/strong&gt;: Turn right&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;source-code&quot;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code for the engine can be found &lt;a href=&quot;https://timothyclocksin.info/projects/raycaster/RaycastEngine.js&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http://processingjs.org/&quot;&gt;Processing.js&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://en.wikipedia.org/wiki/Doom_(1993_video_game)&quot;&gt;DOOM (1993)&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://en.wikipedia.org/wiki/Wolfenstein_3D&quot;&gt;Wolfenstein 3D&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+</feed>
