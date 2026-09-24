@@ -31,7 +31,7 @@ Interactive museum experience for Oculus Quest
 - Optimized complex models for real-time rendering
 - Honored at a university research conference for innovation in accessibility
 
-[**Rust Path-Tracer**](/projects/rust-pathtracer/)  
+[**Rust Path-Tracer**](/projects/pathtracer/)  
 A minimal, physically-based renderer built from scratch
 
 - Implemented BVH acceleration, global illumination, and custom material models
