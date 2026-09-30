@@ -36,7 +36,9 @@ Click an image to view it in full size.
 "OneWeekend3.avif",
 "OneWeekend4.avif",
 "Studio.avif",
-"Teaset3.avif"
+"Teaset3.avif",
+"Teaset4.avif",
+"ThreeSpheres.avif",
 ]}/>}}
 
 ## Usage
