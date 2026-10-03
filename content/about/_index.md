@@ -17,7 +17,7 @@ I enjoy crafting performant systems, building visual experiences, and making thi
 
 - Architect and optimize tools for system diagnostics, data workflows, and automation.
 - Design 3D environments and rendering engines for experimental and applied projects.
-- Build and refine pipelines—whether DevOps, visual, or computational—for speed and clarity.
+- Build and refine pipelines (whether DevOps, visual, or computational) for speed and clarity.
 - Explore the intersection of logic, visual aesthetics, and human-centered tooling.
 
 ---
