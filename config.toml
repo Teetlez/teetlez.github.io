@@ -15,7 +15,6 @@ build_search_index = false
 
 theme = "duckquill"
 
-
 default_language = "en"
 taxonomies = [{ name = "tags", feed = true }]
 
@@ -32,6 +31,7 @@ taxonomies = [{ name = "tags", feed = true }]
 smart_punctuation = true
 lazy_async_image = true
 render_emoji = true
+github_alerts = true
 
 
 [extra]
