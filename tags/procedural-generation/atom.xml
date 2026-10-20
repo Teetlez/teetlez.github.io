@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Procedural Generation</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/procedural-generation/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2016-04-04T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/procedural-generation/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Procedural Terrain</title>
+        <published>2016-04-04T00:00:00+00:00</published>
+        <updated>2016-04-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/terrain-generation/"/>
+        <id>https://timothyclocksin.info/projects/terrain-generation/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/terrain-generation/">&lt;p&gt;This project showcases a &lt;strong&gt;non-interactive terrain generator&lt;/strong&gt; capable of creating natural-looking environments, including &lt;strong&gt;trees&lt;/strong&gt;, &lt;strong&gt;grass&lt;/strong&gt;, &lt;strong&gt;mountains&lt;/strong&gt;, &lt;strong&gt;snow&lt;/strong&gt;, &lt;strong&gt;beaches&lt;/strong&gt;, &lt;strong&gt;lakes/ponds&lt;/strong&gt;, &lt;strong&gt;clouds&lt;/strong&gt;, and &lt;strong&gt;hills&lt;/strong&gt;. The generator leverages &lt;strong&gt;Perlin noise&lt;/strong&gt; for smooth, realistic transitions and an &lt;strong&gt;isometric viewpoint&lt;/strong&gt; for a stylized aesthetic.&lt;/p&gt;
+&lt;script src=&quot;/js/processing.min.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;card canvas-container&quot; style=&quot;align-items: center&quot;&gt;
+  &lt;script
+    async
+    src=&quot;ProceduralTerrain.js&quot;
+    type=&quot;text/processing&quot;
+    class=&quot;embed_js_script&quot;
+  &gt;&lt;/script&gt;
+  &lt;canvas class=&quot;canvas&quot;&gt;This browser doesn&#39;t support this canvas&lt;/canvas&gt;
+  &lt;br /&gt;
+  &lt;i class=&quot;author&quot;&gt;by Timothy Clocksin&lt;/i&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;For more information about the mathematics behind Perlin Noise, see
+&lt;a rel=&quot;external&quot; href=&quot;https://en.wikipedia.org/wiki/Perlin_noise&quot;&gt;the wikipedia article&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;controls&quot;&gt;Controls&lt;/h2&gt;
+&lt;p&gt;No controls are necessary for this generator—just enjoy the results as they appear!&lt;/p&gt;
+&lt;h2 id=&quot;source-code&quot;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;The source code for this project can be found &lt;a href=&quot;https://timothyclocksin.info/projects/terrain-generation/ProceduralTerrain.js&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;http://processingjs.org/&quot;&gt;Processing.js&lt;/a&gt;&lt;/p&gt;
+</content>
+        
+    </entry>
+</feed>
