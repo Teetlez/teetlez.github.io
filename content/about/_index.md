@@ -1,6 +1,6 @@
 +++
 title = "About"
-description = "Hi, I’m Timothy — a systems-minded developer exploring the space between logic and visual design."
+description = "Hi, I’m Timothy, a systems-minded developer exploring the space between logic and visual design."
 +++
 
 {{ <polaroid image="profile.avif" title="Instant photo <br/> format" caption="6/27/2026"/> }}

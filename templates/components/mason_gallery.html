@@ -1,0 +1,180 @@
+{% component mason_gallery(urls) %}
+
+<div class="mason-gallery" data-mason-gallery>
+  <div class="photo-gallery">
+    {% for url in urls -%}
+    <div class="photo-item">
+      <a href="{{ url }}" class="photo-link"
+        ><img
+          src="{{ url }}"
+          alt="Gallery Image {{ loop.index }}"
+          loading="lazy"
+          class="full"
+      /></a>
+    </div>
+    {%- endfor %}
+  </div>
+  <dialog class="photo-lightbox" aria-label="Fullscreen gallery image">
+    <button
+      type="button"
+      class="photo-lightbox__close"
+      aria-label="Close fullscreen image"
+    >
+      &times;
+    </button>
+    <img class="photo-lightbox__image" alt="" />
+  </dialog>
+  <style>
+    .mason-gallery .photo-gallery {
+      column-count: 1;
+      column-gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    @media (min-width: 480px) {
+      .mason-gallery .photo-gallery {
+        column-count: 1;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .mason-gallery .photo-gallery {
+        column-count: 2;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .mason-gallery .photo-gallery {
+        column-count: 3;
+      }
+    }
+
+    .mason-gallery .photo-item {
+      break-inside: avoid;
+      margin-bottom: 1rem;
+    }
+
+    .mason-gallery .photo-link {
+      display: block;
+      cursor: zoom-in;
+    }
+
+    .mason-gallery .photo-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* Fullscreen viewer */
+    .mason-gallery .photo-lightbox {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      max-width: none;
+      max-height: none;
+      margin: 0;
+      padding: 3.5rem 1rem 1rem;
+      box-sizing: border-box;
+      border: 0;
+      background: rgba(0, 0, 0, 0.96);
+      color: white;
+      place-items: center;
+    }
+
+    .mason-gallery .photo-lightbox[open] {
+      display: grid;
+    }
+
+    .mason-gallery .photo-lightbox::backdrop {
+      background: rgba(0, 0, 0, 0.9);
+    }
+
+    .mason-gallery .photo-lightbox__image {
+      display: block;
+      width: 100%;
+      height: calc(100vh - 4.5rem);
+      height: calc(100dvh - 4.5rem);
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .mason-gallery .photo-lightbox__close {
+      position: absolute;
+      top: 0.75rem;
+      right: 1rem;
+      z-index: 1;
+      padding: 0.25rem 0.5rem;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: white;
+      font: inherit;
+      font-size: 2.25rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .mason-gallery .photo-lightbox__close:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    @media (max-width: 480px) {
+      .mason-gallery .photo-lightbox {
+        padding-inline: 0.5rem;
+      }
+    }
+  </style>
+  <script>
+    (() => {
+      const script = document.currentScript;
+      const gallery = script?.closest("[data-mason-gallery]");
+      if (!gallery) return;
+      const dialog = gallery.querySelector(".photo-lightbox");
+      const fullImage = gallery.querySelector(".photo-lightbox__image");
+      const closeButton = gallery.querySelector(".photo-lightbox__close");
+
+      if (
+        !dialog ||
+        !fullImage ||
+        !closeButton ||
+        typeof dialog.showModal !== "function"
+      ) {
+        return;
+      }
+
+      gallery.querySelectorAll(".photo-link").forEach((link) => {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+
+          const thumbnail = link.querySelector("img");
+
+          fullImage.src = link.href;
+          fullImage.alt = thumbnail?.alt || "Gallery image";
+
+          dialog.showModal();
+        });
+      });
+
+      closeButton.addEventListener("click", () => {
+        dialog.close();
+      });
+
+      dialog.addEventListener("click", (event) => {
+        if (event.target === dialog) {
+          dialog.close();
+        }
+      });
+
+      dialog.addEventListener("close", () => {
+        fullImage.removeAttribute("src");
+        fullImage.alt = "";
+      });
+    })();
+  </script>
+</div>
+
+{% endcomponent mason_gallery %}
