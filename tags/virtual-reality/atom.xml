@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>LOGÆΣTHOS - Virtual Reality</title>
+    <subtitle>The official website for all things timothy</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://timothyclocksin.info/tags/virtual-reality/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://timothyclocksin.info"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-19T00:00:00+00:00</updated>
+    <id>https://timothyclocksin.info/tags/virtual-reality/atom.xml</id>
+    <entry xml:lang="en">
+        <title>USS Albacore VR</title>
+        <published>2023-01-19T00:00:00+00:00</published>
+        <updated>2023-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://timothyclocksin.info/projects/albacore-vr/"/>
+        <id>https://timothyclocksin.info/projects/albacore-vr/</id>
+        
+        <content type="html" xml:base="https://timothyclocksin.info/projects/albacore-vr/">&lt;p&gt;The Albacore Submarine is a decommissioned military vessel that served from 1953 to 1972 and has since been converted into a museum exhibit. This project aims to create a &lt;strong&gt;virtual reality tour&lt;/strong&gt; of the submarine using an &lt;strong&gt;Oculus Quest 2 VR headset&lt;/strong&gt;, providing an accessible experience for those unable to visit the submarine in person.&lt;/p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;To recreate the submarine’s environment:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unity&lt;/strong&gt; was used to simulate the submarine’s appearance and functionality in a virtual space.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blender&lt;/strong&gt; was employed to design 3D assets, including gauges, buoys, and the submarine’s exterior.&lt;/li&gt;
+&lt;li&gt;Motion control capabilities and interactive objects (e.g., switches and controls) were incorporated for an immersive experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This VR tour will be available at designated stations at the museum, making the submarine accessible to all.&lt;/p&gt;
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+&lt;h3 id=&quot;a-short-demo-video&quot;&gt;A short demo video&lt;/h3&gt;
+&lt;iframe
+	class=&quot;youtube-embed&quot;
+	src=&quot;https://www.youtube-nocookie.com/embed/fe11-2284g8&quot;
+	allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+	referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;/h2&gt;
+&lt;h3 id=&quot;project-images&quot;&gt;Project Images&lt;/h3&gt;
+&lt;div class=&quot;photo-gallery&quot;&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Control.avif&quot;&gt;
+      &lt;img
+        src=&quot;Control.avif&quot;
+        alt=&quot;Gallery Image 1&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Map.avif&quot;&gt;
+      &lt;img
+        src=&quot;Map.avif&quot;
+        alt=&quot;Gallery Image 2&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Exterior.avif&quot;&gt;
+      &lt;img
+        src=&quot;Exterior.avif&quot;
+        alt=&quot;Gallery Image 3&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Bunks.avif&quot;&gt;
+      &lt;img
+        src=&quot;Bunks.avif&quot;
+        alt=&quot;Gallery Image 4&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Kitchen1.avif&quot;&gt;
+      &lt;img
+        src=&quot;Kitchen1.avif&quot;
+        alt=&quot;Gallery Image 5&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Kitchen2.avif&quot;&gt;
+      &lt;img
+        src=&quot;Kitchen2.avif&quot;
+        alt=&quot;Gallery Image 6&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Kitchen3.avif&quot;&gt;
+      &lt;img
+        src=&quot;Kitchen3.avif&quot;
+        alt=&quot;Gallery Image 7&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;photo-item&quot;&gt;
+    &lt;a href=&quot;Credits.avif&quot;&gt;
+      &lt;img
+        src=&quot;Credits.avif&quot;
+        alt=&quot;Gallery Image 8&quot;
+        loading=&quot;lazy&quot;
+        class=&quot;full&quot;
+      /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+&lt;p&gt;.photo-item img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}&lt;/p&gt;
+&lt;p&gt;.photo-item img:hover {
+transform: scale(1.05);
+}
+&lt;/style&gt;&lt;/p&gt;
+&lt;h2 id=&quot;creators&quot;&gt;Creators&lt;/h2&gt;
+&lt;h3 id=&quot;meet-the-team&quot;&gt;Meet the Team&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.linkedin.com/in/william-lee-966985170/&quot;&gt;William Lee&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.linkedin.com/in/matthew-hartman-920b231a2/&quot;&gt;Matthew Hartman&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.linkedin.com/in/cameronday2000/&quot;&gt;Cameron Day&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.linkedin.com/in/timothyclocksin/&quot;&gt;Timothy Clocksin&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://ussalbacore.org&quot;&gt;USS Albacore Museum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://unity.com&quot;&gt;Unity Game Engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://blender.org&quot;&gt;Blender 3D Modeling Software&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+</feed>
